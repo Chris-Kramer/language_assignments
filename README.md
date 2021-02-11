@@ -6,7 +6,7 @@ _Creation date:_ 07-02-2021
 __Assignments__
 
 - *Assignment-1:* First assignment called located in another repo: https://github.com/Chris-Kramer/CDS_second_semester/tree/main/language_analytics/assignments/assignment-1-intro-python
-- *Assignment-2:* 
+- *Assignment-2:* Secon assignment. Calculating MI in corpus.
 - *Assignment-3:*
 - *Assignment-4:*
 - *Assignment-5:*
