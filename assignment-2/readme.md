@@ -1,6 +1,6 @@
 # Assignment 2- String processing with Python
-**Christoffer Kramer**
-**15-02-2021**
+**Christoffer Kramer**  
+**15-02-2021**  
 
 Using a text corpus found on the cds-language GitHub repo or a corpus of your own found on a site such as Kaggle, write a Python script which calculates collocates for a specific keyword.
 
@@ -20,7 +20,7 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
 
 **step 2: set op virtual enviroment:**
 - Navigate to the folder "assignment 2".
-- _cd assignment-2_
+    - _cd assignment-2_
 -set up enviroment:
     - _source lang_HW2_chris-env/bin/activate_ (Mac and linux)
     - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
