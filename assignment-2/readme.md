@@ -26,14 +26,13 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
     - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
         
 **Step 3: Download requirements**
-- type the following in the terminal:
 - _pip install -r requirements.txt_
         
 **Step 4: Execute script**
 - navigate to the folder with the script (src)
-- _cd src_
+    - _cd src_
 - run script
-- _python3 assignment-2-christoffer.py_
+    - _python3 assignment-2-christoffer.py_
 
 **_since the script might take a while to finish, you can stop it manually by pressing ctrl c, the output-file will still be available._** 
 
