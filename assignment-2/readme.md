@@ -19,21 +19,21 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
     -_git clone https://github.com/Chris-Kramer/language_assignments.git _
 
 **step 2: set op virtual enviroment:**
-    - Navigate to the folder "assignment 2".
-        - _cd assignment-2_
-    - set up enviroment:
-        - _source lang_HW2_chris-env/bin/activate_ (Mac and linux)
-        - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
+- Navigate to the folder "assignment 2".
+- _cd assignment-2_
+-set up enviroment:
+    - _source lang_HW2_chris-env/bin/activate_ (Mac and linux)
+    - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
         
 **Step 3: Download requirements**
-    - type the following in the terminal:
-        - _pip install -r requirements.txt_
+- type the following in the terminal:
+- _pip install -r requirements.txt_
         
 **Step 4: Execute script**
-    - navigate to the folder with the script (src)
-        - _cd src_
-    - run script
-        - _python3 assignment-2-christoffer.py_
+- navigate to the folder with the script (src)
+- _cd src_
+- run script
+- _python3 assignment-2-christoffer.py_
 
 **_since the script might take a while to finish, you can stop it manually by pressing ctrl c, the output-file will still be available._** 
 
@@ -42,9 +42,9 @@ The output is a csv-file which can be found in the folder "output" under the nam
 
 ### Parameters
 The  parameters are the following:
-    - keyword = "bald"
-    - window_size = 55
-    - corpus_dir = os.path.join("..", "100_english_novels", "corpus") #path to directory
-    - output = os.path.join("..", "output", "output.csv") #destination and name for output-file
+- keyword = "bald"
+- window_size = 55
+- corpus_dir = os.path.join("..", "100_english_novels", "corpus") #path to directory
+- output = os.path.join("..", "output", "output.csv") #destination and name for output-file
 
 They are located in line 14-17. If you whish to change them. 
