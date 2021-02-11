@@ -16,7 +16,7 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
 - open terminal
 - Navigate to destination for repo
 - type the following command
-    - _git clone https://github.com/Chris-Kramer/language_assignments.git _
+    - _git clone https://github.com/Chris-Kramer/language_assignments.git_
 
 **step 2: set op virtual enviroment:**
 - Navigate to the folder "assignment 2".
