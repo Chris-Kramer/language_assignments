@@ -94,7 +94,8 @@ def main():
     with open(output, mode = "w") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=["collocate", "raw_frequency", "MI"])
         writer.writeheader()   
-
+        
+        N = len(tokenized_corpus) #Length of corpus.
         u = tokenized_corpus.count(keyword) #how often does the keyword appear?   
         
         #Iterate over collates and calculate their MI value
@@ -105,8 +106,7 @@ def main():
             O11 = collocate_counts[index] #How often does this collocate and keyword appear?
             O12 = u - collocate_counts[index] #How often does the keyword appear without this collocate?
             O21 = v - O11 #How often does this collocate appear without keyword
-            O22 = len(tokenized_corpus) - (v + u) #How often does neither appear
-            
+           
             # If we find a partial word as a collocate the if-statement ignores it 
             # This happens because window_size is based on characters not words.
             # The statement basically checks whether or not there are more collocates than tokens (if O21 < 0).
@@ -118,7 +118,6 @@ def main():
             #calculate values
                 R1 = O11 + O12
                 C1 = O11 + O21
-                N = O11 + O12 + O21 + O22
                 E11 = (R1*C1/N) 
     
                 #Calculate MI
