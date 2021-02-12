@@ -21,7 +21,7 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
 **step 2: set op virtual enviroment:**
 - Navigate to the folder "assignment 2".
     - _cd assignment-2_  
--set up enviroment by running one of these commands:
+- Set up enviroment by running one of these commands:
     - _source lang_HW2_chris-env/bin/activate_ (Mac and linux)
     - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
         
