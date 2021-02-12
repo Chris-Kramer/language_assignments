@@ -81,6 +81,11 @@ def main():
         if token not in collocates:
             collocates.append(token)
             
+    #Remove partial words
+    for collocate in collocates:
+        if collocate not in tokenized_corpus:
+            collocates.remove(collocate)
+            
     #Count collocates
     collocate_counts = []
     for collocate in collocates:
@@ -106,29 +111,25 @@ def main():
             O11 = collocate_counts[index] #How often does this collocate and keyword appear?
             O12 = u - collocate_counts[index] #How often does the keyword appear without this collocate?
             O21 = v - O11 #How often does this collocate appear without keyword
-           
-            # If we find a partial word as a collocate the if-statement ignores it 
-            # This happens because window_size is based on characters not words.
-            # The statement basically checks whether or not there are more collocates than tokens (if O21 < 0).
-            # If this is true, we have a partial word, which will spew out strange results and should, therefore, be ignored
-            if O21 < 0:
-                continue
-    
-            else:
+
             #calculate values
-                R1 = O11 + O12
-                C1 = O11 + O21
-                E11 = (R1*C1/N) 
-    
-                #Calculate MI
+            R1 = O11 + O12
+            C1 = O11 + O21
+            E11 = (R1*C1/N) 
+            
+            #If E11 is zero something is wrong, and the word should be ignored.
+            if E11 == 0:
+                continue
+            
+            else: #Else calculate MI
                 MI = math.log(O11/E11)
                 
                 #write row in csv
-                writer.writerow({"collocate": collocate, "raw_frequency": v, "MI": MI})
-                print(f"Word: {collocate}, frequency: {v}, MI: {MI}")
+                writer.writerow({"collocate": collocate, "raw_frequency": O11, "MI": MI})
+                print(f"Word: {collocate}, frequency: {O11}, MI: {MI}")
             
-                index = index + 1
-
+            index = index + 1
+            
 # Define behaviour when called from command line
 if __name__=="__main__":
     main()
