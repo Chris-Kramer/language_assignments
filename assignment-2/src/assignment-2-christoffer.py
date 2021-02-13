@@ -109,7 +109,7 @@ def main():
         
             v = tokenized_corpus.count(collocate) #How often does this collocate appear?
             O11 = collocate_counts[index] #How often does this collocate and keyword appear?
-            O12 = u - collocate_counts[index] #How often does the keyword appear without this collocate?
+            O12 = u - O11 #How often does the keyword appear without this collocate?
             O21 = v - O11 #How often does this collocate appear without keyword
 
             #calculate values
