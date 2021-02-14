@@ -28,7 +28,7 @@ def tokenize(input_string):
 
 #Concordance lines
 def kwic(text, keyword, window_size):
-    lines = ""
+    lines = []
     for match in re.finditer(keyword, text):
         
         #First character of match
@@ -46,11 +46,11 @@ def kwic(text, keyword, window_size):
         
         #Add line to output variable
         line = f"{left_window} {keyword} {right_window}"
-        lines = lines + line
+        line = tokenize(line)
+        lines.append(line)
        
         
     return lines
-
 """
 ----------------------------------Main function-------------------------------------------
 """
@@ -67,20 +67,20 @@ def main():
     """
     ----------------------------------Tokenize corpus-------------------------------------------
     """
-
     tokenized_corpus = tokenize(corpus)
-    lines = kwic(corpus, keyword, window_size)
-    tokenized_lines = tokenize(lines)
-
+    tokenized_lines = kwic(corpus, keyword, window_size)
     """
     ----------------------------------Count collocates-------------------------------------------
     """
     #Create a list of collocates
     collocates = []
-    for token in tokenized_lines:
-        if token not in collocates:
-            collocates.append(token)
-            
+    index = 0
+    for line in tokenized_lines:
+        for token in tokenized_lines[index]:
+            if token not in collocates:
+                collocates.append(token)
+        index = index + 1
+        
     #Remove partial words
     for collocate in collocates:
         if collocate not in tokenized_corpus:
@@ -89,9 +89,10 @@ def main():
     #Count collocates
     collocate_counts = []
     for collocate in collocates:
-        count = tokenized_lines.count(collocate)
+        count = 0
+        for line in tokenized_lines:
+            count = count + line.count(collocate)
         collocate_counts.append(count)
-       
     """
     ----------------------------------Create csv and Calculate MI-------------------------------------------
     """  
@@ -100,25 +101,31 @@ def main():
         writer = csv.DictWriter(csv_file, fieldnames=["collocate", "raw_frequency", "MI"])
         writer.writeheader()   
         
+        #Static values
         N = len(tokenized_corpus) #Length of corpus.
         u = tokenized_corpus.count(keyword) #how often does the keyword appear?   
         
         #Iterate over collates and calculate their MI value
         index = 0
         for collocate in collocates: 
-        
+            
+            #Count how often the keyword appear with the collocate
+            keyword_in_lines = 0
+            for line in tokenized_lines:
+                if collocate in line:
+                    keyword_in_lines = line.count(keyword) + keyword_in_lines
+              
+            #calculate values
             v = tokenized_corpus.count(collocate) #How often does this collocate appear?
             O11 = collocate_counts[index] #How often does this collocate and keyword appear?
-            O12 = u - O11 #How often does the keyword appear without this collocate?
+            O12 = u - keyword_in_lines #How often does the keyword appear without this collocate?
             O21 = v - O11 #How often does this collocate appear without keyword
-
-            #calculate values
             R1 = O11 + O12
             C1 = O11 + O21
-            E11 = (R1*C1/N) 
-            
-            #If E11 is zero something is wrong, and the word should be ignored.
-            if E11 == 0:
+            E11 = (R1*C1)/N 
+
+            #If E11 is zero or below something is wrong, and the word should be ignored.
+            if E11 <= 0:
                 continue
             
             else: #Else calculate MI
@@ -128,8 +135,7 @@ def main():
                 writer.writerow({"collocate": collocate, "raw_frequency": O11, "MI": MI})
                 print(f"Word: {collocate}, frequency: {O11}, MI: {MI}")
             
-            index = index + 1
-            
+            index = index + 1    
 # Define behaviour when called from command line
 if __name__=="__main__":
     main()
