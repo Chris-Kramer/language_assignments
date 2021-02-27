@@ -31,8 +31,11 @@ def main():
     #List of  mean score for each day
     mean_scores = []
     
+    day_index = 1 #for printing to terminal
+    length_dates = len(dates) #Used for printing to terminal
     #For each day
     for day in dates:
+        print(f"Day: {day_index} / {length_dates}")
         #This variable will contain all sentiment scores for this day
         scores = []
         #This is a list of every headline in the day we are looping through
@@ -47,7 +50,8 @@ def main():
             
         #calculate mean score for the day
         mean_scores.append(np.mean(scores))
-
+        #increase day index
+        day_index += 1
     """---------- Calculate rolling averages----------
     """
     #Calculate 7 day rolling average
@@ -78,15 +82,14 @@ def main():
     plt.title("Headline sentiment since 2003",fontsize= 20)
     plt.xlabel("Years since 2003", fontsize= 15, labelpad=10)
     plt.ylabel("Sentiment Score", fontsize= 15)
-    plt.legend(["daily sentiment", "Weekly rolling average", "Monthly rolling average", "Yearly rolling average"],
+    plt.legend(["Average daily sentiment", "Weekly rolling average", "Monthly rolling average", "Yearly rolling average"],
                loc='upper right',
                fontsize= 12)
 
     #Set x ticks to be in years rather than default (days)
-    plt.xticks(np.arange(0, len(total_scores)+1,365), range(0,18))
+    plt.xticks(np.arange(0, len(mean_scores)+1,365), range(0,18))
     
     #Show plot and save figure
-    plt.show()
     fig.savefig("../output/sentiment_score.jpg")
     
 # Define behaviour when called from command line

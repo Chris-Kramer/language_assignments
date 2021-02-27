@@ -24,7 +24,7 @@ This is a dataset of over a million headlines taken from the Australian news sou
 - Navigate to the folder "assignment 3".
     - _cd assignment-3_  
 - Set up enviroment by running one of this command:
-    - _source assignment3_cmk/bin/activate__  
+    - _source assignment3_cmk/bin/activate_  
         
 **Step 3: Download requirements**
 - _pip install -r requirements.txt_
@@ -33,12 +33,12 @@ This is a dataset of over a million headlines taken from the Australian news sou
 - navigate to the folder with the script (src)
     - _cd src_
 - run script
-    - _python3 assignmen4-cmk.py_    
+    - _python3 assignment3-cmk.py_    
     
-The script will probably run for about an hour or an hour and a half, so make sure, you have something to do while waiting. This is probably just me, who is bad at optimizing the code :D
+The script will probably run for about an hour or an hour and a half, so make sure, you have something to do while waiting. This is probably just me who is bad at optimizing the code :D
 
 ### Troubleshooting
-- If you have problem installing the requirements folder try upgrading pip with "pip install --upgrade pip".
+- If you have problem installing the requirements file try upgrading pip with "pip install --upgrade pip".
 
 ### Output
 The output is a jpg-file which can be found in the folder "output" under the name "sentiment_score.jpg".
