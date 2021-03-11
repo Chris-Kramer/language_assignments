@@ -35,7 +35,7 @@ This is a dataset of over a million headlines taken from the Australian news sou
 - run script
     - _python3 assignment3-cmk.py_    
     
-The script will probably run for about an hour or an hour and a half, so make sure, you have something to do while waiting. This is probably just me who is bad at optimizing the code :D
+The script will probably run for about an hour or an hour and a half, so make sure, you have something to do while waiting.
 
 ### Troubleshooting
 - If you have problem installing the requirements file try upgrading pip with "pip install --upgrade pip".
