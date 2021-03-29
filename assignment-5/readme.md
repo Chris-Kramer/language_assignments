@@ -1,0 +1,57 @@
+# Assignment 5 - (Un)supervised machine learning
+**Christoffer Kramer**  
+**29-03-2021**  
+Train an LDA model on your data to extract structured information that can provide insight into your data. For example, maybe you are interested in seeing how different authors cluster together or how concepts change over time in this dataset.  
+
+You should formulate a short research statement explaining why you have chosen this dataset and what you hope to investigate. This only needs to be a paragraph or two long and should be included as a README file along with the code. E.g.: I chose this dataset because I am interested in... I wanted to see if it was possible to predict X for this corpus
+In this case, your peer reviewer will not just be looking to the quality of your code. Instead, they'll also consider the whole project including choice of data, methods, and output. Think about how you want your output to look. Should there be visualizations? CSVs?
+You should also include a couple of paragraphs in the README on the results, so that a reader can make sense of it all. E.g.: I wanted to study if it was possible to predict X. The most successful model I trained had a weighted accuracy of 0.6, implying that it is not possible to predict X from the text content alone. And so on.  
+
+## Research
+I'm going to investigate which topics redditors where discussing during the gamestop saga, where redditors on the subreddit r/Wallstreetbets invested in gamestock stocks. Because of hardware limitations I'm only gonna be looking at the period where the stock prices was most volatile (the 10th of january 2021 - the first of march 2021).
+
+_Research question:_ What topics of discussion dominated WallStreetBets during the gamestop saga? 
+
+### Data
+I'm using a data set containing all reddit posts and comments from the subreddit r/WallStreetBets. The csv-file is HUGE (209 MB), so I'm choosing a limited time window. 
+I found the data set on kaggle here: https://www.kaggle.com/unanimad/reddit-rwallstreetbets
+
+### Conclusions
+My analysis is only preliminary. However, from a purely computational and statistical point of view, my model preformed better (lower perplexity and higher coherence) when I had more than 10 topics, however from a human readability perspective the topics seemed more coherent and understandable when using 3 topics. When I had more than 3 topics, my model tended to cluster a few very dominant topics together and then have a lot of topics which only made up a fraction of the overall topics. 
+I thought my model made mistakes, however after looking at the graph I realised, that the model clustered the topics, which where related to gamestop, toghether. This indicates that the gamestop saga was so dominant, that it essentially created a hegemonic discourse. This is a discourse, which is so dominant, that it essentially steamrolls every other kind of discourse.
+When looking at the three topics it is clear, that topic 0 and 1 are related to gamestop and buying stocks, while topic 2 (which is more or less non-existing until the 8th of february) is related to stocks that aren't gamestop. It is also interesting to note that topic 2 contains a lot of words related to mariuanna (weed, pot, cannabis etc.). This indicates that the redditors gained interest in stocks related to mariuanna during this period. 
+
+# Running the script
+If you whish to run the script, you should be aware, that it will take more than an hour to run. The subreddit was extremely active during this periode and there was some days, with thoundsands of posts. So have something to do, while the script runs. 
+
+### How to run  
+**Step 1: Clone repo**  
+- open terminal  
+- Navigate to destination for repo  
+- type the following command  
+```console
+ git clone https://github.com/Chris-Kramer/language_assignments.git
+```  
+**step 2: Run bash script:**  
+- Navigate to the folder "assignment-4".  
+```console
+cd assignment-5
+```  
+- Use the bash script _run-script.sh_ to set up environment and run the scripts:  
+```console
+bash runs_script-lda_reddit.sh
+```  
+### Output
+The bash scripts will save an html-file with a dashboard over topics, a report which shows how well the models performs based on number of topics, a csv-file with keywords and topics, and a chart which shows how the topics have changed over time (5 day rolling average). These are located in the folder "output".
+
+### Parameters
+The script0 takes the following parameters, it has already ben supplied with default values, but feel free to change them.
+- start_date: Get posts from after this date. The input is a list with the following format YYYY M D  
+Default: 2021 1 10  
+- end_date:Exclude posts from after this date. The input is a list with the following format YYYY M D  
+Default: 2021 3 1  
+- topics: the number of topics you whish to have in the model  
+Default: 3  
+Example:  
+```console
+bash runs_script-lda_reddit.sh --start_date 2021 1 15 --end_date 2021 2 15 --topics 2
