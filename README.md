@@ -9,7 +9,7 @@ __Assignments__
 - *Assignment-2:* Second assignment. Calculating MI in corpus.
 - *Assignment-3:* Create plot which displays how sentiment in news headlines changes over time.  
 - *Assignment-4:* Creating a reusable network analysis pipeline.  
-- *Assignment-5:*
+- *Assignment-5:* Topic modelling/Unsupervised learning- r/WallStreetBets
 - *Assignment-6:*
 - *Assignment-7:*
 - *Assignment-8:*

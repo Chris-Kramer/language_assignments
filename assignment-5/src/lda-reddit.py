@@ -21,8 +21,6 @@ nlp.max_length = 3951751
 import pyLDAvis.gensim
 import seaborn as sns
 from matplotlib import rcParams
-# figure size in inches
-rcParams['figure.figsize'] = 20,10
 from matplotlib import pyplot as plt
 
 # LDA tools
@@ -41,7 +39,7 @@ def main():
     ------------ parameters ------------
     """
     #Create an argument parser from argparse
-    ap = argparse.ArgumentParser(description = "[INFO] Classify MNIST data and print out performance report")
+    ap = argparse.ArgumentParser(description = "[INFO] Topic modelling of r/WallStreetBets")
     
     #start date
     ap.add_argument("-sd", "--start_date",
@@ -72,7 +70,6 @@ def main():
     start_date = args["start_date"]
     end_date = args["end_date"]
     topics = args["topics"]
-    
     """
     ---------- Read and clean data-----------
     """
@@ -82,10 +79,10 @@ def main():
     data = data[["title", "created_utc"]]
     #Make created utc into a datetime format
     data["created_utc"] = pd.to_datetime(data["created_utc"], unit = "s").dt.date
-    #Choose dates after 2021-01-10
-    data = data[data["created_utc"] > datetime.date(start_date[0], start_date[1], start_date[2])]
-    #Chose dates before 2021-03-01
-    data = data[data["created_utc"] < datetime.date(end_date[0], end_date[1], end_date[2])]
+    #Choose dates after provided date
+    data = data[data["created_utc"] > datetime.date(int(start_date[0]), int(start_date[1]), int(start_date[2]))]
+    #Chose dates before provided date
+    data = data[data["created_utc"] < datetime.date(int(end_date[0]), int(end_date[1]), int(end_date[2]))]
     #Sort the data according to dates
     data = data.sort_values("created_utc")
     
@@ -194,17 +191,24 @@ def main():
     df["date"] = data["created_utc"].unique()
     #Set dates to be index
     df = df.set_index("date")
-    #Make it wide formaet
-    df = df.transpose()
     
+
     #plot lineplot
-    lineplot = sns.lineplot(data=df.T.rolling(5).mean(), legend = True)
+    lineplot = sns.relplot(data=df.rolling(5).mean(), kind = "line", legend = True)
+    #Add title to legend
+    lineplot._legend.set_title("Topics")
+    #Set size
+    lineplot.fig.set_size_inches(20,10)
+    #Rotate x-labels
+    lineplot.set_xticklabels(rotation=30)
     #create title
-    lineplot.set_title("Topics over time in r/WallStreetsBets")
+    plt.title("Topics over time in r/WallStreetsBets")
     #set y label
-    lineplot.set(ylabel = "Topic dominance")
-    #Add legend title
-    plt.legend(title = "Topics")
+    plt.ylabel("Topic dominance")
+    #Set layout to be tight
+    plt.tight_layout()
+    #SHow plt figure (otherwise plt parameters won't be displayed)
+    plt.show()
     #save figure
     plt.savefig("../output/Topic_over_time-Lineplot.png")
     

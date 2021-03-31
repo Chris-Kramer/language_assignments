@@ -8,7 +8,7 @@ In this case, your peer reviewer will not just be looking to the quality of your
 You should also include a couple of paragraphs in the README on the results, so that a reader can make sense of it all. E.g.: I wanted to study if it was possible to predict X. The most successful model I trained had a weighted accuracy of 0.6, implying that it is not possible to predict X from the text content alone. And so on.  
 
 ## Research
-I'm going to investigate which topics redditors where discussing during the gamestop saga, where redditors on the subreddit r/Wallstreetbets invested in gamestock stocks. Because of hardware limitations I'm only gonna be looking at the period where the stock prices was most volatile (the 10th of january 2021 - the first of march 2021).
+I'm going to investigate which topics redditors where discussing during the gamestop saga, where redditors on the subreddit r/Wallstreetbets invested in gamestop stocks. Because of hardware limitations I'm only gonna be looking at the period where the stock prices was most volatile (the 10th of january 2021 - the 1st of march 2021).
 
 _Research question:_ What topics of discussion dominated WallStreetBets during the gamestop saga? 
 
@@ -18,11 +18,11 @@ I found the data set on kaggle here: https://www.kaggle.com/unanimad/reddit-rwal
 
 ### Conclusions
 My analysis is only preliminary. However, from a purely computational and statistical point of view, my model preformed better (lower perplexity and higher coherence) when I had more than 10 topics, however from a human readability perspective the topics seemed more coherent and understandable when using 3 topics. When I had more than 3 topics, my model tended to cluster a few very dominant topics together and then have a lot of topics which only made up a fraction of the overall topics. 
-I thought my model made mistakes, however after looking at the graph I realised, that the model clustered the topics, which where related to gamestop, toghether. This indicates that the gamestop saga was so dominant, that it essentially created a hegemonic discourse. This is a discourse, which is so dominant, that it essentially steamrolls every other kind of discourse.
+I thought my model made mistakes, however after looking at the graph I realised, that the model clustered the topics, which where related to gamestop. This indicates that the gamestop saga was so dominant, that it essentially created a hegemonic discourse. This is a discourse, which is so dominant, that it essentially steamrolls every other kind of discourse.
 When looking at the three topics it is clear, that topic 0 and 1 are related to gamestop and buying stocks, while topic 2 (which is more or less non-existing until the 8th of february) is related to stocks that aren't gamestop. It is also interesting to note that topic 2 contains a lot of words related to mariuanna (weed, pot, cannabis etc.). This indicates that the redditors gained interest in stocks related to mariuanna during this period. 
 
-# Running the script
-If you whish to run the script, you should be aware, that it will take more than an hour to run. The subreddit was extremely active during this periode and there was some days, with thoundsands of posts. So have something to do, while the script runs. 
+## Running the script
+If you whish to run the script, you should be aware, that it will probably take about an hour to run. The subreddit was extremely active during this periode. So have something to do, while the script runs. 
 
 ### How to run  
 **Step 1: Clone repo**  
@@ -33,11 +33,11 @@ If you whish to run the script, you should be aware, that it will take more than
  git clone https://github.com/Chris-Kramer/language_assignments.git
 ```  
 **step 2: Run bash script:**  
-- Navigate to the folder "assignment-4".  
+- Navigate to the folder "assignment-5".  
 ```console
 cd assignment-5
 ```  
-- Use the bash script _run-script.sh_ to set up environment and run the scripts:  
+- Use the bash script _runs_script-lda_reddit.sh_ to set up environment, unzip the csv-file, and run the script:  
 ```console
 bash runs_script-lda_reddit.sh
 ```  
