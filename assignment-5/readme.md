@@ -55,3 +55,4 @@ Default: 3
 Example:  
 ```console
 bash runs_script-lda_reddit.sh --start_date 2021 1 15 --end_date 2021 2 15 --topics 2
+```
