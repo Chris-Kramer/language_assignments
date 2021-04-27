@@ -2,50 +2,19 @@
 """
 ############### Import libraries ###############
 """
-import re #regex
-import string #string
-import math
+#system tools 
 import os
+import sys
+sys.path.append(os.path.join(".."))
 from pathlib import Path
+
+import math
 import csv
 import argparse
 
-"""
-############### Functions ############### 
-"""
-#Tokenizer
-def tokenize(input_string):
+#Homebrwed functions
+import utils.collocates_utils as cu
 
-    input_string = input_string.lower()
-    token_list = re.findall(r'\b\w+\b', input_string)
-    
-    return token_list
-
-#Concordance lines
-def kwic(text, keyword, window_size):
-    lines = []
-    for match in re.finditer(keyword, text):
-        
-        #First character of match
-        word_start = match.start()
-        #last character index of match
-        word_end = match.end()
-        
-        #left window
-        left_window_start = max(0, word_start - window_size)#If it is negative make it zero.
-        left_window = text[left_window_start:word_start]
-        
-        #Right window
-        right_window_end = word_end + window_size
-        right_window = text[word_end : right_window_end]
-        
-        #Add line to output variable
-        line = f"{left_window} {keyword} {right_window}"
-        line = tokenize(line)
-        lines.append(line)
-       
-        
-    return lines
 """
 ############### Main function ###############
 """
@@ -60,13 +29,13 @@ def main():
                    required = False,
                    default = "bald",
                    type = str,
-                   help = "[INFO] The keyword, you wish to find collocates for, [TYPE] int, [DEFAULT bald")
+                   help = "[INFO] The keyword you wish to find collocates for, [TYPE] int, [DEFAULT bald")
     #Window size
     ap.add_argument("-wz", "--window",
                     required = False,
                     default = 55,
                     type = int,
-                    help = "[INFO] The size of the window in characters on each size. [TYPE] int, [DEFAULT] 55")
+                    help = "[INFO] The size of the window in characters on each side of target word. [TYPE] int, [DEFAULT] 55")
     #Path to corpus
     ap.add_argument("-c", "--corpus",
                     default = "../100_english_novels/corpus",
@@ -100,8 +69,8 @@ def main():
     """
     ############### Tokenize corpus ###############
     """
-    tokenized_corpus = tokenize(corpus) #Tokenize
-    tokenized_lines = kwic(corpus, keyword, window_size) #Get KWIC lines
+    tokenized_corpus = cu.tokenize(corpus) #Tokenize
+    tokenized_lines = cu.kwic(corpus, keyword, window_size) #Get KWIC lines
     """
     ############### Count collocates ###############
     """
@@ -135,7 +104,7 @@ def main():
         writer.writeheader()   
         
         #Static values
-        N = len(tokenized_corpus) #Length of corpus.
+        N = len(tokenized_corpus) #Length of corpus
         u = tokenized_corpus.count(keyword) #how often does the keyword appear?   
         
         #Iterate over collates and calculate their MI value
@@ -150,14 +119,14 @@ def main():
               
             #calculate values
             v = tokenized_corpus.count(collocate) #How often does this collocate appear?
-            O11 = collocate_counts[index] #How often does this collocate and keyword appear?
+            O11 = collocate_counts[index] #How often does this collocate and keyword appear? (the keyword always appears with the collocate)
             O12 = u - keyword_in_lines #How often does the keyword appear without this collocate?
             O21 = v - O11 #How often does this collocate appear without keyword
             R1 = O11 + O12
             C1 = O11 + O21
             E11 = (R1*C1)/N 
 
-            #If E11 is zero or below something is wrong, and the word should be ignored.
+            #If E11 is zero it will mess up the MI calculation (you can't divide by zero), so skip it
             if E11 == 0:
                 continue
             
