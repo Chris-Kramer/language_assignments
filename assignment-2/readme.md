@@ -54,4 +54,4 @@ bash run_assignment-2-christoffer.sh --keyword single --window 70
 ```
 
 ## Windows users
-If you're running on a local windows machine, and do run with a bash shell, you have to set up a virtual environment, activate it and then run the script manually. All packages are part of python v3 standard library. So no need to install any reqirements.txt file. 
+If you're running on a local windows machine, and don't run with a bash shell, you have to set up a virtual environment, activate it and then run the script manually. All packages are part of python v3 standard library. So no need to install any reqirements.txt file. 
