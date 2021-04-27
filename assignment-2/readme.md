@@ -39,16 +39,14 @@ The output is a csv-file with collocates and their MI value.
 ### Parameters
 The script takes the following parameters:  
 - `--keyword` The target word you want to find collocates with.  
-
-Default: "bald"  
+    - Default: "bald"  
 - `--window` The size of the window for the KWIC lines, the size indicates how many characters on each side of the target word, the window should contain.  
-
-Default: 55  
+    - Default: 55  
 
 - `--corpus` A path to a corpus. The corpus must be a folder with txt files. Subfolders and non-txt files will not be included in the MI calculations.  
-Default: "../100_english_novels/corpus"  
+    - Default: "../100_english_novels/corpus"  
 - `--output` Path and filename for the output csv-file.  
-Default: "../output/output.csv"  
+    - Default: "../output/output.csv"  
 
 Example:  
 ```console
