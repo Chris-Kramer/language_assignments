@@ -2,6 +2,7 @@
 
 VENVNAME=as2-cmk #Environment name
 
+# Move to parent dir
 cd ..
 
 # Create and activate environment
@@ -11,14 +12,14 @@ python3 -m venv $VENVNAME
 echo "Activating environment"
 source $VENVNAME/bin/activate
 
-#Upgrade pip and install requirements
+# Upgrade pip
 echo "Upgrading pip"
 pip install --upgrade pip
 
-# Move to datafolder and download glove data
+# Move to src folder
 cd src
 
-#Run script
+# Run script
 echo "running script"
 python3 assignment-2-christoffer.py $@
 
@@ -26,7 +27,7 @@ python3 assignment-2-christoffer.py $@
 echo "deactivating and removing environment"
 deactivate
 
-#move back to main dir
+# move back to parent dir
 cd ..
 
 # Remove virtual environment
