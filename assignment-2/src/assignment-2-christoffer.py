@@ -12,7 +12,7 @@ import math
 import csv
 import argparse
 
-#Homebrwed functions
+#Homebrewed functions
 import utils.collocates_utils as cu
 
 """
@@ -38,7 +38,7 @@ def main():
                     help = "[INFO] The size of the window in characters on each side of target word. [TYPE] int, [DEFAULT] 55")
     #Path to corpus
     ap.add_argument("-c", "--corpus",
-                    default = "../100_english_novels/corpus",
+                    default = "../data/100_english_novels/corpus",
                     type = str,
                     help = """[INFO] the path to a corpus (needs to be a folder with txt-files) [TYPE] str, [DEFAULT]
                     ../100_english_novels/corpus""")
@@ -79,7 +79,11 @@ def main():
     i = 0
     for line in tokenized_lines: # For every line in KWIC lines
         for token in tokenized_lines[i]: # For every token in the line
-            if token not in collocates: # if the token isn't in the list of collocates
+            #If the token is the keyword skip it
+            if token == keyword:
+                continue
+            # Else if the token isn't in the list of collocates    
+            elif token not in collocates:
                 collocates.append(token) # Append token to list of collocates
         i += 1
         
