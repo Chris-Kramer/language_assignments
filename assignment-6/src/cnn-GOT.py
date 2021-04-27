@@ -103,7 +103,7 @@ def main():
                     required = False,
                     default = "../data/glove/glove.6B.100d.txt",
                     type = str,
-                    help = "[INFO] The path to file with pretrained embeddings, [TYPE] str, [DEFAULT] '../data/glove/glove.6B.100d.txt'")
+                    help = "[INFO] The path to file with pretrained embeddings, [TYPE] str, [DEFAULT] ../data/glove/glove.6B.100d.txt")
     
     ap.add_argument("-l1", "--l1",
                     required = False,
@@ -269,7 +269,7 @@ def main():
     # ------ compile model -----
     model.compile(loss="categorical_crossentropy",
                   optimizer="adam",
-                  metrics=['accuracy'])
+                  metrics=["accuracy"])
     
     """
     ################ Summarize and evaluate model ################

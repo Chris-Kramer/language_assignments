@@ -1,22 +1,17 @@
 #!/usr/bin/env python
 """
----------------------------------- Import libraries-------------------------------------------
+############### Import libraries ###############
 """
 import re #regex
 import string #string
 import math
 import os
 from pathlib import Path
-import csv 
+import csv
+import argparse
+
 """
----------------------------------- Parameters------------------------------------------
-"""
-keyword = "bald"
-window_size= 55 
-corpus_dir = os.path.join("..", "100_english_novels", "corpus") #path to directory
-output = os.path.join("..", "output", "output.csv") #destination and name for output-file
-"""
-----------------------------------Functions-------------------------------------------
+############### Functions ############### 
 """
 #Tokenizer
 def tokenize(input_string):
@@ -52,49 +47,87 @@ def kwic(text, keyword, window_size):
         
     return lines
 """
-----------------------------------Main function-------------------------------------------
+############### Main function ###############
 """
 def main():
+    """
+    ############### Parameters ###############
+    """
+    #Create argparser
+    ap = argparse.ArgumentParser(description = "Finding collocates and calculating MI score in a corpus")
+    # Keyword
+    ap.add_argument("-kw", "--keyword",
+                   required = False,
+                   default = "bald",
+                   type = str,
+                   help = "[INFO] The keyword, you wish to find collocates for, [TYPE] int, [DEFAULT bald")
+    #Window size
+    ap.add_argument("-wz", "--window",
+                    required = False,
+                    default = 55,
+                    type = int,
+                    help = "[INFO] The size of the window in characters on each size. [TYPE] int, [DEFAULT] 55")
+    #Path to corpus
+    ap.add_argument("-c", "--corpus",
+                    default = "../100_english_novels/corpus",
+                    type = str,
+                    help = """[INFO] the path to a corpus (needs to be a folder with txt-files) [TYPE] str, [DEFAULT]
+                    ../100_english_novels/corpus""")
+    
+    #output
+    ap.add_argument("-op", "--output",
+                    default = "../output/output.csv",
+                    type = str,
+                    help = "[INFO] the path and filename to the output csv-file [TYPE] str, [DEFAULT] ../output/output.csv")
+    
+    #Return arguments
+    args = vars(ap.parse_args())
+    
+    #Save in variables (for readability)
+    keyword = args["keyword"]
+    window_size= args["window"]
+    corpus_dir = Path(args["corpus"]) #converting to path object so it works across different OS
+    output = Path(args["output"])
     
     """
-    ----------------------------------Create corpus-------------------------------------------
+    ############### Create corpus ###############
     """
     corpus = ""
     
-    for file_name in Path(corpus_dir).glob("*.txt"):
+    for file_name in corpus_dir.glob("*.txt"):
         with open(file_name, "r", encoding="utf-8") as file: #open the file
-            corpus = corpus + file.read()
+            corpus = corpus + file.read() #Concatinate to one long string
     """
-    ----------------------------------Tokenize corpus-------------------------------------------
+    ############### Tokenize corpus ###############
     """
-    tokenized_corpus = tokenize(corpus)
-    tokenized_lines = kwic(corpus, keyword, window_size)
+    tokenized_corpus = tokenize(corpus) #Tokenize
+    tokenized_lines = kwic(corpus, keyword, window_size) #Get KWIC lines
     """
-    ----------------------------------Count collocates-------------------------------------------
+    ############### Count collocates ###############
     """
-    #Create a list of collocates
+    # Create a list of collocates
     collocates = []
-    index = 0
-    for line in tokenized_lines:
-        for token in tokenized_lines[index]:
-            if token not in collocates:
-                collocates.append(token)
-        index = index + 1
+    i = 0
+    for line in tokenized_lines: # For every line in KWIC lines
+        for token in tokenized_lines[i]: # For every token in the line
+            if token not in collocates: # if the token isn't in the list of collocates
+                collocates.append(token) # Append token to list of collocates
+        i += 1
         
-    #Remove partial words
-    for collocate in collocates:
-        if collocate not in tokenized_corpus:
-            collocates.remove(collocate)
+    # Remove partial words
+    for collocate in collocates: # For every collocate in list of collocates
+        if collocate not in tokenized_corpus: # If the collocate is not in the corpus
+            collocates.remove(collocate) # Remove the collocate, since it is a partial word
             
-    #Count collocates
-    collocate_counts = []
-    for collocate in collocates:
-        count = 0
-        for line in tokenized_lines:
-            count = count + line.count(collocate)
-        collocate_counts.append(count)
+    # Count collocates
+    collocate_counts = [] 
+    for collocate in collocates: # For every collocate
+        count = 0 # Create count variable
+        for line in tokenized_lines: # For every line in the KWIC lines
+            count = count + line.count(collocate) # Count how often the collocate appears and save in variable 
+        collocate_counts.append(count) # Apend the total count to collocate_counts
     """
-    ----------------------------------Create csv and Calculate MI-------------------------------------------
+    ############### Create csv and Calculate MI ###############
     """  
     #Create csv
     with open(output, mode = "w") as csv_file:
@@ -125,7 +158,7 @@ def main():
             E11 = (R1*C1)/N 
 
             #If E11 is zero or below something is wrong, and the word should be ignored.
-            if E11 <= 0:
+            if E11 == 0:
                 continue
             
             else: #Else calculate MI

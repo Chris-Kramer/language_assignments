@@ -15,35 +15,42 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
 **Step 1: Clone repo**
 - open terminal
 - Navigate to destination for repo
-- type the following command
-    - _git clone https://github.com/Chris-Kramer/language_assignments.git_
-
-**step 2: set op virtual enviroment:**
-- Navigate to the folder "assignment 2".
-    - _cd assignment-2_  
-- Set up enviroment by running one of these commands:
-    - _source lang_HW2_chris-env/bin/activate_ (Mac and linux)
-    - _lang_HW2_chris-env\Scripts\activate.bat_ (Windows)
-        
-**Step 3: Download requirements**
-- _pip install -r requirements.txt_
-        
-**Step 4: Execute script**
-- navigate to the folder with the script (src)
-    - _cd src_
-- run script
-    - _python3 assignment-2-christoffer.py_  
+- type the following command:  
+```console
+git clone https://github.com/Chris-Kramer/language_assignments.git
+```  
+**Step 2 navigate to src folder**
+- Navigate to the _src_ folder in _assignment-2_:  
+```console
+cd assignment-2/src
+```   
+**Step 3 run bash script**
+- Type the following command:  
+```console
+bash run_assignment-2-christoffer.sh
+```
+The bash script will create a virtual environment, install dependencies, upgrade pip and run the python script.  
 The script will after a couple of minutes start printning out words, their frequency and the MI value to the terminal. 
 **_since the script might take a while to finish, you can stop it manually by pressing ctrl c, the output-file will still be available._** 
 
 ### Output
-The output is a csv-file which can be found in the folder "output" under the name "output.csv".
+The output is a csv-file with collocates and their MI value.  
 
 ### Parameters
-The  parameters are the following:
-- keyword = "bald"
-- window_size = 55
-- corpus_dir = os.path.join("..", "100_english_novels", "corpus") #path to directory
-- output = os.path.join("..", "output", "output.csv") #destination and name for output-file
+The script takes the following parameters:
+`--keyword` The target word you want to find collocates with.  
+- Default: "bald"  
+`--window` The size of the window for the KWIC lines, the size indicates how many characters on each side of the target word, the window should contain.  
+- Default: 55  
+`--corpus` A path to a corpus. The corpus must be a folder with txt files. Subfolders and non-txt files will not be included in the MI calculations.  
+- Default: "../100_english_novels/corpus"
+`--output` Path and filename for the output csv-file.
+- Default: "../output/output.csv"  
 
-They are located in line 14-17. If you whish to change them. 
+Example:  
+```console
+bash run_assignment-2-christoffer.sh --keyword single --window 70
+```
+
+## Windows users
+If you're running on a local windows machine, and do run with a bash shell, you have to set up a virtual environment, activate it and then run the script manually. All packages are part of python v3 standard library. So no need to install any reqirements.txt file. 
