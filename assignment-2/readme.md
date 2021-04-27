@@ -37,7 +37,7 @@ The script will after a couple of minutes start printning out words, their frequ
 The output is a csv-file with collocates and their MI value.  
 
 ### Parameters
-The script takes the following parameters:
+The script takes the following parameters:  
 `--keyword` The target word you want to find collocates with.  
 - Default: "bald"  
 `--window` The size of the window for the KWIC lines, the size indicates how many characters on each side of the target word, the window should contain.  
