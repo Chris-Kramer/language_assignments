@@ -4,18 +4,24 @@
 """
 # System tools
 import os
+
+#Argparse
+import argparse
+from argparse import RawTextHelpFormatter # Formatting -help
+
 # Data analysis
 import pandas as pd
 from collections import Counter
 from itertools import combinations 
 from tqdm import tqdm
+
 # NLP
 import spacy
 nlp = spacy.load("en_core_web_sm")
+
 # drawing
 import networkx as nx
 import matplotlib.pyplot as plt
-import argparse
 plt.rcParams["figure.figsize"] = (20,20)
 
 
@@ -27,42 +33,60 @@ def main():
     ---------- Parameters -----------
     """
     #Create an argument parser from argparse
-    ap = argparse.ArgumentParser(description = "[INFO] Plot edgelist and calculate centrality measures") 
+    ap = argparse.ArgumentParser(description = "[INFO] Plot edgelist and calculate centrality measures",
+                                 formatter_class=RawTextHelpFormatter) 
     
-    #edgelidt 
+    #edgelist 
     ap.add_argument("-el", "--edgelist",
                     required = False,
-                    default = "../data/edgelists/real_news_edgelist.csv",
+                    default = "real_news_edgelist.csv",
                     type = str,
-                    help = "Edgelist path must be a csv file, Default: ../data/edgelists/real_news_edgelist.csv")
+                    help =
+                    "[INFO] Name of the edgelist. It must be a csv file and located in the folder '../data/edgelists' \n" 
+                    "[TYPE] str \n"
+                    "[DEFAULT] real_news_edgelist.csv \n"
+                    "[EXAMPLE] --edgelist Anon_Clara_edgelist.csv")
     
     #Cut of weight point
     ap.add_argument("-f", "--filter",
                     required = False,
                     default = 500,
                     type = int,
-                    help = "If you only want edges with a weight above a certain number, Default: 500")
+                    help =
+                    "[INFO] If you only want edges with a weight above a certain number \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 500 \n"
+                    "[EXAMPLE] --filter 700")
     
-    #dest for csv output
-    ap.add_argument("-oc", "--output_centrality",
+    #name csv output
+    ap.add_argument("-co", "--csv_output",
                     required = False,
-                    default = "../output/edgelist_centrality.csv",
+                    default = "edgelist_centrality.csv",
                     type = str,
-                    help = "Path to csv output file, Default: ../output/edgelist_centrality.csv")
+                    help =
+                    "[INFO] Name of the csv output file (will be located in '../output') and must end in .csv \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] edgelist_centrality.csv \n"
+                    "[EXAMPLE] --csv_output edgelist_anon_clara.csv")
     
-    #dest for plot output
+    #name plot output
     ap.add_argument("-vo", "--viz_output",
-                    default = "../viz/edgelist_graph.png",
+                    default = "edgelist_graph.png",
                     required = False,
                     type = str,
-                    help = "Path to plot output file, Default: ../viz/edgelist_graph.csv")
+                    help = 
+                    "[INFO] Name of the plot output file (will be located in '../viz') must end in .png, .jpg or .jpeg \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] edgelist_graph.png \n"
+                    "[EXAMPLE] plot_anon_clara.png")
+    
     args = vars(ap.parse_args())
     
     #Save parameters in variables (this is done for readability)
-    data = pd.read_csv(args["edgelist"])
+    data = pd.read_csv(os.path.join("..", "data", "edgelists", args["edgelist"]))
     weighted_point = args["filter"]
-    output_file = args["output_centrality"]
-    viz_output = args["viz_output"]
+    output_file = os.path.join("..", "output", args["csv_output"])
+    viz_output = os.path.join("..", "viz", args["viz_output"])
     
     #filter data based on weight point
     data = data[data["weight"]>weighted_point]
@@ -70,8 +94,10 @@ def main():
     """
     ------ Create network and plot it -------
     """
+    print("Creating network...")
     #Create graph netvwork
     G=nx.from_pandas_edgelist(data, 'nodeA', 'nodeB', ["weight"])
+    print("Plotting network ...")
     #Plot it
     pos = nx.nx_agraph.graphviz_layout(G, prog="neato")
     #Draw plot
@@ -82,6 +108,7 @@ def main():
     """
     -------- Calc centrality --------
     """
+    print("Calculating centrality measures ...")
     #Calc Eigenvector centrality
     ev = nx.eigenvector_centrality(G)
     #Calc Betweenness centrality
@@ -92,6 +119,7 @@ def main():
     """
     --------- Create dataframes ---------
     """
+    print("Creating dataframes ...")
     #Create dataframes
     #eigenvector
     df_ev = pd.DataFrame(ev.items()).sort_values(1, ascending=False)

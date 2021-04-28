@@ -13,30 +13,35 @@ def tokenize(input_string):
     
     return token_list
 
-#Concordance lines
-def kwic(text, keyword, window_size):
+# Concordance lines
+# NOTE the function can either take a tokenized corpus or a non-tokenized copus with the parameter "tokenize"
+# If it is True it will tokenize for you else it will expect that the text is already tokenized.
+# This is done for later use so I can create custom tokenization if I wish to.
+def kwic(text, keyword, window_size, tokenize = True):
+    i = 0
     lines = []
-    for match in re.finditer(keyword, text):
-        
-        #First character of match
-        word_start = match.start()
-        #last character index of match
-        word_end = match.end()
-        
-        #left window
-        left_window_start = max(0, word_start - window_size)#If it is negative make it zero.
-        left_window = text[left_window_start:word_start]
-        
-        #Right window
-        right_window_end = word_end + window_size
-        right_window = text[word_end : right_window_end]
-        
-        #Add line to output variable
-        line = f"{left_window} {keyword} {right_window}"
-        line = tokenize(line)
-        lines.append(line)
-       
-        
+    #If the text needs to be tokenized tokenize it
+    if tokenize == True:
+        text = tokenize(text)
+    
+    #For every token in the text
+    for token in text:
+        if token == keyword: #If the token is the keyword
+            # Get window
+            window_start = max(0, i - window_size) #If the index i negative make it zero (avoids indexing errors) 
+            window_end = i + (window_size + 1)
+            #Plus one because of zero indexing (otherwise I get one less word on the right side window)
+            
+            # This tests If window index is larger than the text index
+            # This might happen if the target keyword is one of the last words in the corpus)
+            # This is supposed to make sure, that I don't get an indexing error. 
+            if window_end > (len(text) - 1):
+                window_end = (len(text) - 1) #Make it only include up til the last word in the corpus
+                    
+            #Add line to output variable
+            line = text[window_start:window_end]
+            lines.append(line)   
+        i+=1
     return lines
 
 if __name__ == "__main__":

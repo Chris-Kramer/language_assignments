@@ -1,4 +1,4 @@
-# Assignment 2- String processing with Python
+# Assignment 2 - String processing with Python
 **Christoffer Kramer**  
 **15-02-2021**  
 
@@ -40,17 +40,17 @@ The output is a csv-file with collocates and their MI value.
 The script takes the following parameters:  
 - `--keyword` The target word you want to find collocates with.  
     - Default: "bald"  
-- `--window` The size of the window for the KWIC lines, the size indicates how many characters on each side of the target word, the window should contain.  
-    - Default: 55  
-- `--corpus` A path to a corpus. The corpus must be a folder with txt files. Subfolders and non-txt files will not be included in the MI calculations.  
-    - Default: "../data/100_english_novels/corpus"  
-- `--output` Path and filename for the output csv-file.  
-    - Default: "../output/output.csv"  
+- `--window_size` The size of the window for the KWIC lines, the size indicates how many words on each side of the target word the window should contain.  
+    - Default: 5  
+- `--corpus` The name of a corpus. The corpus must be a folder with txt files and it must be located witihn the "data" folder. Subfolders and non-txt files will not be included in the MI calculations.  
+    - Default: "100_english_novels"  
+- `--output` Filename for the output csv-file, which will be located in the folder "output".  
+    - Default: "output.csv"  
 
 Example:  
 ```console
-bash run_assignment-2-christoffer.sh --keyword single --window 70
+bash run_assignment-2-christoffer.sh --keyword single --window_size 70 --output single_collocates.csv
 ```
 
 ## Windows users
-If you're running on a local windows machine, and don't have an Unix shell with bash, you have to set up a virtual environment, activate it and then run the script manually. All packages are part of python v3 standard library. So no need to install any reqirements.txt file. 
+This script have not been tested on a Windows machine and the bash script is made for Linux/mac users. If you're running on a local windows machine, and don't have an Unix shell with bash, you have to set up a virtual environment, activate it and then run the script manually. Path names should be handled automatically by the python script without problems. All packages are part of python v3 standard library. So no need to install any reqirements.txt file. 

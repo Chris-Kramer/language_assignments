@@ -11,6 +11,7 @@ from pathlib import Path
 import math
 import csv
 import argparse
+from argparse import RawTextHelpFormatter # Formatting -help
 
 #Homebrewed functions
 import utils.collocates_utils as cu
@@ -23,54 +24,75 @@ def main():
     ############### Parameters ###############
     """
     #Create argparser
-    ap = argparse.ArgumentParser(description = "Finding collocates and calculating MI score in a corpus")
+    ap = argparse.ArgumentParser(description = "Finding collocates and calculating MI score in a corpus",
+                                 formatter_class=RawTextHelpFormatter)
     # Keyword
     ap.add_argument("-kw", "--keyword",
                    required = False,
                    default = "bald",
                    type = str,
-                   help = "[INFO] The keyword you wish to find collocates for, [TYPE] int, [DEFAULT bald")
+                   help =
+                    "[INFO] The keyword you wish to find collocates for \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] bald \n"
+                    "[EXAMPLE] --keyword single")
     #Window size
-    ap.add_argument("-wz", "--window",
+    ap.add_argument("-wz", "--window_size",
                     required = False,
-                    default = 55,
+                    default = 5,
                     type = int,
-                    help = "[INFO] The size of the window in characters on each side of target word. [TYPE] int, [DEFAULT] 55")
+                    help =
+                    "[INFO] The size of the window." 
+                    "[INFO] The value represents amount of words on each side of target word \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 5 \n"
+                    "[EXAMPLE] --window_size 10")
     #Path to corpus
     ap.add_argument("-c", "--corpus",
-                    default = "../data/100_english_novels/corpus",
+                    required = False,
+                    default = "100_english_novels",
                     type = str,
-                    help = """[INFO] the path to a corpus (needs to be a folder with txt-files) [TYPE] str, [DEFAULT]
-                    ../100_english_novels/corpus""")
+                    help = 
+                    "[INFO] the folder name of the corpus \n" 
+                    "[INFO] It must be a folder with txt-files and it must be placed within the 'data' folder \n" 
+                    "[TYPE] str \n"
+                    "[DEFAULT] 100_english_novels \n"
+                    "[EXAMPLE] --corpus corpus_name")
     
     #output
     ap.add_argument("-op", "--output",
-                    default = "../output/output.csv",
+                    required = False,
+                    default = "output.csv",
                     type = str,
-                    help = "[INFO] the path and filename to the output csv-file [TYPE] str, [DEFAULT] ../output/output.csv")
+                    help = 
+                    "[INFO] the filename for the output csv-file. It must end in .csv \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] output.csv \n"
+                    "[EXAMPLE] --output single_collocates.csv")
     
     #Return arguments
     args = vars(ap.parse_args())
     
     #Save in variables (for readability)
     keyword = args["keyword"]
-    window_size= args["window"]
-    corpus_dir = Path(args["corpus"]) #converting to path object so it works across different OS
-    output = Path(args["output"])
+    window_size= args["window_size"]
+    corpus_dir = os.path.join("..", "data", args["corpus"])
+    output = os.path.join("..", "output", args["output"])
     
     """
-    ############### Create corpus ###############
+    ############### Create corpus, tokenize and create KWIC lines ###############
     """
+    # --- Create corpus ------
     corpus = ""
-    
-    for file_name in corpus_dir.glob("*.txt"):
+    for file_name in Path(corpus_dir).glob("*.txt"):
         with open(file_name, "r", encoding="utf-8") as file: #open the file
             corpus = corpus + file.read() #Concatinate to one long string
-    """
-    ############### Tokenize corpus ###############
-    """
-    tokenized_corpus = cu.tokenize(corpus) #Tokenize
-    tokenized_lines = cu.kwic(corpus, keyword, window_size) #Get KWIC lines
+    
+    # --- Tokenize and create kwic lines ---
+    tokenized_corpus = cu.tokenize(corpus) #Tokenize corpus
+    # Get concordance lines
+    tokenized_lines = cu.kwic(tokenized_corpus, keyword, window_size, tokenize = False) 
+    # The last parameter indicates that my corpus is already tokenized, so the function shouldn't tokenize for me. 
     """
     ############### Count collocates ###############
     """
@@ -79,18 +101,13 @@ def main():
     i = 0
     for line in tokenized_lines: # For every line in KWIC lines
         for token in tokenized_lines[i]: # For every token in the line
-            #If the token is the keyword skip it
+            # If the token is the keyword skip it
             if token == keyword:
                 continue
             # Else if the token isn't in the list of collocates    
             elif token not in collocates:
                 collocates.append(token) # Append token to list of collocates
         i += 1
-        
-    # Remove partial words
-    for collocate in collocates: # For every collocate in list of collocates
-        if collocate not in tokenized_corpus: # If the collocate is not in the corpus
-            collocates.remove(collocate) # Remove the collocate, since it is a partial word
             
     # Count collocates
     collocate_counts = [] 
@@ -129,19 +146,13 @@ def main():
             R1 = O11 + O12
             C1 = O11 + O21
             E11 = (R1*C1)/N 
-
-            #If E11 is zero it will mess up the MI calculation (you can't divide by zero), so skip it
-            if E11 == 0:
-                continue
-            
-            else: #Else calculate MI
-                MI = math.log(O11/E11)
+            MI = math.log(O11/E11)
                 
-                #write row in csv
-                writer.writerow({"collocate": collocate, "raw_frequency": O11, "MI": MI})
-                print(f"Word: {collocate}, frequency: {O11}, MI: {MI}")
+            #write row in csv
+            writer.writerow({"collocate": collocate, "raw_frequency": O11, "MI": MI})
+            print(f"Word: {collocate}, frequency: {O11}, MI: {MI}")
             
-            index = index + 1    
+            index += 1   
 # Define behaviour when called from command line
 if __name__=="__main__":
     main()

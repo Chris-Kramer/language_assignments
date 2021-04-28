@@ -1,0 +1,5094 @@
+nodeA,nodeB,weight
+Arnold Bennett,Turnhill,1
+Arnold Bennett,James Ollerenshaw,64
+Arnold Bennett,Ollerenshaw,56
+Arnold Bennett,Jimmy Ollerenshaw,6
+Arnold Bennett,James,213
+Arnold Bennett,Ephraim Tellwright,1
+Arnold Bennett,Susan,30
+Arnold Bennett,Longshaw,14
+Arnold Bennett,Rathbone,3
+Arnold Bennett,Helen Rathbone's,1
+Arnold Bennett,Josiah Wedgwood,1
+Arnold Bennett,Helen,128
+Arnold Bennett,Prockter,144
+Arnold Bennett,Helen Rathbone,2
+Arnold Bennett,Bratt,7
+Arnold Bennett,Glasgow,12
+Arnold Bennett,Moorthorne,2
+Arnold Bennett,Avert,1
+Arnold Bennett,Emanuel Prockter,27
+Arnold Bennett,Prockter  ,1
+Arnold Bennett,James Ollerenshaw's,3
+Arnold Bennett,Trafalgar,6
+Arnold Bennett,Nos,1
+Arnold Bennett,Beau Brummel,1
+Arnold Bennett,Whitaker,1
+Arnold Bennett,Butt,36
+Arnold Bennett,Uncle,5
+Arnold Bennett,Mester Ollerenshaw,1
+Arnold Bennett,Susan - an afternoon,1
+Arnold Bennett,Prockter - a,1
+Arnold Bennett,George Frederick Handel,1
+Arnold Bennett,Robin Adair,1
+Arnold Bennett,Yorkshire,5
+Arnold Bennett,Confucius,1
+Arnold Bennett,Uncle James,7
+Arnold Bennett,Shakespearean,1
+Arnold Bennett,Sarah Swetnam,15
+Arnold Bennett,Swetnam,5
+Arnold Bennett,Sally,8
+Arnold Bennett,Sarah,30
+Arnold Bennett,Brunt,5
+Arnold Bennett,Lilian,2
+Andrew Dean,Arnold Bennett,36
+Arnold Bennett,Nell,1
+Arnold Bennett,Jane,1
+Arnold Bennett,Jimmy,16
+Arnold Bennett,Dean,10
+Arnold Bennett,Churchman,1
+Arnold Bennett,Emanuel,6
+Arnold Bennett,Georgiana,20
+Arnold Bennett,Jarndyce,5
+Arnold Bennett,Kiel,1
+Arnold Bennett,Flora Prockter,1
+Arnold Bennett,Flora,1
+Arnold Bennett,Ted,1
+Arnold Bennett,Ronald,1
+Arnold Bennett,Ronald Swetnam,1
+Arnold Bennett,Jos,3
+Arnold Bennett,Jos Swetman,1
+Arnold Bennett,Jos Swetnam,3
+Arnold Bennett,Emanuel Prockter's,1
+Arnold Bennett,Joe,1
+Arnold Bennett,Benskin,2
+Andrew,Arnold Bennett,10
+Arnold Bennett,Wilbrahams,4
+Arnold Bennett,Carey,1
+Arnold Bennett,Oldcastle,1
+Arnold Bennett,Miser,1
+Arnold Bennett,Ye,1
+Arnold Bennett,Machiavelli,1
+Arnold Bennett,Hanbridge,1
+Arnold Bennett,Crewe,4
+Arnold Bennett,Bass,1
+Arnold Bennett,Helen - she,1
+Arnold Bennett,Edinburgh,1
+Arnold Bennett,Welsh,1
+Arnold Bennett,Hurrah,1
+Arnold Bennett,Crump,6
+Arnold Bennett,Ezra Brunt,1
+Arnold Bennett,Hall,2
+Arnold Bennett,Emanuel Prockter - I,1
+Arnold Bennett,Ye'll,1
+Arnold Bennett,Light,1
+Arnold Bennett,Glad,1
+Arnold Bennett,Paisley,1
+Arnold Bennett,Swetnams,1
+Arnold Bennett,Joshua,1
+Arnold Bennett,Mont Blanc,1
+Arnold Bennett,Don Juan,1
+Arnold Bennett,Norseman,1
+Arnold Bennett,Buchanan,2
+Arnold Bennett,Derby,1
+Arnold Bennett,Bechstein,1
+Arnold Bennett,Wiltshire,3
+Arnold Bennett,Hush,1
+Arnold Bennett,Nottingham,1
+Arnold Bennett,Lilian Swetnam,1
+Arnold Bennett,Fritz,3
+Arnold Bennett,Dickens,1
+Arnold Bennett,Charles Dickens,1
+James Ollerenshaw,Turnhill,64
+Ollerenshaw,Turnhill,56
+Jimmy Ollerenshaw,Turnhill,6
+James,Turnhill,213
+Ephraim Tellwright,Turnhill,1
+Susan,Turnhill,30
+Longshaw,Turnhill,14
+Rathbone,Turnhill,3
+Helen Rathbone's,Turnhill,1
+Josiah Wedgwood,Turnhill,1
+Helen,Turnhill,128
+Prockter,Turnhill,144
+Helen Rathbone,Turnhill,2
+Bratt,Turnhill,7
+Glasgow,Turnhill,12
+Moorthorne,Turnhill,2
+Avert,Turnhill,1
+Emanuel Prockter,Turnhill,27
+Prockter  ,Turnhill,1
+James Ollerenshaw's,Turnhill,3
+Trafalgar,Turnhill,6
+Nos,Turnhill,1
+Beau Brummel,Turnhill,1
+Turnhill,Whitaker,1
+Butt,Turnhill,36
+Turnhill,Uncle,5
+Mester Ollerenshaw,Turnhill,1
+Susan - an afternoon,Turnhill,1
+Prockter - a,Turnhill,1
+George Frederick Handel,Turnhill,1
+Robin Adair,Turnhill,1
+Turnhill,Yorkshire,5
+Confucius,Turnhill,1
+Turnhill,Uncle James,7
+Shakespearean,Turnhill,1
+Sarah Swetnam,Turnhill,15
+Swetnam,Turnhill,5
+Sally,Turnhill,8
+Sarah,Turnhill,30
+Brunt,Turnhill,5
+Lilian,Turnhill,2
+Andrew Dean,Turnhill,36
+Nell,Turnhill,1
+Jane,Turnhill,1
+Jimmy,Turnhill,16
+Dean,Turnhill,10
+Churchman,Turnhill,1
+Emanuel,Turnhill,6
+Georgiana,Turnhill,20
+Jarndyce,Turnhill,5
+Kiel,Turnhill,1
+Flora Prockter,Turnhill,1
+Flora,Turnhill,1
+Ted,Turnhill,1
+Ronald,Turnhill,1
+Ronald Swetnam,Turnhill,1
+Jos,Turnhill,3
+Jos Swetman,Turnhill,1
+Jos Swetnam,Turnhill,3
+Emanuel Prockter's,Turnhill,1
+Joe,Turnhill,1
+Benskin,Turnhill,2
+Andrew,Turnhill,10
+Turnhill,Wilbrahams,4
+Carey,Turnhill,1
+Oldcastle,Turnhill,1
+Miser,Turnhill,1
+Turnhill,Ye,1
+Machiavelli,Turnhill,1
+Hanbridge,Turnhill,1
+Crewe,Turnhill,4
+Bass,Turnhill,1
+Helen - she,Turnhill,1
+Edinburgh,Turnhill,1
+Turnhill,Welsh,1
+Hurrah,Turnhill,1
+Crump,Turnhill,6
+Ezra Brunt,Turnhill,1
+Hall,Turnhill,2
+Emanuel Prockter - I,Turnhill,1
+Turnhill,Ye'll,1
+Light,Turnhill,1
+Glad,Turnhill,1
+Paisley,Turnhill,1
+Swetnams,Turnhill,1
+Joshua,Turnhill,1
+Mont Blanc,Turnhill,1
+Don Juan,Turnhill,1
+Norseman,Turnhill,1
+Buchanan,Turnhill,2
+Derby,Turnhill,1
+Bechstein,Turnhill,1
+Turnhill,Wiltshire,3
+Hush,Turnhill,1
+Nottingham,Turnhill,1
+Lilian Swetnam,Turnhill,1
+Fritz,Turnhill,3
+Dickens,Turnhill,1
+Charles Dickens,Turnhill,1
+James Ollerenshaw,James Ollerenshaw,2016
+James Ollerenshaw,Ollerenshaw,3584
+James Ollerenshaw,Jimmy Ollerenshaw,384
+James,James Ollerenshaw,13632
+Ephraim Tellwright,James Ollerenshaw,64
+James Ollerenshaw,Susan,1920
+James Ollerenshaw,Longshaw,896
+James Ollerenshaw,Rathbone,192
+Helen Rathbone's,James Ollerenshaw,64
+James Ollerenshaw,Josiah Wedgwood,64
+Helen,James Ollerenshaw,8192
+James Ollerenshaw,Prockter,9216
+Helen Rathbone,James Ollerenshaw,128
+Bratt,James Ollerenshaw,448
+Glasgow,James Ollerenshaw,768
+James Ollerenshaw,Moorthorne,128
+Avert,James Ollerenshaw,64
+Emanuel Prockter,James Ollerenshaw,1728
+James Ollerenshaw,Prockter  ,64
+James Ollerenshaw,James Ollerenshaw's,192
+James Ollerenshaw,Trafalgar,384
+James Ollerenshaw,Nos,64
+Beau Brummel,James Ollerenshaw,64
+James Ollerenshaw,Whitaker,64
+Butt,James Ollerenshaw,2304
+James Ollerenshaw,Uncle,320
+James Ollerenshaw,Mester Ollerenshaw,64
+James Ollerenshaw,Susan - an afternoon,64
+James Ollerenshaw,Prockter - a,64
+George Frederick Handel,James Ollerenshaw,64
+James Ollerenshaw,Robin Adair,64
+James Ollerenshaw,Yorkshire,320
+Confucius,James Ollerenshaw,64
+James Ollerenshaw,Uncle James,448
+James Ollerenshaw,Shakespearean,64
+James Ollerenshaw,Sarah Swetnam,960
+James Ollerenshaw,Swetnam,320
+James Ollerenshaw,Sally,512
+James Ollerenshaw,Sarah,1920
+Brunt,James Ollerenshaw,320
+James Ollerenshaw,Lilian,128
+Andrew Dean,James Ollerenshaw,2304
+James Ollerenshaw,Nell,64
+James Ollerenshaw,Jane,64
+James Ollerenshaw,Jimmy,1024
+Dean,James Ollerenshaw,640
+Churchman,James Ollerenshaw,64
+Emanuel,James Ollerenshaw,384
+Georgiana,James Ollerenshaw,1280
+James Ollerenshaw,Jarndyce,320
+James Ollerenshaw,Kiel,64
+Flora Prockter,James Ollerenshaw,64
+Flora,James Ollerenshaw,64
+James Ollerenshaw,Ted,64
+James Ollerenshaw,Ronald,64
+James Ollerenshaw,Ronald Swetnam,64
+James Ollerenshaw,Jos,192
+James Ollerenshaw,Jos Swetman,64
+James Ollerenshaw,Jos Swetnam,192
+Emanuel Prockter's,James Ollerenshaw,64
+James Ollerenshaw,Joe,64
+Benskin,James Ollerenshaw,128
+Andrew,James Ollerenshaw,640
+James Ollerenshaw,Wilbrahams,256
+Carey,James Ollerenshaw,64
+James Ollerenshaw,Oldcastle,64
+James Ollerenshaw,Miser,64
+James Ollerenshaw,Ye,64
+James Ollerenshaw,Machiavelli,64
+Hanbridge,James Ollerenshaw,64
+Crewe,James Ollerenshaw,256
+Bass,James Ollerenshaw,64
+Helen - she,James Ollerenshaw,64
+Edinburgh,James Ollerenshaw,64
+James Ollerenshaw,Welsh,64
+Hurrah,James Ollerenshaw,64
+Crump,James Ollerenshaw,384
+Ezra Brunt,James Ollerenshaw,64
+Hall,James Ollerenshaw,128
+Emanuel Prockter - I,James Ollerenshaw,64
+James Ollerenshaw,Ye'll,64
+James Ollerenshaw,Light,64
+Glad,James Ollerenshaw,64
+James Ollerenshaw,Paisley,64
+James Ollerenshaw,Swetnams,64
+James Ollerenshaw,Joshua,64
+James Ollerenshaw,Mont Blanc,64
+Don Juan,James Ollerenshaw,64
+James Ollerenshaw,Norseman,64
+Buchanan,James Ollerenshaw,128
+Derby,James Ollerenshaw,64
+Bechstein,James Ollerenshaw,64
+James Ollerenshaw,Wiltshire,192
+Hush,James Ollerenshaw,64
+James Ollerenshaw,Nottingham,64
+James Ollerenshaw,Lilian Swetnam,64
+Fritz,James Ollerenshaw,192
+Dickens,James Ollerenshaw,64
+Charles Dickens,James Ollerenshaw,64
+Jimmy Ollerenshaw,Ollerenshaw,336
+Ollerenshaw,Ollerenshaw,1540
+James,Ollerenshaw,11928
+Ephraim Tellwright,Ollerenshaw,56
+Ollerenshaw,Susan,1680
+Longshaw,Ollerenshaw,784
+Ollerenshaw,Rathbone,168
+Helen Rathbone's,Ollerenshaw,56
+Josiah Wedgwood,Ollerenshaw,56
+Helen,Ollerenshaw,7168
+Ollerenshaw,Prockter,8064
+Helen Rathbone,Ollerenshaw,112
+Bratt,Ollerenshaw,392
+Glasgow,Ollerenshaw,672
+Moorthorne,Ollerenshaw,112
+Avert,Ollerenshaw,56
+Emanuel Prockter,Ollerenshaw,1512
+Ollerenshaw,Prockter  ,56
+James Ollerenshaw's,Ollerenshaw,168
+Ollerenshaw,Trafalgar,336
+Nos,Ollerenshaw,56
+Beau Brummel,Ollerenshaw,56
+Ollerenshaw,Whitaker,56
+Butt,Ollerenshaw,2016
+Ollerenshaw,Uncle,280
+Mester Ollerenshaw,Ollerenshaw,56
+Ollerenshaw,Susan - an afternoon,56
+Ollerenshaw,Prockter - a,56
+George Frederick Handel,Ollerenshaw,56
+Ollerenshaw,Robin Adair,56
+Ollerenshaw,Yorkshire,280
+Confucius,Ollerenshaw,56
+Ollerenshaw,Uncle James,392
+Ollerenshaw,Shakespearean,56
+Ollerenshaw,Sarah Swetnam,840
+Ollerenshaw,Swetnam,280
+Ollerenshaw,Sally,448
+Ollerenshaw,Sarah,1680
+Brunt,Ollerenshaw,280
+Lilian,Ollerenshaw,112
+Andrew Dean,Ollerenshaw,2016
+Nell,Ollerenshaw,56
+Jane,Ollerenshaw,56
+Jimmy,Ollerenshaw,896
+Dean,Ollerenshaw,560
+Churchman,Ollerenshaw,56
+Emanuel,Ollerenshaw,336
+Georgiana,Ollerenshaw,1120
+Jarndyce,Ollerenshaw,280
+Kiel,Ollerenshaw,56
+Flora Prockter,Ollerenshaw,56
+Flora,Ollerenshaw,56
+Ollerenshaw,Ted,56
+Ollerenshaw,Ronald,56
+Ollerenshaw,Ronald Swetnam,56
+Jos,Ollerenshaw,168
+Jos Swetman,Ollerenshaw,56
+Jos Swetnam,Ollerenshaw,168
+Emanuel Prockter's,Ollerenshaw,56
+Joe,Ollerenshaw,56
+Benskin,Ollerenshaw,112
+Andrew,Ollerenshaw,560
+Ollerenshaw,Wilbrahams,224
+Carey,Ollerenshaw,56
+Oldcastle,Ollerenshaw,56
+Miser,Ollerenshaw,56
+Ollerenshaw,Ye,56
+Machiavelli,Ollerenshaw,56
+Hanbridge,Ollerenshaw,56
+Crewe,Ollerenshaw,224
+Bass,Ollerenshaw,56
+Helen - she,Ollerenshaw,56
+Edinburgh,Ollerenshaw,56
+Ollerenshaw,Welsh,56
+Hurrah,Ollerenshaw,56
+Crump,Ollerenshaw,336
+Ezra Brunt,Ollerenshaw,56
+Hall,Ollerenshaw,112
+Emanuel Prockter - I,Ollerenshaw,56
+Ollerenshaw,Ye'll,56
+Light,Ollerenshaw,56
+Glad,Ollerenshaw,56
+Ollerenshaw,Paisley,56
+Ollerenshaw,Swetnams,56
+Joshua,Ollerenshaw,56
+Mont Blanc,Ollerenshaw,56
+Don Juan,Ollerenshaw,56
+Norseman,Ollerenshaw,56
+Buchanan,Ollerenshaw,112
+Derby,Ollerenshaw,56
+Bechstein,Ollerenshaw,56
+Ollerenshaw,Wiltshire,168
+Hush,Ollerenshaw,56
+Nottingham,Ollerenshaw,56
+Lilian Swetnam,Ollerenshaw,56
+Fritz,Ollerenshaw,168
+Dickens,Ollerenshaw,56
+Charles Dickens,Ollerenshaw,56
+James,Jimmy Ollerenshaw,1278
+Ephraim Tellwright,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Susan,180
+Jimmy Ollerenshaw,Longshaw,84
+Jimmy Ollerenshaw,Rathbone,18
+Helen Rathbone's,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Josiah Wedgwood,6
+Helen,Jimmy Ollerenshaw,768
+Jimmy Ollerenshaw,Prockter,864
+Helen Rathbone,Jimmy Ollerenshaw,12
+Bratt,Jimmy Ollerenshaw,42
+Glasgow,Jimmy Ollerenshaw,72
+Jimmy Ollerenshaw,Moorthorne,12
+Avert,Jimmy Ollerenshaw,6
+Emanuel Prockter,Jimmy Ollerenshaw,162
+Jimmy Ollerenshaw,Prockter  ,6
+James Ollerenshaw's,Jimmy Ollerenshaw,18
+Jimmy Ollerenshaw,Trafalgar,36
+Jimmy Ollerenshaw,Nos,6
+Beau Brummel,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Whitaker,6
+Butt,Jimmy Ollerenshaw,216
+Jimmy Ollerenshaw,Uncle,30
+Jimmy Ollerenshaw,Mester Ollerenshaw,6
+Jimmy Ollerenshaw,Susan - an afternoon,6
+Jimmy Ollerenshaw,Prockter - a,6
+George Frederick Handel,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Robin Adair,6
+Jimmy Ollerenshaw,Yorkshire,30
+Confucius,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Uncle James,42
+Jimmy Ollerenshaw,Shakespearean,6
+Jimmy Ollerenshaw,Sarah Swetnam,90
+Jimmy Ollerenshaw,Swetnam,30
+Jimmy Ollerenshaw,Sally,48
+Jimmy Ollerenshaw,Sarah,180
+Brunt,Jimmy Ollerenshaw,30
+Jimmy Ollerenshaw,Lilian,12
+Andrew Dean,Jimmy Ollerenshaw,216
+Jimmy Ollerenshaw,Nell,6
+Jane,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Jimmy Ollerenshaw,15
+Jimmy,Jimmy Ollerenshaw,96
+Dean,Jimmy Ollerenshaw,60
+Churchman,Jimmy Ollerenshaw,6
+Emanuel,Jimmy Ollerenshaw,36
+Georgiana,Jimmy Ollerenshaw,120
+Jarndyce,Jimmy Ollerenshaw,30
+Jimmy Ollerenshaw,Kiel,6
+Flora Prockter,Jimmy Ollerenshaw,6
+Flora,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Ted,6
+Jimmy Ollerenshaw,Ronald,6
+Jimmy Ollerenshaw,Ronald Swetnam,6
+Jimmy Ollerenshaw,Jos,18
+Jimmy Ollerenshaw,Jos Swetman,6
+Jimmy Ollerenshaw,Jos Swetnam,18
+Emanuel Prockter's,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Joe,6
+Benskin,Jimmy Ollerenshaw,12
+Andrew,Jimmy Ollerenshaw,60
+Jimmy Ollerenshaw,Wilbrahams,24
+Carey,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Oldcastle,6
+Jimmy Ollerenshaw,Miser,6
+Jimmy Ollerenshaw,Ye,6
+Jimmy Ollerenshaw,Machiavelli,6
+Hanbridge,Jimmy Ollerenshaw,6
+Crewe,Jimmy Ollerenshaw,24
+Bass,Jimmy Ollerenshaw,6
+Helen - she,Jimmy Ollerenshaw,6
+Edinburgh,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Welsh,6
+Hurrah,Jimmy Ollerenshaw,6
+Crump,Jimmy Ollerenshaw,36
+Ezra Brunt,Jimmy Ollerenshaw,6
+Hall,Jimmy Ollerenshaw,12
+Emanuel Prockter - I,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Ye'll,6
+Jimmy Ollerenshaw,Light,6
+Glad,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Paisley,6
+Jimmy Ollerenshaw,Swetnams,6
+Jimmy Ollerenshaw,Joshua,6
+Jimmy Ollerenshaw,Mont Blanc,6
+Don Juan,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Norseman,6
+Buchanan,Jimmy Ollerenshaw,12
+Derby,Jimmy Ollerenshaw,6
+Bechstein,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Wiltshire,18
+Hush,Jimmy Ollerenshaw,6
+Jimmy Ollerenshaw,Nottingham,6
+Jimmy Ollerenshaw,Lilian Swetnam,6
+Fritz,Jimmy Ollerenshaw,18
+Dickens,Jimmy Ollerenshaw,6
+Charles Dickens,Jimmy Ollerenshaw,6
+Ephraim Tellwright,James,213
+James,Susan,6390
+James,James,22578
+James,Longshaw,2982
+James,Rathbone,639
+Helen Rathbone's,James,213
+James,Josiah Wedgwood,213
+Helen,James,27264
+James,Prockter,30672
+Helen Rathbone,James,426
+Bratt,James,1491
+Glasgow,James,2556
+James,Moorthorne,426
+Avert,James,213
+Emanuel Prockter,James,5751
+James,Prockter  ,213
+James,James Ollerenshaw's,639
+James,Trafalgar,1278
+James,Nos,213
+Beau Brummel,James,213
+James,Whitaker,213
+Butt,James,7668
+James,Uncle,1065
+James,Mester Ollerenshaw,213
+James,Susan - an afternoon,213
+James,Prockter - a,213
+George Frederick Handel,James,213
+James,Robin Adair,213
+James,Yorkshire,1065
+Confucius,James,213
+James,Uncle James,1491
+James,Shakespearean,213
+James,Sarah Swetnam,3195
+James,Swetnam,1065
+James,Sally,1704
+James,Sarah,6390
+Brunt,James,1065
+James,Lilian,426
+Andrew Dean,James,7668
+James,Nell,213
+James,Jane,213
+James,Jimmy,3408
+Dean,James,2130
+Churchman,James,213
+Emanuel,James,1278
+Georgiana,James,4260
+James,Jarndyce,1065
+James,Kiel,213
+Flora Prockter,James,213
+Flora,James,213
+James,Ted,213
+James,Ronald,213
+James,Ronald Swetnam,213
+James,Jos,639
+James,Jos Swetman,213
+James,Jos Swetnam,639
+Emanuel Prockter's,James,213
+James,Joe,213
+Benskin,James,426
+Andrew,James,2130
+James,Wilbrahams,852
+Carey,James,213
+James,Oldcastle,213
+James,Miser,213
+James,Ye,213
+James,Machiavelli,213
+Hanbridge,James,213
+Crewe,James,852
+Bass,James,213
+Helen - she,James,213
+Edinburgh,James,213
+James,Welsh,213
+Hurrah,James,213
+Crump,James,1278
+Ezra Brunt,James,213
+Hall,James,426
+Emanuel Prockter - I,James,213
+James,Ye'll,213
+James,Light,213
+Glad,James,213
+James,Paisley,213
+James,Swetnams,213
+James,Joshua,213
+James,Mont Blanc,213
+Don Juan,James,213
+James,Norseman,213
+Buchanan,James,426
+Derby,James,213
+Bechstein,James,213
+James,Wiltshire,639
+Hush,James,213
+James,Nottingham,213
+James,Lilian Swetnam,213
+Fritz,James,639
+Dickens,James,213
+Charles Dickens,James,213
+Ephraim Tellwright,Susan,30
+Ephraim Tellwright,Longshaw,14
+Ephraim Tellwright,Rathbone,3
+Ephraim Tellwright,Helen Rathbone's,1
+Ephraim Tellwright,Josiah Wedgwood,1
+Ephraim Tellwright,Helen,128
+Ephraim Tellwright,Prockter,144
+Ephraim Tellwright,Helen Rathbone,2
+Bratt,Ephraim Tellwright,7
+Ephraim Tellwright,Glasgow,12
+Ephraim Tellwright,Moorthorne,2
+Avert,Ephraim Tellwright,1
+Emanuel Prockter,Ephraim Tellwright,27
+Ephraim Tellwright,Prockter  ,1
+Ephraim Tellwright,James Ollerenshaw's,3
+Ephraim Tellwright,Trafalgar,6
+Ephraim Tellwright,Nos,1
+Beau Brummel,Ephraim Tellwright,1
+Ephraim Tellwright,Whitaker,1
+Butt,Ephraim Tellwright,36
+Ephraim Tellwright,Uncle,5
+Ephraim Tellwright,Mester Ollerenshaw,1
+Ephraim Tellwright,Susan - an afternoon,1
+Ephraim Tellwright,Prockter - a,1
+Ephraim Tellwright,George Frederick Handel,1
+Ephraim Tellwright,Robin Adair,1
+Ephraim Tellwright,Yorkshire,5
+Confucius,Ephraim Tellwright,1
+Ephraim Tellwright,Uncle James,7
+Ephraim Tellwright,Shakespearean,1
+Ephraim Tellwright,Sarah Swetnam,15
+Ephraim Tellwright,Swetnam,5
+Ephraim Tellwright,Sally,8
+Ephraim Tellwright,Sarah,30
+Brunt,Ephraim Tellwright,5
+Ephraim Tellwright,Lilian,2
+Andrew Dean,Ephraim Tellwright,36
+Ephraim Tellwright,Nell,1
+Ephraim Tellwright,Jane,1
+Ephraim Tellwright,Jimmy,16
+Dean,Ephraim Tellwright,10
+Churchman,Ephraim Tellwright,1
+Emanuel,Ephraim Tellwright,6
+Ephraim Tellwright,Georgiana,20
+Ephraim Tellwright,Jarndyce,5
+Ephraim Tellwright,Kiel,1
+Ephraim Tellwright,Flora Prockter,1
+Ephraim Tellwright,Flora,1
+Ephraim Tellwright,Ted,1
+Ephraim Tellwright,Ronald,1
+Ephraim Tellwright,Ronald Swetnam,1
+Ephraim Tellwright,Jos,3
+Ephraim Tellwright,Jos Swetman,1
+Ephraim Tellwright,Jos Swetnam,3
+Emanuel Prockter's,Ephraim Tellwright,1
+Ephraim Tellwright,Joe,1
+Benskin,Ephraim Tellwright,2
+Andrew,Ephraim Tellwright,10
+Ephraim Tellwright,Wilbrahams,4
+Carey,Ephraim Tellwright,1
+Ephraim Tellwright,Oldcastle,1
+Ephraim Tellwright,Miser,1
+Ephraim Tellwright,Ye,1
+Ephraim Tellwright,Machiavelli,1
+Ephraim Tellwright,Hanbridge,1
+Crewe,Ephraim Tellwright,4
+Bass,Ephraim Tellwright,1
+Ephraim Tellwright,Helen - she,1
+Edinburgh,Ephraim Tellwright,1
+Ephraim Tellwright,Welsh,1
+Ephraim Tellwright,Hurrah,1
+Crump,Ephraim Tellwright,6
+Ephraim Tellwright,Ezra Brunt,1
+Ephraim Tellwright,Hall,2
+Emanuel Prockter - I,Ephraim Tellwright,1
+Ephraim Tellwright,Ye'll,1
+Ephraim Tellwright,Light,1
+Ephraim Tellwright,Glad,1
+Ephraim Tellwright,Paisley,1
+Ephraim Tellwright,Swetnams,1
+Ephraim Tellwright,Joshua,1
+Ephraim Tellwright,Mont Blanc,1
+Don Juan,Ephraim Tellwright,1
+Ephraim Tellwright,Norseman,1
+Buchanan,Ephraim Tellwright,2
+Derby,Ephraim Tellwright,1
+Bechstein,Ephraim Tellwright,1
+Ephraim Tellwright,Wiltshire,3
+Ephraim Tellwright,Hush,1
+Ephraim Tellwright,Nottingham,1
+Ephraim Tellwright,Lilian Swetnam,1
+Ephraim Tellwright,Fritz,3
+Dickens,Ephraim Tellwright,1
+Charles Dickens,Ephraim Tellwright,1
+Susan,Susan,435
+Longshaw,Susan,420
+Rathbone,Susan,90
+Helen Rathbone's,Susan,30
+Josiah Wedgwood,Susan,30
+Helen,Susan,3840
+Prockter,Susan,4320
+Helen Rathbone,Susan,60
+Bratt,Susan,210
+Glasgow,Susan,360
+Moorthorne,Susan,60
+Avert,Susan,30
+Emanuel Prockter,Susan,810
+Prockter  ,Susan,30
+James Ollerenshaw's,Susan,90
+Susan,Trafalgar,180
+Nos,Susan,30
+Beau Brummel,Susan,30
+Susan,Whitaker,30
+Butt,Susan,1080
+Susan,Uncle,150
+Mester Ollerenshaw,Susan,30
+Susan,Susan - an afternoon,30
+Prockter - a,Susan,30
+George Frederick Handel,Susan,30
+Robin Adair,Susan,30
+Susan,Yorkshire,150
+Confucius,Susan,30
+Susan,Uncle James,210
+Shakespearean,Susan,30
+Sarah Swetnam,Susan,450
+Susan,Swetnam,150
+Sally,Susan,240
+Sarah,Susan,900
+Brunt,Susan,150
+Lilian,Susan,60
+Andrew Dean,Susan,1080
+Nell,Susan,30
+Jane,Susan,30
+Jimmy,Susan,480
+Dean,Susan,300
+Churchman,Susan,30
+Emanuel,Susan,180
+Georgiana,Susan,600
+Jarndyce,Susan,150
+Kiel,Susan,30
+Flora Prockter,Susan,30
+Flora,Susan,30
+Susan,Ted,30
+Ronald,Susan,30
+Ronald Swetnam,Susan,30
+Jos,Susan,90
+Jos Swetman,Susan,30
+Jos Swetnam,Susan,90
+Emanuel Prockter's,Susan,30
+Joe,Susan,30
+Benskin,Susan,60
+Andrew,Susan,300
+Susan,Wilbrahams,120
+Carey,Susan,30
+Oldcastle,Susan,30
+Miser,Susan,30
+Susan,Ye,30
+Machiavelli,Susan,30
+Hanbridge,Susan,30
+Crewe,Susan,120
+Bass,Susan,30
+Helen - she,Susan,30
+Edinburgh,Susan,30
+Susan,Welsh,30
+Hurrah,Susan,30
+Crump,Susan,180
+Ezra Brunt,Susan,30
+Hall,Susan,60
+Emanuel Prockter - I,Susan,30
+Susan,Ye'll,30
+Light,Susan,30
+Glad,Susan,30
+Paisley,Susan,30
+Susan,Swetnams,30
+Joshua,Susan,30
+Mont Blanc,Susan,30
+Don Juan,Susan,30
+Norseman,Susan,30
+Buchanan,Susan,60
+Derby,Susan,30
+Bechstein,Susan,30
+Susan,Wiltshire,90
+Hush,Susan,30
+Nottingham,Susan,30
+Lilian Swetnam,Susan,30
+Fritz,Susan,90
+Dickens,Susan,30
+Charles Dickens,Susan,30
+Longshaw,Rathbone,42
+Longshaw,Longshaw,91
+Helen Rathbone's,Longshaw,14
+Josiah Wedgwood,Longshaw,14
+Helen,Longshaw,1792
+Longshaw,Prockter,2016
+Helen Rathbone,Longshaw,28
+Bratt,Longshaw,98
+Glasgow,Longshaw,168
+Longshaw,Moorthorne,28
+Avert,Longshaw,14
+Emanuel Prockter,Longshaw,378
+Longshaw,Prockter  ,14
+James Ollerenshaw's,Longshaw,42
+Longshaw,Trafalgar,84
+Longshaw,Nos,14
+Beau Brummel,Longshaw,14
+Longshaw,Whitaker,14
+Butt,Longshaw,504
+Longshaw,Uncle,70
+Longshaw,Mester Ollerenshaw,14
+Longshaw,Susan - an afternoon,14
+Longshaw,Prockter - a,14
+George Frederick Handel,Longshaw,14
+Longshaw,Robin Adair,14
+Longshaw,Yorkshire,70
+Confucius,Longshaw,14
+Longshaw,Uncle James,98
+Longshaw,Shakespearean,14
+Longshaw,Sarah Swetnam,210
+Longshaw,Swetnam,70
+Longshaw,Sally,112
+Longshaw,Sarah,420
+Brunt,Longshaw,70
+Lilian,Longshaw,28
+Andrew Dean,Longshaw,504
+Longshaw,Nell,14
+Jane,Longshaw,14
+Jimmy,Longshaw,224
+Dean,Longshaw,140
+Churchman,Longshaw,14
+Emanuel,Longshaw,84
+Georgiana,Longshaw,280
+Jarndyce,Longshaw,70
+Kiel,Longshaw,14
+Flora Prockter,Longshaw,14
+Flora,Longshaw,14
+Longshaw,Ted,14
+Longshaw,Ronald,14
+Longshaw,Ronald Swetnam,14
+Jos,Longshaw,42
+Jos Swetman,Longshaw,14
+Jos Swetnam,Longshaw,42
+Emanuel Prockter's,Longshaw,14
+Joe,Longshaw,14
+Benskin,Longshaw,28
+Andrew,Longshaw,140
+Longshaw,Wilbrahams,56
+Carey,Longshaw,14
+Longshaw,Oldcastle,14
+Longshaw,Miser,14
+Longshaw,Ye,14
+Longshaw,Machiavelli,14
+Hanbridge,Longshaw,14
+Crewe,Longshaw,56
+Bass,Longshaw,14
+Helen - she,Longshaw,14
+Edinburgh,Longshaw,14
+Longshaw,Welsh,14
+Hurrah,Longshaw,14
+Crump,Longshaw,84
+Ezra Brunt,Longshaw,14
+Hall,Longshaw,28
+Emanuel Prockter - I,Longshaw,14
+Longshaw,Ye'll,14
+Light,Longshaw,14
+Glad,Longshaw,14
+Longshaw,Paisley,14
+Longshaw,Swetnams,14
+Joshua,Longshaw,14
+Longshaw,Mont Blanc,14
+Don Juan,Longshaw,14
+Longshaw,Norseman,14
+Buchanan,Longshaw,28
+Derby,Longshaw,14
+Bechstein,Longshaw,14
+Longshaw,Wiltshire,42
+Hush,Longshaw,14
+Longshaw,Nottingham,14
+Lilian Swetnam,Longshaw,14
+Fritz,Longshaw,42
+Dickens,Longshaw,14
+Charles Dickens,Longshaw,14
+Rathbone,Rathbone,3
+Helen Rathbone's,Rathbone,3
+Josiah Wedgwood,Rathbone,3
+Helen,Rathbone,384
+Prockter,Rathbone,432
+Helen Rathbone,Rathbone,6
+Bratt,Rathbone,21
+Glasgow,Rathbone,36
+Moorthorne,Rathbone,6
+Avert,Rathbone,3
+Emanuel Prockter,Rathbone,81
+Prockter  ,Rathbone,3
+James Ollerenshaw's,Rathbone,9
+Rathbone,Trafalgar,18
+Nos,Rathbone,3
+Beau Brummel,Rathbone,3
+Rathbone,Whitaker,3
+Butt,Rathbone,108
+Rathbone,Uncle,15
+Mester Ollerenshaw,Rathbone,3
+Rathbone,Susan - an afternoon,3
+Prockter - a,Rathbone,3
+George Frederick Handel,Rathbone,3
+Rathbone,Robin Adair,3
+Rathbone,Yorkshire,15
+Confucius,Rathbone,3
+Rathbone,Uncle James,21
+Rathbone,Shakespearean,3
+Rathbone,Sarah Swetnam,45
+Rathbone,Swetnam,15
+Rathbone,Sally,24
+Rathbone,Sarah,90
+Brunt,Rathbone,15
+Lilian,Rathbone,6
+Andrew Dean,Rathbone,108
+Nell,Rathbone,3
+Jane,Rathbone,3
+Jimmy,Rathbone,48
+Dean,Rathbone,30
+Churchman,Rathbone,3
+Emanuel,Rathbone,18
+Georgiana,Rathbone,60
+Jarndyce,Rathbone,15
+Kiel,Rathbone,3
+Flora Prockter,Rathbone,3
+Flora,Rathbone,3
+Rathbone,Ted,3
+Rathbone,Ronald,3
+Rathbone,Ronald Swetnam,3
+Jos,Rathbone,9
+Jos Swetman,Rathbone,3
+Jos Swetnam,Rathbone,9
+Emanuel Prockter's,Rathbone,3
+Joe,Rathbone,3
+Benskin,Rathbone,6
+Andrew,Rathbone,30
+Rathbone,Wilbrahams,12
+Carey,Rathbone,3
+Oldcastle,Rathbone,3
+Miser,Rathbone,3
+Rathbone,Ye,3
+Machiavelli,Rathbone,3
+Hanbridge,Rathbone,3
+Crewe,Rathbone,12
+Bass,Rathbone,3
+Helen - she,Rathbone,3
+Edinburgh,Rathbone,3
+Rathbone,Welsh,3
+Hurrah,Rathbone,3
+Crump,Rathbone,18
+Ezra Brunt,Rathbone,3
+Hall,Rathbone,6
+Emanuel Prockter - I,Rathbone,3
+Rathbone,Ye'll,3
+Light,Rathbone,3
+Glad,Rathbone,3
+Paisley,Rathbone,3
+Rathbone,Swetnams,3
+Joshua,Rathbone,3
+Mont Blanc,Rathbone,3
+Don Juan,Rathbone,3
+Norseman,Rathbone,3
+Buchanan,Rathbone,6
+Derby,Rathbone,3
+Bechstein,Rathbone,3
+Rathbone,Wiltshire,9
+Hush,Rathbone,3
+Nottingham,Rathbone,3
+Lilian Swetnam,Rathbone,3
+Fritz,Rathbone,9
+Dickens,Rathbone,3
+Charles Dickens,Rathbone,3
+Helen Rathbone's,Josiah Wedgwood,1
+Helen,Helen Rathbone's,128
+Helen Rathbone's,Prockter,144
+Helen Rathbone,Helen Rathbone's,2
+Bratt,Helen Rathbone's,7
+Glasgow,Helen Rathbone's,12
+Helen Rathbone's,Moorthorne,2
+Avert,Helen Rathbone's,1
+Emanuel Prockter,Helen Rathbone's,27
+Helen Rathbone's,Prockter  ,1
+Helen Rathbone's,James Ollerenshaw's,3
+Helen Rathbone's,Trafalgar,6
+Helen Rathbone's,Nos,1
+Beau Brummel,Helen Rathbone's,1
+Helen Rathbone's,Whitaker,1
+Butt,Helen Rathbone's,36
+Helen Rathbone's,Uncle,5
+Helen Rathbone's,Mester Ollerenshaw,1
+Helen Rathbone's,Susan - an afternoon,1
+Helen Rathbone's,Prockter - a,1
+George Frederick Handel,Helen Rathbone's,1
+Helen Rathbone's,Robin Adair,1
+Helen Rathbone's,Yorkshire,5
+Confucius,Helen Rathbone's,1
+Helen Rathbone's,Uncle James,7
+Helen Rathbone's,Shakespearean,1
+Helen Rathbone's,Sarah Swetnam,15
+Helen Rathbone's,Swetnam,5
+Helen Rathbone's,Sally,8
+Helen Rathbone's,Sarah,30
+Brunt,Helen Rathbone's,5
+Helen Rathbone's,Lilian,2
+Andrew Dean,Helen Rathbone's,36
+Helen Rathbone's,Nell,1
+Helen Rathbone's,Jane,1
+Helen Rathbone's,Jimmy,16
+Dean,Helen Rathbone's,10
+Churchman,Helen Rathbone's,1
+Emanuel,Helen Rathbone's,6
+Georgiana,Helen Rathbone's,20
+Helen Rathbone's,Jarndyce,5
+Helen Rathbone's,Kiel,1
+Flora Prockter,Helen Rathbone's,1
+Flora,Helen Rathbone's,1
+Helen Rathbone's,Ted,1
+Helen Rathbone's,Ronald,1
+Helen Rathbone's,Ronald Swetnam,1
+Helen Rathbone's,Jos,3
+Helen Rathbone's,Jos Swetman,1
+Helen Rathbone's,Jos Swetnam,3
+Emanuel Prockter's,Helen Rathbone's,1
+Helen Rathbone's,Joe,1
+Benskin,Helen Rathbone's,2
+Andrew,Helen Rathbone's,10
+Helen Rathbone's,Wilbrahams,4
+Carey,Helen Rathbone's,1
+Helen Rathbone's,Oldcastle,1
+Helen Rathbone's,Miser,1
+Helen Rathbone's,Ye,1
+Helen Rathbone's,Machiavelli,1
+Hanbridge,Helen Rathbone's,1
+Crewe,Helen Rathbone's,4
+Bass,Helen Rathbone's,1
+Helen - she,Helen Rathbone's,1
+Edinburgh,Helen Rathbone's,1
+Helen Rathbone's,Welsh,1
+Helen Rathbone's,Hurrah,1
+Crump,Helen Rathbone's,6
+Ezra Brunt,Helen Rathbone's,1
+Hall,Helen Rathbone's,2
+Emanuel Prockter - I,Helen Rathbone's,1
+Helen Rathbone's,Ye'll,1
+Helen Rathbone's,Light,1
+Glad,Helen Rathbone's,1
+Helen Rathbone's,Paisley,1
+Helen Rathbone's,Swetnams,1
+Helen Rathbone's,Joshua,1
+Helen Rathbone's,Mont Blanc,1
+Don Juan,Helen Rathbone's,1
+Helen Rathbone's,Norseman,1
+Buchanan,Helen Rathbone's,2
+Derby,Helen Rathbone's,1
+Bechstein,Helen Rathbone's,1
+Helen Rathbone's,Wiltshire,3
+Helen Rathbone's,Hush,1
+Helen Rathbone's,Nottingham,1
+Helen Rathbone's,Lilian Swetnam,1
+Fritz,Helen Rathbone's,3
+Dickens,Helen Rathbone's,1
+Charles Dickens,Helen Rathbone's,1
+Helen,Josiah Wedgwood,128
+Josiah Wedgwood,Prockter,144
+Helen Rathbone,Josiah Wedgwood,2
+Bratt,Josiah Wedgwood,7
+Glasgow,Josiah Wedgwood,12
+Josiah Wedgwood,Moorthorne,2
+Avert,Josiah Wedgwood,1
+Emanuel Prockter,Josiah Wedgwood,27
+Josiah Wedgwood,Prockter  ,1
+James Ollerenshaw's,Josiah Wedgwood,3
+Josiah Wedgwood,Trafalgar,6
+Josiah Wedgwood,Nos,1
+Beau Brummel,Josiah Wedgwood,1
+Josiah Wedgwood,Whitaker,1
+Butt,Josiah Wedgwood,36
+Josiah Wedgwood,Uncle,5
+Josiah Wedgwood,Mester Ollerenshaw,1
+Josiah Wedgwood,Susan - an afternoon,1
+Josiah Wedgwood,Prockter - a,1
+George Frederick Handel,Josiah Wedgwood,1
+Josiah Wedgwood,Robin Adair,1
+Josiah Wedgwood,Yorkshire,5
+Confucius,Josiah Wedgwood,1
+Josiah Wedgwood,Uncle James,7
+Josiah Wedgwood,Shakespearean,1
+Josiah Wedgwood,Sarah Swetnam,15
+Josiah Wedgwood,Swetnam,5
+Josiah Wedgwood,Sally,8
+Josiah Wedgwood,Sarah,30
+Brunt,Josiah Wedgwood,5
+Josiah Wedgwood,Lilian,2
+Andrew Dean,Josiah Wedgwood,36
+Josiah Wedgwood,Nell,1
+Jane,Josiah Wedgwood,1
+Jimmy,Josiah Wedgwood,16
+Dean,Josiah Wedgwood,10
+Churchman,Josiah Wedgwood,1
+Emanuel,Josiah Wedgwood,6
+Georgiana,Josiah Wedgwood,20
+Jarndyce,Josiah Wedgwood,5
+Josiah Wedgwood,Kiel,1
+Flora Prockter,Josiah Wedgwood,1
+Flora,Josiah Wedgwood,1
+Josiah Wedgwood,Ted,1
+Josiah Wedgwood,Ronald,1
+Josiah Wedgwood,Ronald Swetnam,1
+Jos,Josiah Wedgwood,3
+Jos Swetman,Josiah Wedgwood,1
+Jos Swetnam,Josiah Wedgwood,3
+Emanuel Prockter's,Josiah Wedgwood,1
+Joe,Josiah Wedgwood,1
+Benskin,Josiah Wedgwood,2
+Andrew,Josiah Wedgwood,10
+Josiah Wedgwood,Wilbrahams,4
+Carey,Josiah Wedgwood,1
+Josiah Wedgwood,Oldcastle,1
+Josiah Wedgwood,Miser,1
+Josiah Wedgwood,Ye,1
+Josiah Wedgwood,Machiavelli,1
+Hanbridge,Josiah Wedgwood,1
+Crewe,Josiah Wedgwood,4
+Bass,Josiah Wedgwood,1
+Helen - she,Josiah Wedgwood,1
+Edinburgh,Josiah Wedgwood,1
+Josiah Wedgwood,Welsh,1
+Hurrah,Josiah Wedgwood,1
+Crump,Josiah Wedgwood,6
+Ezra Brunt,Josiah Wedgwood,1
+Hall,Josiah Wedgwood,2
+Emanuel Prockter - I,Josiah Wedgwood,1
+Josiah Wedgwood,Ye'll,1
+Josiah Wedgwood,Light,1
+Glad,Josiah Wedgwood,1
+Josiah Wedgwood,Paisley,1
+Josiah Wedgwood,Swetnams,1
+Joshua,Josiah Wedgwood,1
+Josiah Wedgwood,Mont Blanc,1
+Don Juan,Josiah Wedgwood,1
+Josiah Wedgwood,Norseman,1
+Buchanan,Josiah Wedgwood,2
+Derby,Josiah Wedgwood,1
+Bechstein,Josiah Wedgwood,1
+Josiah Wedgwood,Wiltshire,3
+Hush,Josiah Wedgwood,1
+Josiah Wedgwood,Nottingham,1
+Josiah Wedgwood,Lilian Swetnam,1
+Fritz,Josiah Wedgwood,3
+Dickens,Josiah Wedgwood,1
+Charles Dickens,Josiah Wedgwood,1
+Helen,Helen,8128
+Helen,Prockter,18432
+Helen,Helen Rathbone,256
+Bratt,Helen,896
+Glasgow,Helen,1536
+Helen,Moorthorne,256
+Avert,Helen,128
+Emanuel Prockter,Helen,3456
+Helen,Prockter  ,128
+Helen,James Ollerenshaw's,384
+Helen,Trafalgar,768
+Helen,Nos,128
+Beau Brummel,Helen,128
+Helen,Whitaker,128
+Butt,Helen,4608
+Helen,Uncle,640
+Helen,Mester Ollerenshaw,128
+Helen,Susan - an afternoon,128
+Helen,Prockter - a,128
+George Frederick Handel,Helen,128
+Helen,Robin Adair,128
+Helen,Yorkshire,640
+Confucius,Helen,128
+Helen,Uncle James,896
+Helen,Shakespearean,128
+Helen,Sarah Swetnam,1920
+Helen,Swetnam,640
+Helen,Sally,1024
+Helen,Sarah,3840
+Brunt,Helen,640
+Helen,Lilian,256
+Andrew Dean,Helen,4608
+Helen,Nell,128
+Helen,Jane,128
+Helen,Jimmy,2048
+Dean,Helen,1280
+Churchman,Helen,128
+Emanuel,Helen,768
+Georgiana,Helen,2560
+Helen,Jarndyce,640
+Helen,Kiel,128
+Flora Prockter,Helen,128
+Flora,Helen,128
+Helen,Ted,128
+Helen,Ronald,128
+Helen,Ronald Swetnam,128
+Helen,Jos,384
+Helen,Jos Swetman,128
+Helen,Jos Swetnam,384
+Emanuel Prockter's,Helen,128
+Helen,Joe,128
+Benskin,Helen,256
+Andrew,Helen,1280
+Helen,Wilbrahams,512
+Carey,Helen,128
+Helen,Oldcastle,128
+Helen,Miser,128
+Helen,Ye,128
+Helen,Machiavelli,128
+Hanbridge,Helen,128
+Crewe,Helen,512
+Bass,Helen,128
+Helen,Helen - she,128
+Edinburgh,Helen,128
+Helen,Welsh,128
+Helen,Hurrah,128
+Crump,Helen,768
+Ezra Brunt,Helen,128
+Hall,Helen,256
+Emanuel Prockter - I,Helen,128
+Helen,Ye'll,128
+Helen,Light,128
+Glad,Helen,128
+Helen,Paisley,128
+Helen,Swetnams,128
+Helen,Joshua,128
+Helen,Mont Blanc,128
+Don Juan,Helen,128
+Helen,Norseman,128
+Buchanan,Helen,256
+Derby,Helen,128
+Bechstein,Helen,128
+Helen,Wiltshire,384
+Helen,Hush,128
+Helen,Nottingham,128
+Helen,Lilian Swetnam,128
+Fritz,Helen,384
+Dickens,Helen,128
+Charles Dickens,Helen,128
+Prockter,Prockter,10296
+Helen Rathbone,Prockter,288
+Bratt,Prockter,1008
+Glasgow,Prockter,1728
+Moorthorne,Prockter,288
+Avert,Prockter,144
+Emanuel Prockter,Prockter,3888
+Prockter,Prockter  ,144
+James Ollerenshaw's,Prockter,432
+Prockter,Trafalgar,864
+Nos,Prockter,144
+Beau Brummel,Prockter,144
+Prockter,Whitaker,144
+Butt,Prockter,5184
+Prockter,Uncle,720
+Mester Ollerenshaw,Prockter,144
+Prockter,Susan - an afternoon,144
+Prockter,Prockter - a,144
+George Frederick Handel,Prockter,144
+Prockter,Robin Adair,144
+Prockter,Yorkshire,720
+Confucius,Prockter,144
+Prockter,Uncle James,1008
+Prockter,Shakespearean,144
+Prockter,Sarah Swetnam,2160
+Prockter,Swetnam,720
+Prockter,Sally,1152
+Prockter,Sarah,4320
+Brunt,Prockter,720
+Lilian,Prockter,288
+Andrew Dean,Prockter,5184
+Nell,Prockter,144
+Jane,Prockter,144
+Jimmy,Prockter,2304
+Dean,Prockter,1440
+Churchman,Prockter,144
+Emanuel,Prockter,864
+Georgiana,Prockter,2880
+Jarndyce,Prockter,720
+Kiel,Prockter,144
+Flora Prockter,Prockter,144
+Flora,Prockter,144
+Prockter,Ted,144
+Prockter,Ronald,144
+Prockter,Ronald Swetnam,144
+Jos,Prockter,432
+Jos Swetman,Prockter,144
+Jos Swetnam,Prockter,432
+Emanuel Prockter's,Prockter,144
+Joe,Prockter,144
+Benskin,Prockter,288
+Andrew,Prockter,1440
+Prockter,Wilbrahams,576
+Carey,Prockter,144
+Oldcastle,Prockter,144
+Miser,Prockter,144
+Prockter,Ye,144
+Machiavelli,Prockter,144
+Hanbridge,Prockter,144
+Crewe,Prockter,576
+Bass,Prockter,144
+Helen - she,Prockter,144
+Edinburgh,Prockter,144
+Prockter,Welsh,144
+Hurrah,Prockter,144
+Crump,Prockter,864
+Ezra Brunt,Prockter,144
+Hall,Prockter,288
+Emanuel Prockter - I,Prockter,144
+Prockter,Ye'll,144
+Light,Prockter,144
+Glad,Prockter,144
+Paisley,Prockter,144
+Prockter,Swetnams,144
+Joshua,Prockter,144
+Mont Blanc,Prockter,144
+Don Juan,Prockter,144
+Norseman,Prockter,144
+Buchanan,Prockter,288
+Derby,Prockter,144
+Bechstein,Prockter,144
+Prockter,Wiltshire,432
+Hush,Prockter,144
+Nottingham,Prockter,144
+Lilian Swetnam,Prockter,144
+Fritz,Prockter,432
+Dickens,Prockter,144
+Charles Dickens,Prockter,144
+Bratt,Helen Rathbone,14
+Glasgow,Helen Rathbone,24
+Helen Rathbone,Helen Rathbone,1
+Helen Rathbone,Moorthorne,4
+Avert,Helen Rathbone,2
+Emanuel Prockter,Helen Rathbone,54
+Helen Rathbone,Prockter  ,2
+Helen Rathbone,James Ollerenshaw's,6
+Helen Rathbone,Trafalgar,12
+Helen Rathbone,Nos,2
+Beau Brummel,Helen Rathbone,2
+Helen Rathbone,Whitaker,2
+Butt,Helen Rathbone,72
+Helen Rathbone,Uncle,10
+Helen Rathbone,Mester Ollerenshaw,2
+Helen Rathbone,Susan - an afternoon,2
+Helen Rathbone,Prockter - a,2
+George Frederick Handel,Helen Rathbone,2
+Helen Rathbone,Robin Adair,2
+Helen Rathbone,Yorkshire,10
+Confucius,Helen Rathbone,2
+Helen Rathbone,Uncle James,14
+Helen Rathbone,Shakespearean,2
+Helen Rathbone,Sarah Swetnam,30
+Helen Rathbone,Swetnam,10
+Helen Rathbone,Sally,16
+Helen Rathbone,Sarah,60
+Brunt,Helen Rathbone,10
+Helen Rathbone,Lilian,4
+Andrew Dean,Helen Rathbone,72
+Helen Rathbone,Nell,2
+Helen Rathbone,Jane,2
+Helen Rathbone,Jimmy,32
+Dean,Helen Rathbone,20
+Churchman,Helen Rathbone,2
+Emanuel,Helen Rathbone,12
+Georgiana,Helen Rathbone,40
+Helen Rathbone,Jarndyce,10
+Helen Rathbone,Kiel,2
+Flora Prockter,Helen Rathbone,2
+Flora,Helen Rathbone,2
+Helen Rathbone,Ted,2
+Helen Rathbone,Ronald,2
+Helen Rathbone,Ronald Swetnam,2
+Helen Rathbone,Jos,6
+Helen Rathbone,Jos Swetman,2
+Helen Rathbone,Jos Swetnam,6
+Emanuel Prockter's,Helen Rathbone,2
+Helen Rathbone,Joe,2
+Benskin,Helen Rathbone,4
+Andrew,Helen Rathbone,20
+Helen Rathbone,Wilbrahams,8
+Carey,Helen Rathbone,2
+Helen Rathbone,Oldcastle,2
+Helen Rathbone,Miser,2
+Helen Rathbone,Ye,2
+Helen Rathbone,Machiavelli,2
+Hanbridge,Helen Rathbone,2
+Crewe,Helen Rathbone,8
+Bass,Helen Rathbone,2
+Helen - she,Helen Rathbone,2
+Edinburgh,Helen Rathbone,2
+Helen Rathbone,Welsh,2
+Helen Rathbone,Hurrah,2
+Crump,Helen Rathbone,12
+Ezra Brunt,Helen Rathbone,2
+Hall,Helen Rathbone,4
+Emanuel Prockter - I,Helen Rathbone,2
+Helen Rathbone,Ye'll,2
+Helen Rathbone,Light,2
+Glad,Helen Rathbone,2
+Helen Rathbone,Paisley,2
+Helen Rathbone,Swetnams,2
+Helen Rathbone,Joshua,2
+Helen Rathbone,Mont Blanc,2
+Don Juan,Helen Rathbone,2
+Helen Rathbone,Norseman,2
+Buchanan,Helen Rathbone,4
+Derby,Helen Rathbone,2
+Bechstein,Helen Rathbone,2
+Helen Rathbone,Wiltshire,6
+Helen Rathbone,Hush,2
+Helen Rathbone,Nottingham,2
+Helen Rathbone,Lilian Swetnam,2
+Fritz,Helen Rathbone,6
+Dickens,Helen Rathbone,2
+Charles Dickens,Helen Rathbone,2
+Bratt,Bratt,21
+Bratt,Glasgow,84
+Bratt,Moorthorne,14
+Avert,Bratt,7
+Bratt,Emanuel Prockter,189
+Bratt,Prockter  ,7
+Bratt,James Ollerenshaw's,21
+Bratt,Trafalgar,42
+Bratt,Nos,7
+Beau Brummel,Bratt,7
+Bratt,Whitaker,7
+Bratt,Butt,252
+Bratt,Uncle,35
+Bratt,Mester Ollerenshaw,7
+Bratt,Susan - an afternoon,7
+Bratt,Prockter - a,7
+Bratt,George Frederick Handel,7
+Bratt,Robin Adair,7
+Bratt,Yorkshire,35
+Bratt,Confucius,7
+Bratt,Uncle James,49
+Bratt,Shakespearean,7
+Bratt,Sarah Swetnam,105
+Bratt,Swetnam,35
+Bratt,Sally,56
+Bratt,Sarah,210
+Bratt,Brunt,35
+Bratt,Lilian,14
+Andrew Dean,Bratt,252
+Bratt,Nell,7
+Bratt,Jane,7
+Bratt,Jimmy,112
+Bratt,Dean,70
+Bratt,Churchman,7
+Bratt,Emanuel,42
+Bratt,Georgiana,140
+Bratt,Jarndyce,35
+Bratt,Kiel,7
+Bratt,Flora Prockter,7
+Bratt,Flora,7
+Bratt,Ted,7
+Bratt,Ronald,7
+Bratt,Ronald Swetnam,7
+Bratt,Jos,21
+Bratt,Jos Swetman,7
+Bratt,Jos Swetnam,21
+Bratt,Emanuel Prockter's,7
+Bratt,Joe,7
+Benskin,Bratt,14
+Andrew,Bratt,70
+Bratt,Wilbrahams,28
+Bratt,Carey,7
+Bratt,Oldcastle,7
+Bratt,Miser,7
+Bratt,Ye,7
+Bratt,Machiavelli,7
+Bratt,Hanbridge,7
+Bratt,Crewe,28
+Bass,Bratt,7
+Bratt,Helen - she,7
+Bratt,Edinburgh,7
+Bratt,Welsh,7
+Bratt,Hurrah,7
+Bratt,Crump,42
+Bratt,Ezra Brunt,7
+Bratt,Hall,14
+Bratt,Emanuel Prockter - I,7
+Bratt,Ye'll,7
+Bratt,Light,7
+Bratt,Glad,7
+Bratt,Paisley,7
+Bratt,Swetnams,7
+Bratt,Joshua,7
+Bratt,Mont Blanc,7
+Bratt,Don Juan,7
+Bratt,Norseman,7
+Bratt,Buchanan,14
+Bratt,Derby,7
+Bechstein,Bratt,7
+Bratt,Wiltshire,21
+Bratt,Hush,7
+Bratt,Nottingham,7
+Bratt,Lilian Swetnam,7
+Bratt,Fritz,21
+Bratt,Dickens,7
+Bratt,Charles Dickens,7
+Glasgow,Moorthorne,24
+Avert,Glasgow,12
+Emanuel Prockter,Glasgow,324
+Glasgow,Prockter  ,12
+Glasgow,James Ollerenshaw's,36
+Glasgow,Trafalgar,72
+Glasgow,Nos,12
+Beau Brummel,Glasgow,12
+Glasgow,Whitaker,12
+Butt,Glasgow,432
+Glasgow,Uncle,60
+Glasgow,Mester Ollerenshaw,12
+Glasgow,Susan - an afternoon,12
+Glasgow,Prockter - a,12
+George Frederick Handel,Glasgow,12
+Glasgow,Robin Adair,12
+Glasgow,Yorkshire,60
+Confucius,Glasgow,12
+Glasgow,Uncle James,84
+Glasgow,Shakespearean,12
+Glasgow,Sarah Swetnam,180
+Glasgow,Swetnam,60
+Glasgow,Sally,96
+Glasgow,Sarah,360
+Brunt,Glasgow,60
+Glasgow,Lilian,24
+Andrew Dean,Glasgow,432
+Glasgow,Nell,12
+Glasgow,Jane,12
+Glasgow,Jimmy,192
+Dean,Glasgow,120
+Churchman,Glasgow,12
+Emanuel,Glasgow,72
+Georgiana,Glasgow,240
+Glasgow,Jarndyce,60
+Glasgow,Kiel,12
+Flora Prockter,Glasgow,12
+Flora,Glasgow,12
+Glasgow,Ted,12
+Glasgow,Ronald,12
+Glasgow,Ronald Swetnam,12
+Glasgow,Jos,36
+Glasgow,Jos Swetman,12
+Glasgow,Jos Swetnam,36
+Emanuel Prockter's,Glasgow,12
+Glasgow,Joe,12
+Benskin,Glasgow,24
+Andrew,Glasgow,120
+Glasgow,Wilbrahams,48
+Carey,Glasgow,12
+Glasgow,Oldcastle,12
+Glasgow,Miser,12
+Glasgow,Ye,12
+Glasgow,Machiavelli,12
+Glasgow,Hanbridge,12
+Glasgow,Glasgow,66
+Crewe,Glasgow,48
+Bass,Glasgow,12
+Glasgow,Helen - she,12
+Edinburgh,Glasgow,12
+Glasgow,Welsh,12
+Glasgow,Hurrah,12
+Crump,Glasgow,72
+Ezra Brunt,Glasgow,12
+Glasgow,Hall,24
+Emanuel Prockter - I,Glasgow,12
+Glasgow,Ye'll,12
+Glasgow,Light,12
+Glad,Glasgow,12
+Glasgow,Paisley,12
+Glasgow,Swetnams,12
+Glasgow,Joshua,12
+Glasgow,Mont Blanc,12
+Don Juan,Glasgow,12
+Glasgow,Norseman,12
+Buchanan,Glasgow,24
+Derby,Glasgow,12
+Bechstein,Glasgow,12
+Glasgow,Wiltshire,36
+Glasgow,Hush,12
+Glasgow,Nottingham,12
+Glasgow,Lilian Swetnam,12
+Fritz,Glasgow,36
+Dickens,Glasgow,12
+Charles Dickens,Glasgow,12
+Avert,Moorthorne,2
+Emanuel Prockter,Moorthorne,54
+Moorthorne,Prockter  ,2
+James Ollerenshaw's,Moorthorne,6
+Moorthorne,Trafalgar,12
+Moorthorne,Nos,2
+Beau Brummel,Moorthorne,2
+Moorthorne,Whitaker,2
+Butt,Moorthorne,72
+Moorthorne,Uncle,10
+Mester Ollerenshaw,Moorthorne,2
+Moorthorne,Susan - an afternoon,2
+Moorthorne,Prockter - a,2
+George Frederick Handel,Moorthorne,2
+Moorthorne,Robin Adair,2
+Moorthorne,Yorkshire,10
+Confucius,Moorthorne,2
+Moorthorne,Uncle James,14
+Moorthorne,Shakespearean,2
+Moorthorne,Sarah Swetnam,30
+Moorthorne,Swetnam,10
+Moorthorne,Sally,16
+Moorthorne,Sarah,60
+Brunt,Moorthorne,10
+Lilian,Moorthorne,4
+Andrew Dean,Moorthorne,72
+Moorthorne,Nell,2
+Jane,Moorthorne,2
+Jimmy,Moorthorne,32
+Dean,Moorthorne,20
+Churchman,Moorthorne,2
+Emanuel,Moorthorne,12
+Georgiana,Moorthorne,40
+Jarndyce,Moorthorne,10
+Kiel,Moorthorne,2
+Flora Prockter,Moorthorne,2
+Flora,Moorthorne,2
+Moorthorne,Ted,2
+Moorthorne,Ronald,2
+Moorthorne,Ronald Swetnam,2
+Jos,Moorthorne,6
+Jos Swetman,Moorthorne,2
+Jos Swetnam,Moorthorne,6
+Emanuel Prockter's,Moorthorne,2
+Joe,Moorthorne,2
+Benskin,Moorthorne,4
+Andrew,Moorthorne,20
+Moorthorne,Wilbrahams,8
+Carey,Moorthorne,2
+Moorthorne,Oldcastle,2
+Miser,Moorthorne,2
+Moorthorne,Ye,2
+Machiavelli,Moorthorne,2
+Hanbridge,Moorthorne,2
+Crewe,Moorthorne,8
+Bass,Moorthorne,2
+Helen - she,Moorthorne,2
+Edinburgh,Moorthorne,2
+Moorthorne,Welsh,2
+Hurrah,Moorthorne,2
+Crump,Moorthorne,12
+Ezra Brunt,Moorthorne,2
+Hall,Moorthorne,4
+Emanuel Prockter - I,Moorthorne,2
+Moorthorne,Ye'll,2
+Light,Moorthorne,2
+Glad,Moorthorne,2
+Moorthorne,Paisley,2
+Moorthorne,Swetnams,2
+Joshua,Moorthorne,2
+Mont Blanc,Moorthorne,2
+Don Juan,Moorthorne,2
+Moorthorne,Norseman,2
+Buchanan,Moorthorne,4
+Derby,Moorthorne,2
+Bechstein,Moorthorne,2
+Moorthorne,Wiltshire,6
+Moorthorne,Moorthorne,1
+Hush,Moorthorne,2
+Moorthorne,Nottingham,2
+Lilian Swetnam,Moorthorne,2
+Fritz,Moorthorne,6
+Dickens,Moorthorne,2
+Charles Dickens,Moorthorne,2
+Avert,Emanuel Prockter,27
+Avert,Prockter  ,1
+Avert,James Ollerenshaw's,3
+Avert,Trafalgar,6
+Avert,Nos,1
+Avert,Beau Brummel,1
+Avert,Whitaker,1
+Avert,Butt,36
+Avert,Uncle,5
+Avert,Mester Ollerenshaw,1
+Avert,Susan - an afternoon,1
+Avert,Prockter - a,1
+Avert,George Frederick Handel,1
+Avert,Robin Adair,1
+Avert,Yorkshire,5
+Avert,Confucius,1
+Avert,Uncle James,7
+Avert,Shakespearean,1
+Avert,Sarah Swetnam,15
+Avert,Swetnam,5
+Avert,Sally,8
+Avert,Sarah,30
+Avert,Brunt,5
+Avert,Lilian,2
+Andrew Dean,Avert,36
+Avert,Nell,1
+Avert,Jane,1
+Avert,Jimmy,16
+Avert,Dean,10
+Avert,Churchman,1
+Avert,Emanuel,6
+Avert,Georgiana,20
+Avert,Jarndyce,5
+Avert,Kiel,1
+Avert,Flora Prockter,1
+Avert,Flora,1
+Avert,Ted,1
+Avert,Ronald,1
+Avert,Ronald Swetnam,1
+Avert,Jos,3
+Avert,Jos Swetman,1
+Avert,Jos Swetnam,3
+Avert,Emanuel Prockter's,1
+Avert,Joe,1
+Avert,Benskin,2
+Andrew,Avert,10
+Avert,Wilbrahams,4
+Avert,Carey,1
+Avert,Oldcastle,1
+Avert,Miser,1
+Avert,Ye,1
+Avert,Machiavelli,1
+Avert,Hanbridge,1
+Avert,Crewe,4
+Avert,Bass,1
+Avert,Helen - she,1
+Avert,Edinburgh,1
+Avert,Welsh,1
+Avert,Hurrah,1
+Avert,Crump,6
+Avert,Ezra Brunt,1
+Avert,Hall,2
+Avert,Emanuel Prockter - I,1
+Avert,Ye'll,1
+Avert,Light,1
+Avert,Glad,1
+Avert,Paisley,1
+Avert,Swetnams,1
+Avert,Joshua,1
+Avert,Mont Blanc,1
+Avert,Don Juan,1
+Avert,Norseman,1
+Avert,Buchanan,2
+Avert,Derby,1
+Avert,Bechstein,1
+Avert,Wiltshire,3
+Avert,Hush,1
+Avert,Nottingham,1
+Avert,Lilian Swetnam,1
+Avert,Fritz,3
+Avert,Dickens,1
+Avert,Charles Dickens,1
+Emanuel Prockter,Prockter  ,27
+Emanuel Prockter,James Ollerenshaw's,81
+Emanuel Prockter,Trafalgar,162
+Emanuel Prockter,Nos,27
+Beau Brummel,Emanuel Prockter,27
+Emanuel Prockter,Whitaker,27
+Butt,Emanuel Prockter,972
+Emanuel Prockter,Uncle,135
+Emanuel Prockter,Mester Ollerenshaw,27
+Emanuel Prockter,Susan - an afternoon,27
+Emanuel Prockter,Prockter - a,27
+Emanuel Prockter,George Frederick Handel,27
+Emanuel Prockter,Robin Adair,27
+Emanuel Prockter,Yorkshire,135
+Confucius,Emanuel Prockter,27
+Emanuel Prockter,Uncle James,189
+Emanuel Prockter,Shakespearean,27
+Emanuel Prockter,Sarah Swetnam,405
+Emanuel Prockter,Swetnam,135
+Emanuel Prockter,Sally,216
+Emanuel Prockter,Sarah,810
+Brunt,Emanuel Prockter,135
+Emanuel Prockter,Emanuel Prockter,351
+Emanuel Prockter,Lilian,54
+Andrew Dean,Emanuel Prockter,972
+Emanuel Prockter,Nell,27
+Emanuel Prockter,Jane,27
+Emanuel Prockter,Jimmy,432
+Dean,Emanuel Prockter,270
+Churchman,Emanuel Prockter,27
+Emanuel,Emanuel Prockter,162
+Emanuel Prockter,Georgiana,540
+Emanuel Prockter,Jarndyce,135
+Emanuel Prockter,Kiel,27
+Emanuel Prockter,Flora Prockter,27
+Emanuel Prockter,Flora,27
+Emanuel Prockter,Ted,27
+Emanuel Prockter,Ronald,27
+Emanuel Prockter,Ronald Swetnam,27
+Emanuel Prockter,Jos,81
+Emanuel Prockter,Jos Swetman,27
+Emanuel Prockter,Jos Swetnam,81
+Emanuel Prockter,Emanuel Prockter's,27
+Emanuel Prockter,Joe,27
+Benskin,Emanuel Prockter,54
+Andrew,Emanuel Prockter,270
+Emanuel Prockter,Wilbrahams,108
+Carey,Emanuel Prockter,27
+Emanuel Prockter,Oldcastle,27
+Emanuel Prockter,Miser,27
+Emanuel Prockter,Ye,27
+Emanuel Prockter,Machiavelli,27
+Emanuel Prockter,Hanbridge,27
+Crewe,Emanuel Prockter,108
+Bass,Emanuel Prockter,27
+Emanuel Prockter,Helen - she,27
+Edinburgh,Emanuel Prockter,27
+Emanuel Prockter,Welsh,27
+Emanuel Prockter,Hurrah,27
+Crump,Emanuel Prockter,162
+Emanuel Prockter,Ezra Brunt,27
+Emanuel Prockter,Hall,54
+Emanuel Prockter,Emanuel Prockter - I,27
+Emanuel Prockter,Ye'll,27
+Emanuel Prockter,Light,27
+Emanuel Prockter,Glad,27
+Emanuel Prockter,Paisley,27
+Emanuel Prockter,Swetnams,27
+Emanuel Prockter,Joshua,27
+Emanuel Prockter,Mont Blanc,27
+Don Juan,Emanuel Prockter,27
+Emanuel Prockter,Norseman,27
+Buchanan,Emanuel Prockter,54
+Derby,Emanuel Prockter,27
+Bechstein,Emanuel Prockter,27
+Emanuel Prockter,Wiltshire,81
+Emanuel Prockter,Hush,27
+Emanuel Prockter,Nottingham,27
+Emanuel Prockter,Lilian Swetnam,27
+Emanuel Prockter,Fritz,81
+Dickens,Emanuel Prockter,27
+Charles Dickens,Emanuel Prockter,27
+James Ollerenshaw's,Prockter  ,3
+Prockter  ,Trafalgar,6
+Nos,Prockter  ,1
+Beau Brummel,Prockter  ,1
+Prockter  ,Whitaker,1
+Butt,Prockter  ,36
+Prockter  ,Uncle,5
+Mester Ollerenshaw,Prockter  ,1
+Prockter  ,Susan - an afternoon,1
+Prockter  ,Prockter - a,1
+George Frederick Handel,Prockter  ,1
+Prockter  ,Robin Adair,1
+Prockter  ,Yorkshire,5
+Confucius,Prockter  ,1
+Prockter  ,Uncle James,7
+Prockter  ,Shakespearean,1
+Prockter  ,Sarah Swetnam,15
+Prockter  ,Swetnam,5
+Prockter  ,Sally,8
+Prockter  ,Sarah,30
+Brunt,Prockter  ,5
+Lilian,Prockter  ,2
+Andrew Dean,Prockter  ,36
+Nell,Prockter  ,1
+Jane,Prockter  ,1
+Jimmy,Prockter  ,16
+Dean,Prockter  ,10
+Churchman,Prockter  ,1
+Emanuel,Prockter  ,6
+Georgiana,Prockter  ,20
+Jarndyce,Prockter  ,5
+Kiel,Prockter  ,1
+Flora Prockter,Prockter  ,1
+Flora,Prockter  ,1
+Prockter  ,Ted,1
+Prockter  ,Ronald,1
+Prockter  ,Ronald Swetnam,1
+Jos,Prockter  ,3
+Jos Swetman,Prockter  ,1
+Jos Swetnam,Prockter  ,3
+Emanuel Prockter's,Prockter  ,1
+Joe,Prockter  ,1
+Benskin,Prockter  ,2
+Andrew,Prockter  ,10
+Prockter  ,Wilbrahams,4
+Carey,Prockter  ,1
+Oldcastle,Prockter  ,1
+Miser,Prockter  ,1
+Prockter  ,Ye,1
+Machiavelli,Prockter  ,1
+Hanbridge,Prockter  ,1
+Crewe,Prockter  ,4
+Bass,Prockter  ,1
+Helen - she,Prockter  ,1
+Edinburgh,Prockter  ,1
+Prockter  ,Welsh,1
+Hurrah,Prockter  ,1
+Crump,Prockter  ,6
+Ezra Brunt,Prockter  ,1
+Hall,Prockter  ,2
+Emanuel Prockter - I,Prockter  ,1
+Prockter  ,Ye'll,1
+Light,Prockter  ,1
+Glad,Prockter  ,1
+Paisley,Prockter  ,1
+Prockter  ,Swetnams,1
+Joshua,Prockter  ,1
+Mont Blanc,Prockter  ,1
+Don Juan,Prockter  ,1
+Norseman,Prockter  ,1
+Buchanan,Prockter  ,2
+Derby,Prockter  ,1
+Bechstein,Prockter  ,1
+Prockter  ,Wiltshire,3
+Hush,Prockter  ,1
+Nottingham,Prockter  ,1
+Lilian Swetnam,Prockter  ,1
+Fritz,Prockter  ,3
+Dickens,Prockter  ,1
+Charles Dickens,Prockter  ,1
+James Ollerenshaw's,Trafalgar,18
+James Ollerenshaw's,Nos,3
+Beau Brummel,James Ollerenshaw's,3
+James Ollerenshaw's,Whitaker,3
+Butt,James Ollerenshaw's,108
+James Ollerenshaw's,Uncle,15
+James Ollerenshaw's,Mester Ollerenshaw,3
+James Ollerenshaw's,Susan - an afternoon,3
+James Ollerenshaw's,Prockter - a,3
+George Frederick Handel,James Ollerenshaw's,3
+James Ollerenshaw's,Robin Adair,3
+James Ollerenshaw's,Yorkshire,15
+Confucius,James Ollerenshaw's,3
+James Ollerenshaw's,Uncle James,21
+James Ollerenshaw's,Shakespearean,3
+James Ollerenshaw's,Sarah Swetnam,45
+James Ollerenshaw's,Swetnam,15
+James Ollerenshaw's,Sally,24
+James Ollerenshaw's,Sarah,90
+Brunt,James Ollerenshaw's,15
+James Ollerenshaw's,Lilian,6
+Andrew Dean,James Ollerenshaw's,108
+James Ollerenshaw's,Nell,3
+James Ollerenshaw's,Jane,3
+James Ollerenshaw's,Jimmy,48
+Dean,James Ollerenshaw's,30
+Churchman,James Ollerenshaw's,3
+Emanuel,James Ollerenshaw's,18
+Georgiana,James Ollerenshaw's,60
+James Ollerenshaw's,Jarndyce,15
+James Ollerenshaw's,Kiel,3
+Flora Prockter,James Ollerenshaw's,3
+Flora,James Ollerenshaw's,3
+James Ollerenshaw's,Ted,3
+James Ollerenshaw's,Ronald,3
+James Ollerenshaw's,Ronald Swetnam,3
+James Ollerenshaw's,Jos,9
+James Ollerenshaw's,Jos Swetman,3
+James Ollerenshaw's,Jos Swetnam,9
+Emanuel Prockter's,James Ollerenshaw's,3
+James Ollerenshaw's,Joe,3
+Benskin,James Ollerenshaw's,6
+Andrew,James Ollerenshaw's,30
+James Ollerenshaw's,Wilbrahams,12
+Carey,James Ollerenshaw's,3
+James Ollerenshaw's,Oldcastle,3
+James Ollerenshaw's,Miser,3
+James Ollerenshaw's,Ye,3
+James Ollerenshaw's,Machiavelli,3
+Hanbridge,James Ollerenshaw's,3
+James Ollerenshaw's,James Ollerenshaw's,3
+Crewe,James Ollerenshaw's,12
+Bass,James Ollerenshaw's,3
+Helen - she,James Ollerenshaw's,3
+Edinburgh,James Ollerenshaw's,3
+James Ollerenshaw's,Welsh,3
+Hurrah,James Ollerenshaw's,3
+Crump,James Ollerenshaw's,18
+Ezra Brunt,James Ollerenshaw's,3
+Hall,James Ollerenshaw's,6
+Emanuel Prockter - I,James Ollerenshaw's,3
+James Ollerenshaw's,Ye'll,3
+James Ollerenshaw's,Light,3
+Glad,James Ollerenshaw's,3
+James Ollerenshaw's,Paisley,3
+James Ollerenshaw's,Swetnams,3
+James Ollerenshaw's,Joshua,3
+James Ollerenshaw's,Mont Blanc,3
+Don Juan,James Ollerenshaw's,3
+James Ollerenshaw's,Norseman,3
+Buchanan,James Ollerenshaw's,6
+Derby,James Ollerenshaw's,3
+Bechstein,James Ollerenshaw's,3
+James Ollerenshaw's,Wiltshire,9
+Hush,James Ollerenshaw's,3
+James Ollerenshaw's,Nottingham,3
+James Ollerenshaw's,Lilian Swetnam,3
+Fritz,James Ollerenshaw's,9
+Dickens,James Ollerenshaw's,3
+Charles Dickens,James Ollerenshaw's,3
+Nos,Trafalgar,6
+Beau Brummel,Trafalgar,6
+Trafalgar,Trafalgar,15
+Trafalgar,Whitaker,6
+Butt,Trafalgar,216
+Trafalgar,Uncle,30
+Mester Ollerenshaw,Trafalgar,6
+Susan - an afternoon,Trafalgar,6
+Prockter - a,Trafalgar,6
+George Frederick Handel,Trafalgar,6
+Robin Adair,Trafalgar,6
+Trafalgar,Yorkshire,30
+Confucius,Trafalgar,6
+Trafalgar,Uncle James,42
+Shakespearean,Trafalgar,6
+Sarah Swetnam,Trafalgar,90
+Swetnam,Trafalgar,30
+Sally,Trafalgar,48
+Sarah,Trafalgar,180
+Brunt,Trafalgar,30
+Lilian,Trafalgar,12
+Andrew Dean,Trafalgar,216
+Nell,Trafalgar,6
+Jane,Trafalgar,6
+Jimmy,Trafalgar,96
+Dean,Trafalgar,60
+Churchman,Trafalgar,6
+Emanuel,Trafalgar,36
+Georgiana,Trafalgar,120
+Jarndyce,Trafalgar,30
+Kiel,Trafalgar,6
+Flora Prockter,Trafalgar,6
+Flora,Trafalgar,6
+Ted,Trafalgar,6
+Ronald,Trafalgar,6
+Ronald Swetnam,Trafalgar,6
+Jos,Trafalgar,18
+Jos Swetman,Trafalgar,6
+Jos Swetnam,Trafalgar,18
+Emanuel Prockter's,Trafalgar,6
+Joe,Trafalgar,6
+Benskin,Trafalgar,12
+Andrew,Trafalgar,60
+Trafalgar,Wilbrahams,24
+Carey,Trafalgar,6
+Oldcastle,Trafalgar,6
+Miser,Trafalgar,6
+Trafalgar,Ye,6
+Machiavelli,Trafalgar,6
+Hanbridge,Trafalgar,6
+Crewe,Trafalgar,24
+Bass,Trafalgar,6
+Helen - she,Trafalgar,6
+Edinburgh,Trafalgar,6
+Trafalgar,Welsh,6
+Hurrah,Trafalgar,6
+Crump,Trafalgar,36
+Ezra Brunt,Trafalgar,6
+Hall,Trafalgar,12
+Emanuel Prockter - I,Trafalgar,6
+Trafalgar,Ye'll,6
+Light,Trafalgar,6
+Glad,Trafalgar,6
+Paisley,Trafalgar,6
+Swetnams,Trafalgar,6
+Joshua,Trafalgar,6
+Mont Blanc,Trafalgar,6
+Don Juan,Trafalgar,6
+Norseman,Trafalgar,6
+Buchanan,Trafalgar,12
+Derby,Trafalgar,6
+Bechstein,Trafalgar,6
+Trafalgar,Wiltshire,18
+Hush,Trafalgar,6
+Nottingham,Trafalgar,6
+Lilian Swetnam,Trafalgar,6
+Fritz,Trafalgar,18
+Dickens,Trafalgar,6
+Charles Dickens,Trafalgar,6
+Beau Brummel,Nos,1
+Nos,Whitaker,1
+Butt,Nos,36
+Nos,Uncle,5
+Mester Ollerenshaw,Nos,1
+Nos,Susan - an afternoon,1
+Nos,Prockter - a,1
+George Frederick Handel,Nos,1
+Nos,Robin Adair,1
+Nos,Yorkshire,5
+Confucius,Nos,1
+Nos,Uncle James,7
+Nos,Shakespearean,1
+Nos,Sarah Swetnam,15
+Nos,Swetnam,5
+Nos,Sally,8
+Nos,Sarah,30
+Brunt,Nos,5
+Lilian,Nos,2
+Andrew Dean,Nos,36
+Nell,Nos,1
+Jane,Nos,1
+Jimmy,Nos,16
+Dean,Nos,10
+Churchman,Nos,1
+Emanuel,Nos,6
+Georgiana,Nos,20
+Jarndyce,Nos,5
+Kiel,Nos,1
+Flora Prockter,Nos,1
+Flora,Nos,1
+Nos,Ted,1
+Nos,Ronald,1
+Nos,Ronald Swetnam,1
+Jos,Nos,3
+Jos Swetman,Nos,1
+Jos Swetnam,Nos,3
+Emanuel Prockter's,Nos,1
+Joe,Nos,1
+Benskin,Nos,2
+Andrew,Nos,10
+Nos,Wilbrahams,4
+Carey,Nos,1
+Nos,Oldcastle,1
+Miser,Nos,1
+Nos,Ye,1
+Machiavelli,Nos,1
+Hanbridge,Nos,1
+Crewe,Nos,4
+Bass,Nos,1
+Helen - she,Nos,1
+Edinburgh,Nos,1
+Nos,Welsh,1
+Hurrah,Nos,1
+Crump,Nos,6
+Ezra Brunt,Nos,1
+Hall,Nos,2
+Emanuel Prockter - I,Nos,1
+Nos,Ye'll,1
+Light,Nos,1
+Glad,Nos,1
+Nos,Paisley,1
+Nos,Swetnams,1
+Joshua,Nos,1
+Mont Blanc,Nos,1
+Don Juan,Nos,1
+Norseman,Nos,1
+Buchanan,Nos,2
+Derby,Nos,1
+Bechstein,Nos,1
+Nos,Wiltshire,3
+Hush,Nos,1
+Nos,Nottingham,1
+Lilian Swetnam,Nos,1
+Fritz,Nos,3
+Dickens,Nos,1
+Charles Dickens,Nos,1
+Beau Brummel,Whitaker,1
+Beau Brummel,Butt,36
+Beau Brummel,Uncle,5
+Beau Brummel,Mester Ollerenshaw,1
+Beau Brummel,Susan - an afternoon,1
+Beau Brummel,Prockter - a,1
+Beau Brummel,George Frederick Handel,1
+Beau Brummel,Robin Adair,1
+Beau Brummel,Yorkshire,5
+Beau Brummel,Confucius,1
+Beau Brummel,Uncle James,7
+Beau Brummel,Shakespearean,1
+Beau Brummel,Sarah Swetnam,15
+Beau Brummel,Swetnam,5
+Beau Brummel,Sally,8
+Beau Brummel,Sarah,30
+Beau Brummel,Brunt,5
+Beau Brummel,Lilian,2
+Andrew Dean,Beau Brummel,36
+Beau Brummel,Nell,1
+Beau Brummel,Jane,1
+Beau Brummel,Jimmy,16
+Beau Brummel,Dean,10
+Beau Brummel,Churchman,1
+Beau Brummel,Emanuel,6
+Beau Brummel,Georgiana,20
+Beau Brummel,Jarndyce,5
+Beau Brummel,Kiel,1
+Beau Brummel,Flora Prockter,1
+Beau Brummel,Flora,1
+Beau Brummel,Ted,1
+Beau Brummel,Ronald,1
+Beau Brummel,Ronald Swetnam,1
+Beau Brummel,Jos,3
+Beau Brummel,Jos Swetman,1
+Beau Brummel,Jos Swetnam,3
+Beau Brummel,Emanuel Prockter's,1
+Beau Brummel,Joe,1
+Beau Brummel,Benskin,2
+Andrew,Beau Brummel,10
+Beau Brummel,Wilbrahams,4
+Beau Brummel,Carey,1
+Beau Brummel,Oldcastle,1
+Beau Brummel,Miser,1
+Beau Brummel,Ye,1
+Beau Brummel,Machiavelli,1
+Beau Brummel,Hanbridge,1
+Beau Brummel,Crewe,4
+Bass,Beau Brummel,1
+Beau Brummel,Helen - she,1
+Beau Brummel,Edinburgh,1
+Beau Brummel,Welsh,1
+Beau Brummel,Hurrah,1
+Beau Brummel,Crump,6
+Beau Brummel,Ezra Brunt,1
+Beau Brummel,Hall,2
+Beau Brummel,Emanuel Prockter - I,1
+Beau Brummel,Ye'll,1
+Beau Brummel,Light,1
+Beau Brummel,Glad,1
+Beau Brummel,Paisley,1
+Beau Brummel,Swetnams,1
+Beau Brummel,Joshua,1
+Beau Brummel,Mont Blanc,1
+Beau Brummel,Don Juan,1
+Beau Brummel,Norseman,1
+Beau Brummel,Buchanan,2
+Beau Brummel,Derby,1
+Beau Brummel,Bechstein,1
+Beau Brummel,Wiltshire,3
+Beau Brummel,Hush,1
+Beau Brummel,Nottingham,1
+Beau Brummel,Lilian Swetnam,1
+Beau Brummel,Fritz,3
+Beau Brummel,Dickens,1
+Beau Brummel,Charles Dickens,1
+Butt,Whitaker,36
+Uncle,Whitaker,5
+Mester Ollerenshaw,Whitaker,1
+Susan - an afternoon,Whitaker,1
+Prockter - a,Whitaker,1
+George Frederick Handel,Whitaker,1
+Robin Adair,Whitaker,1
+Whitaker,Yorkshire,5
+Confucius,Whitaker,1
+Uncle James,Whitaker,7
+Shakespearean,Whitaker,1
+Sarah Swetnam,Whitaker,15
+Swetnam,Whitaker,5
+Sally,Whitaker,8
+Sarah,Whitaker,30
+Brunt,Whitaker,5
+Lilian,Whitaker,2
+Andrew Dean,Whitaker,36
+Nell,Whitaker,1
+Jane,Whitaker,1
+Jimmy,Whitaker,16
+Dean,Whitaker,10
+Churchman,Whitaker,1
+Emanuel,Whitaker,6
+Georgiana,Whitaker,20
+Jarndyce,Whitaker,5
+Kiel,Whitaker,1
+Flora Prockter,Whitaker,1
+Flora,Whitaker,1
+Ted,Whitaker,1
+Ronald,Whitaker,1
+Ronald Swetnam,Whitaker,1
+Jos,Whitaker,3
+Jos Swetman,Whitaker,1
+Jos Swetnam,Whitaker,3
+Emanuel Prockter's,Whitaker,1
+Joe,Whitaker,1
+Benskin,Whitaker,2
+Andrew,Whitaker,10
+Whitaker,Wilbrahams,4
+Carey,Whitaker,1
+Oldcastle,Whitaker,1
+Miser,Whitaker,1
+Whitaker,Ye,1
+Machiavelli,Whitaker,1
+Hanbridge,Whitaker,1
+Crewe,Whitaker,4
+Bass,Whitaker,1
+Helen - she,Whitaker,1
+Edinburgh,Whitaker,1
+Welsh,Whitaker,1
+Hurrah,Whitaker,1
+Crump,Whitaker,6
+Ezra Brunt,Whitaker,1
+Hall,Whitaker,2
+Emanuel Prockter - I,Whitaker,1
+Whitaker,Ye'll,1
+Light,Whitaker,1
+Glad,Whitaker,1
+Paisley,Whitaker,1
+Swetnams,Whitaker,1
+Joshua,Whitaker,1
+Mont Blanc,Whitaker,1
+Don Juan,Whitaker,1
+Norseman,Whitaker,1
+Buchanan,Whitaker,2
+Derby,Whitaker,1
+Bechstein,Whitaker,1
+Whitaker,Wiltshire,3
+Hush,Whitaker,1
+Nottingham,Whitaker,1
+Lilian Swetnam,Whitaker,1
+Fritz,Whitaker,3
+Dickens,Whitaker,1
+Charles Dickens,Whitaker,1
+Butt,Butt,630
+Butt,Uncle,180
+Butt,Mester Ollerenshaw,36
+Butt,Susan - an afternoon,36
+Butt,Prockter - a,36
+Butt,George Frederick Handel,36
+Butt,Robin Adair,36
+Butt,Yorkshire,180
+Butt,Confucius,36
+Butt,Uncle James,252
+Butt,Shakespearean,36
+Butt,Sarah Swetnam,540
+Butt,Swetnam,180
+Butt,Sally,288
+Butt,Sarah,1080
+Brunt,Butt,180
+Butt,Lilian,72
+Andrew Dean,Butt,1296
+Butt,Nell,36
+Butt,Jane,36
+Butt,Jimmy,576
+Butt,Dean,360
+Butt,Churchman,36
+Butt,Emanuel,216
+Butt,Georgiana,720
+Butt,Jarndyce,180
+Butt,Kiel,36
+Butt,Flora Prockter,36
+Butt,Flora,36
+Butt,Ted,36
+Butt,Ronald,36
+Butt,Ronald Swetnam,36
+Butt,Jos,108
+Butt,Jos Swetman,36
+Butt,Jos Swetnam,108
+Butt,Emanuel Prockter's,36
+Butt,Joe,36
+Benskin,Butt,72
+Andrew,Butt,360
+Butt,Wilbrahams,144
+Butt,Carey,36
+Butt,Oldcastle,36
+Butt,Miser,36
+Butt,Ye,36
+Butt,Machiavelli,36
+Butt,Hanbridge,36
+Butt,Crewe,144
+Bass,Butt,36
+Butt,Helen - she,36
+Butt,Edinburgh,36
+Butt,Welsh,36
+Butt,Hurrah,36
+Butt,Crump,216
+Butt,Ezra Brunt,36
+Butt,Hall,72
+Butt,Emanuel Prockter - I,36
+Butt,Ye'll,36
+Butt,Light,36
+Butt,Glad,36
+Butt,Paisley,36
+Butt,Swetnams,36
+Butt,Joshua,36
+Butt,Mont Blanc,36
+Butt,Don Juan,36
+Butt,Norseman,36
+Buchanan,Butt,72
+Butt,Derby,36
+Bechstein,Butt,36
+Butt,Wiltshire,108
+Butt,Hush,36
+Butt,Nottingham,36
+Butt,Lilian Swetnam,36
+Butt,Fritz,108
+Butt,Dickens,36
+Butt,Charles Dickens,36
+Mester Ollerenshaw,Uncle,5
+Susan - an afternoon,Uncle,5
+Prockter - a,Uncle,5
+George Frederick Handel,Uncle,5
+Robin Adair,Uncle,5
+Uncle,Yorkshire,25
+Confucius,Uncle,5
+Uncle,Uncle,10
+Uncle,Uncle James,35
+Shakespearean,Uncle,5
+Sarah Swetnam,Uncle,75
+Swetnam,Uncle,25
+Sally,Uncle,40
+Sarah,Uncle,150
+Brunt,Uncle,25
+Lilian,Uncle,10
+Andrew Dean,Uncle,180
+Nell,Uncle,5
+Jane,Uncle,5
+Jimmy,Uncle,80
+Dean,Uncle,50
+Churchman,Uncle,5
+Emanuel,Uncle,30
+Georgiana,Uncle,100
+Jarndyce,Uncle,25
+Kiel,Uncle,5
+Flora Prockter,Uncle,5
+Flora,Uncle,5
+Ted,Uncle,5
+Ronald,Uncle,5
+Ronald Swetnam,Uncle,5
+Jos,Uncle,15
+Jos Swetman,Uncle,5
+Jos Swetnam,Uncle,15
+Emanuel Prockter's,Uncle,5
+Joe,Uncle,5
+Benskin,Uncle,10
+Andrew,Uncle,50
+Uncle,Wilbrahams,20
+Carey,Uncle,5
+Oldcastle,Uncle,5
+Miser,Uncle,5
+Uncle,Ye,5
+Machiavelli,Uncle,5
+Hanbridge,Uncle,5
+Crewe,Uncle,20
+Bass,Uncle,5
+Helen - she,Uncle,5
+Edinburgh,Uncle,5
+Uncle,Welsh,5
+Hurrah,Uncle,5
+Crump,Uncle,30
+Ezra Brunt,Uncle,5
+Hall,Uncle,10
+Emanuel Prockter - I,Uncle,5
+Uncle,Ye'll,5
+Light,Uncle,5
+Glad,Uncle,5
+Paisley,Uncle,5
+Swetnams,Uncle,5
+Joshua,Uncle,5
+Mont Blanc,Uncle,5
+Don Juan,Uncle,5
+Norseman,Uncle,5
+Buchanan,Uncle,10
+Derby,Uncle,5
+Bechstein,Uncle,5
+Uncle,Wiltshire,15
+Hush,Uncle,5
+Nottingham,Uncle,5
+Lilian Swetnam,Uncle,5
+Fritz,Uncle,15
+Dickens,Uncle,5
+Charles Dickens,Uncle,5
+Mester Ollerenshaw,Susan - an afternoon,1
+Mester Ollerenshaw,Prockter - a,1
+George Frederick Handel,Mester Ollerenshaw,1
+Mester Ollerenshaw,Robin Adair,1
+Mester Ollerenshaw,Yorkshire,5
+Confucius,Mester Ollerenshaw,1
+Mester Ollerenshaw,Uncle James,7
+Mester Ollerenshaw,Shakespearean,1
+Mester Ollerenshaw,Sarah Swetnam,15
+Mester Ollerenshaw,Swetnam,5
+Mester Ollerenshaw,Sally,8
+Mester Ollerenshaw,Sarah,30
+Brunt,Mester Ollerenshaw,5
+Lilian,Mester Ollerenshaw,2
+Andrew Dean,Mester Ollerenshaw,36
+Mester Ollerenshaw,Nell,1
+Jane,Mester Ollerenshaw,1
+Jimmy,Mester Ollerenshaw,16
+Dean,Mester Ollerenshaw,10
+Churchman,Mester Ollerenshaw,1
+Emanuel,Mester Ollerenshaw,6
+Georgiana,Mester Ollerenshaw,20
+Jarndyce,Mester Ollerenshaw,5
+Kiel,Mester Ollerenshaw,1
+Flora Prockter,Mester Ollerenshaw,1
+Flora,Mester Ollerenshaw,1
+Mester Ollerenshaw,Ted,1
+Mester Ollerenshaw,Ronald,1
+Mester Ollerenshaw,Ronald Swetnam,1
+Jos,Mester Ollerenshaw,3
+Jos Swetman,Mester Ollerenshaw,1
+Jos Swetnam,Mester Ollerenshaw,3
+Emanuel Prockter's,Mester Ollerenshaw,1
+Joe,Mester Ollerenshaw,1
+Benskin,Mester Ollerenshaw,2
+Andrew,Mester Ollerenshaw,10
+Mester Ollerenshaw,Wilbrahams,4
+Carey,Mester Ollerenshaw,1
+Mester Ollerenshaw,Oldcastle,1
+Mester Ollerenshaw,Miser,1
+Mester Ollerenshaw,Ye,1
+Machiavelli,Mester Ollerenshaw,1
+Hanbridge,Mester Ollerenshaw,1
+Crewe,Mester Ollerenshaw,4
+Bass,Mester Ollerenshaw,1
+Helen - she,Mester Ollerenshaw,1
+Edinburgh,Mester Ollerenshaw,1
+Mester Ollerenshaw,Welsh,1
+Hurrah,Mester Ollerenshaw,1
+Crump,Mester Ollerenshaw,6
+Ezra Brunt,Mester Ollerenshaw,1
+Hall,Mester Ollerenshaw,2
+Emanuel Prockter - I,Mester Ollerenshaw,1
+Mester Ollerenshaw,Ye'll,1
+Light,Mester Ollerenshaw,1
+Glad,Mester Ollerenshaw,1
+Mester Ollerenshaw,Paisley,1
+Mester Ollerenshaw,Swetnams,1
+Joshua,Mester Ollerenshaw,1
+Mester Ollerenshaw,Mont Blanc,1
+Don Juan,Mester Ollerenshaw,1
+Mester Ollerenshaw,Norseman,1
+Buchanan,Mester Ollerenshaw,2
+Derby,Mester Ollerenshaw,1
+Bechstein,Mester Ollerenshaw,1
+Mester Ollerenshaw,Wiltshire,3
+Hush,Mester Ollerenshaw,1
+Mester Ollerenshaw,Nottingham,1
+Lilian Swetnam,Mester Ollerenshaw,1
+Fritz,Mester Ollerenshaw,3
+Dickens,Mester Ollerenshaw,1
+Charles Dickens,Mester Ollerenshaw,1
+Prockter - a,Susan - an afternoon,1
+George Frederick Handel,Susan - an afternoon,1
+Robin Adair,Susan - an afternoon,1
+Susan - an afternoon,Yorkshire,5
+Confucius,Susan - an afternoon,1
+Susan - an afternoon,Uncle James,7
+Shakespearean,Susan - an afternoon,1
+Sarah Swetnam,Susan - an afternoon,15
+Susan - an afternoon,Swetnam,5
+Sally,Susan - an afternoon,8
+Sarah,Susan - an afternoon,30
+Brunt,Susan - an afternoon,5
+Lilian,Susan - an afternoon,2
+Andrew Dean,Susan - an afternoon,36
+Nell,Susan - an afternoon,1
+Jane,Susan - an afternoon,1
+Jimmy,Susan - an afternoon,16
+Dean,Susan - an afternoon,10
+Churchman,Susan - an afternoon,1
+Emanuel,Susan - an afternoon,6
+Georgiana,Susan - an afternoon,20
+Jarndyce,Susan - an afternoon,5
+Kiel,Susan - an afternoon,1
+Flora Prockter,Susan - an afternoon,1
+Flora,Susan - an afternoon,1
+Susan - an afternoon,Ted,1
+Ronald,Susan - an afternoon,1
+Ronald Swetnam,Susan - an afternoon,1
+Jos,Susan - an afternoon,3
+Jos Swetman,Susan - an afternoon,1
+Jos Swetnam,Susan - an afternoon,3
+Emanuel Prockter's,Susan - an afternoon,1
+Joe,Susan - an afternoon,1
+Benskin,Susan - an afternoon,2
+Andrew,Susan - an afternoon,10
+Susan - an afternoon,Wilbrahams,4
+Carey,Susan - an afternoon,1
+Oldcastle,Susan - an afternoon,1
+Miser,Susan - an afternoon,1
+Susan - an afternoon,Ye,1
+Machiavelli,Susan - an afternoon,1
+Hanbridge,Susan - an afternoon,1
+Crewe,Susan - an afternoon,4
+Bass,Susan - an afternoon,1
+Helen - she,Susan - an afternoon,1
+Edinburgh,Susan - an afternoon,1
+Susan - an afternoon,Welsh,1
+Hurrah,Susan - an afternoon,1
+Crump,Susan - an afternoon,6
+Ezra Brunt,Susan - an afternoon,1
+Hall,Susan - an afternoon,2
+Emanuel Prockter - I,Susan - an afternoon,1
+Susan - an afternoon,Ye'll,1
+Light,Susan - an afternoon,1
+Glad,Susan - an afternoon,1
+Paisley,Susan - an afternoon,1
+Susan - an afternoon,Swetnams,1
+Joshua,Susan - an afternoon,1
+Mont Blanc,Susan - an afternoon,1
+Don Juan,Susan - an afternoon,1
+Norseman,Susan - an afternoon,1
+Buchanan,Susan - an afternoon,2
+Derby,Susan - an afternoon,1
+Bechstein,Susan - an afternoon,1
+Susan - an afternoon,Wiltshire,3
+Hush,Susan - an afternoon,1
+Nottingham,Susan - an afternoon,1
+Lilian Swetnam,Susan - an afternoon,1
+Fritz,Susan - an afternoon,3
+Dickens,Susan - an afternoon,1
+Charles Dickens,Susan - an afternoon,1
+George Frederick Handel,Prockter - a,1
+Prockter - a,Robin Adair,1
+Prockter - a,Yorkshire,5
+Confucius,Prockter - a,1
+Prockter - a,Uncle James,7
+Prockter - a,Shakespearean,1
+Prockter - a,Sarah Swetnam,15
+Prockter - a,Swetnam,5
+Prockter - a,Sally,8
+Prockter - a,Sarah,30
+Brunt,Prockter - a,5
+Lilian,Prockter - a,2
+Andrew Dean,Prockter - a,36
+Nell,Prockter - a,1
+Jane,Prockter - a,1
+Jimmy,Prockter - a,16
+Dean,Prockter - a,10
+Churchman,Prockter - a,1
+Emanuel,Prockter - a,6
+Georgiana,Prockter - a,20
+Jarndyce,Prockter - a,5
+Kiel,Prockter - a,1
+Flora Prockter,Prockter - a,1
+Flora,Prockter - a,1
+Prockter - a,Ted,1
+Prockter - a,Ronald,1
+Prockter - a,Ronald Swetnam,1
+Jos,Prockter - a,3
+Jos Swetman,Prockter - a,1
+Jos Swetnam,Prockter - a,3
+Emanuel Prockter's,Prockter - a,1
+Joe,Prockter - a,1
+Benskin,Prockter - a,2
+Andrew,Prockter - a,10
+Prockter - a,Wilbrahams,4
+Carey,Prockter - a,1
+Oldcastle,Prockter - a,1
+Miser,Prockter - a,1
+Prockter - a,Ye,1
+Machiavelli,Prockter - a,1
+Hanbridge,Prockter - a,1
+Crewe,Prockter - a,4
+Bass,Prockter - a,1
+Helen - she,Prockter - a,1
+Edinburgh,Prockter - a,1
+Prockter - a,Welsh,1
+Hurrah,Prockter - a,1
+Crump,Prockter - a,6
+Ezra Brunt,Prockter - a,1
+Hall,Prockter - a,2
+Emanuel Prockter - I,Prockter - a,1
+Prockter - a,Ye'll,1
+Light,Prockter - a,1
+Glad,Prockter - a,1
+Paisley,Prockter - a,1
+Prockter - a,Swetnams,1
+Joshua,Prockter - a,1
+Mont Blanc,Prockter - a,1
+Don Juan,Prockter - a,1
+Norseman,Prockter - a,1
+Buchanan,Prockter - a,2
+Derby,Prockter - a,1
+Bechstein,Prockter - a,1
+Prockter - a,Wiltshire,3
+Hush,Prockter - a,1
+Nottingham,Prockter - a,1
+Lilian Swetnam,Prockter - a,1
+Fritz,Prockter - a,3
+Dickens,Prockter - a,1
+Charles Dickens,Prockter - a,1
+George Frederick Handel,Robin Adair,1
+George Frederick Handel,Yorkshire,5
+Confucius,George Frederick Handel,1
+George Frederick Handel,Uncle James,7
+George Frederick Handel,Shakespearean,1
+George Frederick Handel,Sarah Swetnam,15
+George Frederick Handel,Swetnam,5
+George Frederick Handel,Sally,8
+George Frederick Handel,Sarah,30
+Brunt,George Frederick Handel,5
+George Frederick Handel,Lilian,2
+Andrew Dean,George Frederick Handel,36
+George Frederick Handel,Nell,1
+George Frederick Handel,Jane,1
+George Frederick Handel,Jimmy,16
+Dean,George Frederick Handel,10
+Churchman,George Frederick Handel,1
+Emanuel,George Frederick Handel,6
+George Frederick Handel,Georgiana,20
+George Frederick Handel,Jarndyce,5
+George Frederick Handel,Kiel,1
+Flora Prockter,George Frederick Handel,1
+Flora,George Frederick Handel,1
+George Frederick Handel,Ted,1
+George Frederick Handel,Ronald,1
+George Frederick Handel,Ronald Swetnam,1
+George Frederick Handel,Jos,3
+George Frederick Handel,Jos Swetman,1
+George Frederick Handel,Jos Swetnam,3
+Emanuel Prockter's,George Frederick Handel,1
+George Frederick Handel,Joe,1
+Benskin,George Frederick Handel,2
+Andrew,George Frederick Handel,10
+George Frederick Handel,Wilbrahams,4
+Carey,George Frederick Handel,1
+George Frederick Handel,Oldcastle,1
+George Frederick Handel,Miser,1
+George Frederick Handel,Ye,1
+George Frederick Handel,Machiavelli,1
+George Frederick Handel,Hanbridge,1
+Crewe,George Frederick Handel,4
+Bass,George Frederick Handel,1
+George Frederick Handel,Helen - she,1
+Edinburgh,George Frederick Handel,1
+George Frederick Handel,Welsh,1
+George Frederick Handel,Hurrah,1
+Crump,George Frederick Handel,6
+Ezra Brunt,George Frederick Handel,1
+George Frederick Handel,Hall,2
+Emanuel Prockter - I,George Frederick Handel,1
+George Frederick Handel,Ye'll,1
+George Frederick Handel,Light,1
+George Frederick Handel,Glad,1
+George Frederick Handel,Paisley,1
+George Frederick Handel,Swetnams,1
+George Frederick Handel,Joshua,1
+George Frederick Handel,Mont Blanc,1
+Don Juan,George Frederick Handel,1
+George Frederick Handel,Norseman,1
+Buchanan,George Frederick Handel,2
+Derby,George Frederick Handel,1
+Bechstein,George Frederick Handel,1
+George Frederick Handel,Wiltshire,3
+George Frederick Handel,Hush,1
+George Frederick Handel,Nottingham,1
+George Frederick Handel,Lilian Swetnam,1
+Fritz,George Frederick Handel,3
+Dickens,George Frederick Handel,1
+Charles Dickens,George Frederick Handel,1
+Robin Adair,Yorkshire,5
+Confucius,Robin Adair,1
+Robin Adair,Uncle James,7
+Robin Adair,Shakespearean,1
+Robin Adair,Sarah Swetnam,15
+Robin Adair,Swetnam,5
+Robin Adair,Sally,8
+Robin Adair,Sarah,30
+Brunt,Robin Adair,5
+Lilian,Robin Adair,2
+Andrew Dean,Robin Adair,36
+Nell,Robin Adair,1
+Jane,Robin Adair,1
+Jimmy,Robin Adair,16
+Dean,Robin Adair,10
+Churchman,Robin Adair,1
+Emanuel,Robin Adair,6
+Georgiana,Robin Adair,20
+Jarndyce,Robin Adair,5
+Kiel,Robin Adair,1
+Flora Prockter,Robin Adair,1
+Flora,Robin Adair,1
+Robin Adair,Ted,1
+Robin Adair,Ronald,1
+Robin Adair,Ronald Swetnam,1
+Jos,Robin Adair,3
+Jos Swetman,Robin Adair,1
+Jos Swetnam,Robin Adair,3
+Emanuel Prockter's,Robin Adair,1
+Joe,Robin Adair,1
+Benskin,Robin Adair,2
+Andrew,Robin Adair,10
+Robin Adair,Wilbrahams,4
+Carey,Robin Adair,1
+Oldcastle,Robin Adair,1
+Miser,Robin Adair,1
+Robin Adair,Ye,1
+Machiavelli,Robin Adair,1
+Hanbridge,Robin Adair,1
+Crewe,Robin Adair,4
+Bass,Robin Adair,1
+Helen - she,Robin Adair,1
+Edinburgh,Robin Adair,1
+Robin Adair,Welsh,1
+Hurrah,Robin Adair,1
+Crump,Robin Adair,6
+Ezra Brunt,Robin Adair,1
+Hall,Robin Adair,2
+Emanuel Prockter - I,Robin Adair,1
+Robin Adair,Ye'll,1
+Light,Robin Adair,1
+Glad,Robin Adair,1
+Paisley,Robin Adair,1
+Robin Adair,Swetnams,1
+Joshua,Robin Adair,1
+Mont Blanc,Robin Adair,1
+Don Juan,Robin Adair,1
+Norseman,Robin Adair,1
+Buchanan,Robin Adair,2
+Derby,Robin Adair,1
+Bechstein,Robin Adair,1
+Robin Adair,Wiltshire,3
+Hush,Robin Adair,1
+Nottingham,Robin Adair,1
+Lilian Swetnam,Robin Adair,1
+Fritz,Robin Adair,3
+Dickens,Robin Adair,1
+Charles Dickens,Robin Adair,1
+Yorkshire,Yorkshire,10
+Confucius,Yorkshire,5
+Uncle James,Yorkshire,35
+Shakespearean,Yorkshire,5
+Sarah Swetnam,Yorkshire,75
+Swetnam,Yorkshire,25
+Sally,Yorkshire,40
+Sarah,Yorkshire,150
+Brunt,Yorkshire,25
+Lilian,Yorkshire,10
+Andrew Dean,Yorkshire,180
+Nell,Yorkshire,5
+Jane,Yorkshire,5
+Jimmy,Yorkshire,80
+Dean,Yorkshire,50
+Churchman,Yorkshire,5
+Emanuel,Yorkshire,30
+Georgiana,Yorkshire,100
+Jarndyce,Yorkshire,25
+Kiel,Yorkshire,5
+Flora Prockter,Yorkshire,5
+Flora,Yorkshire,5
+Ted,Yorkshire,5
+Ronald,Yorkshire,5
+Ronald Swetnam,Yorkshire,5
+Jos,Yorkshire,15
+Jos Swetman,Yorkshire,5
+Jos Swetnam,Yorkshire,15
+Emanuel Prockter's,Yorkshire,5
+Joe,Yorkshire,5
+Benskin,Yorkshire,10
+Andrew,Yorkshire,50
+Wilbrahams,Yorkshire,20
+Carey,Yorkshire,5
+Oldcastle,Yorkshire,5
+Miser,Yorkshire,5
+Ye,Yorkshire,5
+Machiavelli,Yorkshire,5
+Hanbridge,Yorkshire,5
+Crewe,Yorkshire,20
+Bass,Yorkshire,5
+Helen - she,Yorkshire,5
+Edinburgh,Yorkshire,5
+Welsh,Yorkshire,5
+Hurrah,Yorkshire,5
+Crump,Yorkshire,30
+Ezra Brunt,Yorkshire,5
+Hall,Yorkshire,10
+Emanuel Prockter - I,Yorkshire,5
+Ye'll,Yorkshire,5
+Light,Yorkshire,5
+Glad,Yorkshire,5
+Paisley,Yorkshire,5
+Swetnams,Yorkshire,5
+Joshua,Yorkshire,5
+Mont Blanc,Yorkshire,5
+Don Juan,Yorkshire,5
+Norseman,Yorkshire,5
+Buchanan,Yorkshire,10
+Derby,Yorkshire,5
+Bechstein,Yorkshire,5
+Wiltshire,Yorkshire,15
+Hush,Yorkshire,5
+Nottingham,Yorkshire,5
+Lilian Swetnam,Yorkshire,5
+Fritz,Yorkshire,15
+Dickens,Yorkshire,5
+Charles Dickens,Yorkshire,5
+Confucius,Uncle James,7
+Confucius,Shakespearean,1
+Confucius,Sarah Swetnam,15
+Confucius,Swetnam,5
+Confucius,Sally,8
+Confucius,Sarah,30
+Brunt,Confucius,5
+Confucius,Lilian,2
+Andrew Dean,Confucius,36
+Confucius,Nell,1
+Confucius,Jane,1
+Confucius,Jimmy,16
+Confucius,Dean,10
+Churchman,Confucius,1
+Confucius,Emanuel,6
+Confucius,Georgiana,20
+Confucius,Jarndyce,5
+Confucius,Kiel,1
+Confucius,Flora Prockter,1
+Confucius,Flora,1
+Confucius,Ted,1
+Confucius,Ronald,1
+Confucius,Ronald Swetnam,1
+Confucius,Jos,3
+Confucius,Jos Swetman,1
+Confucius,Jos Swetnam,3
+Confucius,Emanuel Prockter's,1
+Confucius,Joe,1
+Benskin,Confucius,2
+Andrew,Confucius,10
+Confucius,Wilbrahams,4
+Carey,Confucius,1
+Confucius,Oldcastle,1
+Confucius,Miser,1
+Confucius,Ye,1
+Confucius,Machiavelli,1
+Confucius,Hanbridge,1
+Confucius,Crewe,4
+Bass,Confucius,1
+Confucius,Helen - she,1
+Confucius,Edinburgh,1
+Confucius,Welsh,1
+Confucius,Hurrah,1
+Confucius,Crump,6
+Confucius,Ezra Brunt,1
+Confucius,Hall,2
+Confucius,Emanuel Prockter - I,1
+Confucius,Ye'll,1
+Confucius,Light,1
+Confucius,Glad,1
+Confucius,Paisley,1
+Confucius,Swetnams,1
+Confucius,Joshua,1
+Confucius,Mont Blanc,1
+Confucius,Don Juan,1
+Confucius,Norseman,1
+Buchanan,Confucius,2
+Confucius,Derby,1
+Bechstein,Confucius,1
+Confucius,Wiltshire,3
+Confucius,Hush,1
+Confucius,Nottingham,1
+Confucius,Lilian Swetnam,1
+Confucius,Fritz,3
+Confucius,Dickens,1
+Charles Dickens,Confucius,1
+Shakespearean,Uncle James,7
+Sarah Swetnam,Uncle James,105
+Swetnam,Uncle James,35
+Sally,Uncle James,56
+Sarah,Uncle James,210
+Brunt,Uncle James,35
+Lilian,Uncle James,14
+Andrew Dean,Uncle James,252
+Nell,Uncle James,7
+Jane,Uncle James,7
+Jimmy,Uncle James,112
+Dean,Uncle James,70
+Churchman,Uncle James,7
+Emanuel,Uncle James,42
+Georgiana,Uncle James,140
+Jarndyce,Uncle James,35
+Kiel,Uncle James,7
+Flora Prockter,Uncle James,7
+Flora,Uncle James,7
+Ted,Uncle James,7
+Ronald,Uncle James,7
+Ronald Swetnam,Uncle James,7
+Jos,Uncle James,21
+Jos Swetman,Uncle James,7
+Jos Swetnam,Uncle James,21
+Emanuel Prockter's,Uncle James,7
+Joe,Uncle James,7
+Benskin,Uncle James,14
+Andrew,Uncle James,70
+Uncle James,Wilbrahams,28
+Carey,Uncle James,7
+Uncle James,Uncle James,21
+Oldcastle,Uncle James,7
+Miser,Uncle James,7
+Uncle James,Ye,7
+Machiavelli,Uncle James,7
+Hanbridge,Uncle James,7
+Crewe,Uncle James,28
+Bass,Uncle James,7
+Helen - she,Uncle James,7
+Edinburgh,Uncle James,7
+Uncle James,Welsh,7
+Hurrah,Uncle James,7
+Crump,Uncle James,42
+Ezra Brunt,Uncle James,7
+Hall,Uncle James,14
+Emanuel Prockter - I,Uncle James,7
+Uncle James,Ye'll,7
+Light,Uncle James,7
+Glad,Uncle James,7
+Paisley,Uncle James,7
+Swetnams,Uncle James,7
+Joshua,Uncle James,7
+Mont Blanc,Uncle James,7
+Don Juan,Uncle James,7
+Norseman,Uncle James,7
+Buchanan,Uncle James,14
+Derby,Uncle James,7
+Bechstein,Uncle James,7
+Uncle James,Wiltshire,21
+Hush,Uncle James,7
+Nottingham,Uncle James,7
+Lilian Swetnam,Uncle James,7
+Fritz,Uncle James,21
+Dickens,Uncle James,7
+Charles Dickens,Uncle James,7
+Sarah Swetnam,Shakespearean,15
+Shakespearean,Swetnam,5
+Sally,Shakespearean,8
+Sarah,Shakespearean,30
+Brunt,Shakespearean,5
+Lilian,Shakespearean,2
+Andrew Dean,Shakespearean,36
+Nell,Shakespearean,1
+Jane,Shakespearean,1
+Jimmy,Shakespearean,16
+Dean,Shakespearean,10
+Churchman,Shakespearean,1
+Emanuel,Shakespearean,6
+Georgiana,Shakespearean,20
+Jarndyce,Shakespearean,5
+Kiel,Shakespearean,1
+Flora Prockter,Shakespearean,1
+Flora,Shakespearean,1
+Shakespearean,Ted,1
+Ronald,Shakespearean,1
+Ronald Swetnam,Shakespearean,1
+Jos,Shakespearean,3
+Jos Swetman,Shakespearean,1
+Jos Swetnam,Shakespearean,3
+Emanuel Prockter's,Shakespearean,1
+Joe,Shakespearean,1
+Benskin,Shakespearean,2
+Andrew,Shakespearean,10
+Shakespearean,Wilbrahams,4
+Carey,Shakespearean,1
+Oldcastle,Shakespearean,1
+Miser,Shakespearean,1
+Shakespearean,Ye,1
+Machiavelli,Shakespearean,1
+Hanbridge,Shakespearean,1
+Crewe,Shakespearean,4
+Bass,Shakespearean,1
+Helen - she,Shakespearean,1
+Edinburgh,Shakespearean,1
+Shakespearean,Welsh,1
+Hurrah,Shakespearean,1
+Crump,Shakespearean,6
+Ezra Brunt,Shakespearean,1
+Hall,Shakespearean,2
+Emanuel Prockter - I,Shakespearean,1
+Shakespearean,Ye'll,1
+Light,Shakespearean,1
+Glad,Shakespearean,1
+Paisley,Shakespearean,1
+Shakespearean,Swetnams,1
+Joshua,Shakespearean,1
+Mont Blanc,Shakespearean,1
+Don Juan,Shakespearean,1
+Norseman,Shakespearean,1
+Buchanan,Shakespearean,2
+Derby,Shakespearean,1
+Bechstein,Shakespearean,1
+Shakespearean,Wiltshire,3
+Hush,Shakespearean,1
+Nottingham,Shakespearean,1
+Lilian Swetnam,Shakespearean,1
+Fritz,Shakespearean,3
+Dickens,Shakespearean,1
+Charles Dickens,Shakespearean,1
+Sarah Swetnam,Swetnam,75
+Sally,Sarah Swetnam,120
+Sarah Swetnam,Sarah Swetnam,105
+Sarah,Sarah Swetnam,450
+Brunt,Sarah Swetnam,75
+Lilian,Sarah Swetnam,30
+Andrew Dean,Sarah Swetnam,540
+Nell,Sarah Swetnam,15
+Jane,Sarah Swetnam,15
+Jimmy,Sarah Swetnam,240
+Dean,Sarah Swetnam,150
+Churchman,Sarah Swetnam,15
+Emanuel,Sarah Swetnam,90
+Georgiana,Sarah Swetnam,300
+Jarndyce,Sarah Swetnam,75
+Kiel,Sarah Swetnam,15
+Flora Prockter,Sarah Swetnam,15
+Flora,Sarah Swetnam,15
+Sarah Swetnam,Ted,15
+Ronald,Sarah Swetnam,15
+Ronald Swetnam,Sarah Swetnam,15
+Jos,Sarah Swetnam,45
+Jos Swetman,Sarah Swetnam,15
+Jos Swetnam,Sarah Swetnam,45
+Emanuel Prockter's,Sarah Swetnam,15
+Joe,Sarah Swetnam,15
+Benskin,Sarah Swetnam,30
+Andrew,Sarah Swetnam,150
+Sarah Swetnam,Wilbrahams,60
+Carey,Sarah Swetnam,15
+Oldcastle,Sarah Swetnam,15
+Miser,Sarah Swetnam,15
+Sarah Swetnam,Ye,15
+Machiavelli,Sarah Swetnam,15
+Hanbridge,Sarah Swetnam,15
+Crewe,Sarah Swetnam,60
+Bass,Sarah Swetnam,15
+Helen - she,Sarah Swetnam,15
+Edinburgh,Sarah Swetnam,15
+Sarah Swetnam,Welsh,15
+Hurrah,Sarah Swetnam,15
+Crump,Sarah Swetnam,90
+Ezra Brunt,Sarah Swetnam,15
+Hall,Sarah Swetnam,30
+Emanuel Prockter - I,Sarah Swetnam,15
+Sarah Swetnam,Ye'll,15
+Light,Sarah Swetnam,15
+Glad,Sarah Swetnam,15
+Paisley,Sarah Swetnam,15
+Sarah Swetnam,Swetnams,15
+Joshua,Sarah Swetnam,15
+Mont Blanc,Sarah Swetnam,15
+Don Juan,Sarah Swetnam,15
+Norseman,Sarah Swetnam,15
+Buchanan,Sarah Swetnam,30
+Derby,Sarah Swetnam,15
+Bechstein,Sarah Swetnam,15
+Sarah Swetnam,Wiltshire,45
+Hush,Sarah Swetnam,15
+Nottingham,Sarah Swetnam,15
+Lilian Swetnam,Sarah Swetnam,15
+Fritz,Sarah Swetnam,45
+Dickens,Sarah Swetnam,15
+Charles Dickens,Sarah Swetnam,15
+Sally,Swetnam,40
+Sarah,Swetnam,150
+Brunt,Swetnam,25
+Lilian,Swetnam,10
+Andrew Dean,Swetnam,180
+Nell,Swetnam,5
+Jane,Swetnam,5
+Jimmy,Swetnam,80
+Swetnam,Swetnam,10
+Dean,Swetnam,50
+Churchman,Swetnam,5
+Emanuel,Swetnam,30
+Georgiana,Swetnam,100
+Jarndyce,Swetnam,25
+Kiel,Swetnam,5
+Flora Prockter,Swetnam,5
+Flora,Swetnam,5
+Swetnam,Ted,5
+Ronald,Swetnam,5
+Ronald Swetnam,Swetnam,5
+Jos,Swetnam,15
+Jos Swetman,Swetnam,5
+Jos Swetnam,Swetnam,15
+Emanuel Prockter's,Swetnam,5
+Joe,Swetnam,5
+Benskin,Swetnam,10
+Andrew,Swetnam,50
+Swetnam,Wilbrahams,20
+Carey,Swetnam,5
+Oldcastle,Swetnam,5
+Miser,Swetnam,5
+Swetnam,Ye,5
+Machiavelli,Swetnam,5
+Hanbridge,Swetnam,5
+Crewe,Swetnam,20
+Bass,Swetnam,5
+Helen - she,Swetnam,5
+Edinburgh,Swetnam,5
+Swetnam,Welsh,5
+Hurrah,Swetnam,5
+Crump,Swetnam,30
+Ezra Brunt,Swetnam,5
+Hall,Swetnam,10
+Emanuel Prockter - I,Swetnam,5
+Swetnam,Ye'll,5
+Light,Swetnam,5
+Glad,Swetnam,5
+Paisley,Swetnam,5
+Swetnam,Swetnams,5
+Joshua,Swetnam,5
+Mont Blanc,Swetnam,5
+Don Juan,Swetnam,5
+Norseman,Swetnam,5
+Buchanan,Swetnam,10
+Derby,Swetnam,5
+Bechstein,Swetnam,5
+Swetnam,Wiltshire,15
+Hush,Swetnam,5
+Nottingham,Swetnam,5
+Lilian Swetnam,Swetnam,5
+Fritz,Swetnam,15
+Dickens,Swetnam,5
+Charles Dickens,Swetnam,5
+Sally,Sally,28
+Sally,Sarah,240
+Brunt,Sally,40
+Lilian,Sally,16
+Andrew Dean,Sally,288
+Nell,Sally,8
+Jane,Sally,8
+Jimmy,Sally,128
+Dean,Sally,80
+Churchman,Sally,8
+Emanuel,Sally,48
+Georgiana,Sally,160
+Jarndyce,Sally,40
+Kiel,Sally,8
+Flora Prockter,Sally,8
+Flora,Sally,8
+Sally,Ted,8
+Ronald,Sally,8
+Ronald Swetnam,Sally,8
+Jos,Sally,24
+Jos Swetman,Sally,8
+Jos Swetnam,Sally,24
+Emanuel Prockter's,Sally,8
+Joe,Sally,8
+Benskin,Sally,16
+Andrew,Sally,80
+Sally,Wilbrahams,32
+Carey,Sally,8
+Oldcastle,Sally,8
+Miser,Sally,8
+Sally,Ye,8
+Machiavelli,Sally,8
+Hanbridge,Sally,8
+Crewe,Sally,32
+Bass,Sally,8
+Helen - she,Sally,8
+Edinburgh,Sally,8
+Sally,Welsh,8
+Hurrah,Sally,8
+Crump,Sally,48
+Ezra Brunt,Sally,8
+Hall,Sally,16
+Emanuel Prockter - I,Sally,8
+Sally,Ye'll,8
+Light,Sally,8
+Glad,Sally,8
+Paisley,Sally,8
+Sally,Swetnams,8
+Joshua,Sally,8
+Mont Blanc,Sally,8
+Don Juan,Sally,8
+Norseman,Sally,8
+Buchanan,Sally,16
+Derby,Sally,8
+Bechstein,Sally,8
+Sally,Wiltshire,24
+Hush,Sally,8
+Nottingham,Sally,8
+Lilian Swetnam,Sally,8
+Fritz,Sally,24
+Dickens,Sally,8
+Charles Dickens,Sally,8
+Sarah,Sarah,435
+Brunt,Sarah,150
+Lilian,Sarah,60
+Andrew Dean,Sarah,1080
+Nell,Sarah,30
+Jane,Sarah,30
+Jimmy,Sarah,480
+Dean,Sarah,300
+Churchman,Sarah,30
+Emanuel,Sarah,180
+Georgiana,Sarah,600
+Jarndyce,Sarah,150
+Kiel,Sarah,30
+Flora Prockter,Sarah,30
+Flora,Sarah,30
+Sarah,Ted,30
+Ronald,Sarah,30
+Ronald Swetnam,Sarah,30
+Jos,Sarah,90
+Jos Swetman,Sarah,30
+Jos Swetnam,Sarah,90
+Emanuel Prockter's,Sarah,30
+Joe,Sarah,30
+Benskin,Sarah,60
+Andrew,Sarah,300
+Sarah,Wilbrahams,120
+Carey,Sarah,30
+Oldcastle,Sarah,30
+Miser,Sarah,30
+Sarah,Ye,30
+Machiavelli,Sarah,30
+Hanbridge,Sarah,30
+Crewe,Sarah,120
+Bass,Sarah,30
+Helen - she,Sarah,30
+Edinburgh,Sarah,30
+Sarah,Welsh,30
+Hurrah,Sarah,30
+Crump,Sarah,180
+Ezra Brunt,Sarah,30
+Hall,Sarah,60
+Emanuel Prockter - I,Sarah,30
+Sarah,Ye'll,30
+Light,Sarah,30
+Glad,Sarah,30
+Paisley,Sarah,30
+Sarah,Swetnams,30
+Joshua,Sarah,30
+Mont Blanc,Sarah,30
+Don Juan,Sarah,30
+Norseman,Sarah,30
+Buchanan,Sarah,60
+Derby,Sarah,30
+Bechstein,Sarah,30
+Sarah,Wiltshire,90
+Hush,Sarah,30
+Nottingham,Sarah,30
+Lilian Swetnam,Sarah,30
+Fritz,Sarah,90
+Dickens,Sarah,30
+Charles Dickens,Sarah,30
+Brunt,Brunt,10
+Brunt,Lilian,10
+Andrew Dean,Brunt,180
+Brunt,Nell,5
+Brunt,Jane,5
+Brunt,Jimmy,80
+Brunt,Dean,50
+Brunt,Churchman,5
+Brunt,Emanuel,30
+Brunt,Georgiana,100
+Brunt,Jarndyce,25
+Brunt,Kiel,5
+Brunt,Flora Prockter,5
+Brunt,Flora,5
+Brunt,Ted,5
+Brunt,Ronald,5
+Brunt,Ronald Swetnam,5
+Brunt,Jos,15
+Brunt,Jos Swetman,5
+Brunt,Jos Swetnam,15
+Brunt,Emanuel Prockter's,5
+Brunt,Joe,5
+Benskin,Brunt,10
+Andrew,Brunt,50
+Brunt,Wilbrahams,20
+Brunt,Carey,5
+Brunt,Oldcastle,5
+Brunt,Miser,5
+Brunt,Ye,5
+Brunt,Machiavelli,5
+Brunt,Hanbridge,5
+Brunt,Crewe,20
+Bass,Brunt,5
+Brunt,Helen - she,5
+Brunt,Edinburgh,5
+Brunt,Welsh,5
+Brunt,Hurrah,5
+Brunt,Crump,30
+Brunt,Ezra Brunt,5
+Brunt,Hall,10
+Brunt,Emanuel Prockter - I,5
+Brunt,Ye'll,5
+Brunt,Light,5
+Brunt,Glad,5
+Brunt,Paisley,5
+Brunt,Swetnams,5
+Brunt,Joshua,5
+Brunt,Mont Blanc,5
+Brunt,Don Juan,5
+Brunt,Norseman,5
+Brunt,Buchanan,10
+Brunt,Derby,5
+Bechstein,Brunt,5
+Brunt,Wiltshire,15
+Brunt,Hush,5
+Brunt,Nottingham,5
+Brunt,Lilian Swetnam,5
+Brunt,Fritz,15
+Brunt,Dickens,5
+Brunt,Charles Dickens,5
+Andrew Dean,Lilian,72
+Lilian,Nell,2
+Jane,Lilian,2
+Jimmy,Lilian,32
+Dean,Lilian,20
+Churchman,Lilian,2
+Emanuel,Lilian,12
+Georgiana,Lilian,40
+Jarndyce,Lilian,10
+Kiel,Lilian,2
+Flora Prockter,Lilian,2
+Flora,Lilian,2
+Lilian,Ted,2
+Lilian,Ronald,2
+Lilian,Ronald Swetnam,2
+Jos,Lilian,6
+Jos Swetman,Lilian,2
+Jos Swetnam,Lilian,6
+Emanuel Prockter's,Lilian,2
+Joe,Lilian,2
+Benskin,Lilian,4
+Andrew,Lilian,20
+Lilian,Wilbrahams,8
+Carey,Lilian,2
+Lilian,Oldcastle,2
+Lilian,Miser,2
+Lilian,Ye,2
+Lilian,Machiavelli,2
+Hanbridge,Lilian,2
+Crewe,Lilian,8
+Bass,Lilian,2
+Helen - she,Lilian,2
+Edinburgh,Lilian,2
+Lilian,Welsh,2
+Hurrah,Lilian,2
+Crump,Lilian,12
+Ezra Brunt,Lilian,2
+Hall,Lilian,4
+Emanuel Prockter - I,Lilian,2
+Lilian,Ye'll,2
+Light,Lilian,2
+Lilian,Lilian,1
+Glad,Lilian,2
+Lilian,Paisley,2
+Lilian,Swetnams,2
+Joshua,Lilian,2
+Lilian,Mont Blanc,2
+Don Juan,Lilian,2
+Lilian,Norseman,2
+Buchanan,Lilian,4
+Derby,Lilian,2
+Bechstein,Lilian,2
+Lilian,Wiltshire,6
+Hush,Lilian,2
+Lilian,Nottingham,2
+Lilian,Lilian Swetnam,2
+Fritz,Lilian,6
+Dickens,Lilian,2
+Charles Dickens,Lilian,2
+Andrew Dean,Andrew Dean,630
+Andrew Dean,Nell,36
+Andrew Dean,Jane,36
+Andrew Dean,Jimmy,576
+Andrew Dean,Dean,360
+Andrew Dean,Churchman,36
+Andrew Dean,Emanuel,216
+Andrew Dean,Georgiana,720
+Andrew Dean,Jarndyce,180
+Andrew Dean,Kiel,36
+Andrew Dean,Flora Prockter,36
+Andrew Dean,Flora,36
+Andrew Dean,Ted,36
+Andrew Dean,Ronald,36
+Andrew Dean,Ronald Swetnam,36
+Andrew Dean,Jos,108
+Andrew Dean,Jos Swetman,36
+Andrew Dean,Jos Swetnam,108
+Andrew Dean,Emanuel Prockter's,36
+Andrew Dean,Joe,36
+Andrew Dean,Benskin,72
+Andrew,Andrew Dean,360
+Andrew Dean,Wilbrahams,144
+Andrew Dean,Carey,36
+Andrew Dean,Oldcastle,36
+Andrew Dean,Miser,36
+Andrew Dean,Ye,36
+Andrew Dean,Machiavelli,36
+Andrew Dean,Hanbridge,36
+Andrew Dean,Crewe,144
+Andrew Dean,Bass,36
+Andrew Dean,Helen - she,36
+Andrew Dean,Edinburgh,36
+Andrew Dean,Welsh,36
+Andrew Dean,Hurrah,36
+Andrew Dean,Crump,216
+Andrew Dean,Ezra Brunt,36
+Andrew Dean,Hall,72
+Andrew Dean,Emanuel Prockter - I,36
+Andrew Dean,Ye'll,36
+Andrew Dean,Light,36
+Andrew Dean,Glad,36
+Andrew Dean,Paisley,36
+Andrew Dean,Swetnams,36
+Andrew Dean,Joshua,36
+Andrew Dean,Mont Blanc,36
+Andrew Dean,Don Juan,36
+Andrew Dean,Norseman,36
+Andrew Dean,Buchanan,72
+Andrew Dean,Derby,36
+Andrew Dean,Bechstein,36
+Andrew Dean,Wiltshire,108
+Andrew Dean,Hush,36
+Andrew Dean,Nottingham,36
+Andrew Dean,Lilian Swetnam,36
+Andrew Dean,Fritz,108
+Andrew Dean,Dickens,36
+Andrew Dean,Charles Dickens,36
+Jane,Nell,1
+Jimmy,Nell,16
+Dean,Nell,10
+Churchman,Nell,1
+Emanuel,Nell,6
+Georgiana,Nell,20
+Jarndyce,Nell,5
+Kiel,Nell,1
+Flora Prockter,Nell,1
+Flora,Nell,1
+Nell,Ted,1
+Nell,Ronald,1
+Nell,Ronald Swetnam,1
+Jos,Nell,3
+Jos Swetman,Nell,1
+Jos Swetnam,Nell,3
+Emanuel Prockter's,Nell,1
+Joe,Nell,1
+Benskin,Nell,2
+Andrew,Nell,10
+Nell,Wilbrahams,4
+Carey,Nell,1
+Nell,Oldcastle,1
+Miser,Nell,1
+Nell,Ye,1
+Machiavelli,Nell,1
+Hanbridge,Nell,1
+Crewe,Nell,4
+Bass,Nell,1
+Helen - she,Nell,1
+Edinburgh,Nell,1
+Nell,Welsh,1
+Hurrah,Nell,1
+Crump,Nell,6
+Ezra Brunt,Nell,1
+Hall,Nell,2
+Emanuel Prockter - I,Nell,1
+Nell,Ye'll,1
+Light,Nell,1
+Glad,Nell,1
+Nell,Paisley,1
+Nell,Swetnams,1
+Joshua,Nell,1
+Mont Blanc,Nell,1
+Don Juan,Nell,1
+Nell,Norseman,1
+Buchanan,Nell,2
+Derby,Nell,1
+Bechstein,Nell,1
+Nell,Wiltshire,3
+Hush,Nell,1
+Nell,Nottingham,1
+Lilian Swetnam,Nell,1
+Fritz,Nell,3
+Dickens,Nell,1
+Charles Dickens,Nell,1
+Jane,Jimmy,16
+Dean,Jane,10
+Churchman,Jane,1
+Emanuel,Jane,6
+Georgiana,Jane,20
+Jane,Jarndyce,5
+Jane,Kiel,1
+Flora Prockter,Jane,1
+Flora,Jane,1
+Jane,Ted,1
+Jane,Ronald,1
+Jane,Ronald Swetnam,1
+Jane,Jos,3
+Jane,Jos Swetman,1
+Jane,Jos Swetnam,3
+Emanuel Prockter's,Jane,1
+Jane,Joe,1
+Benskin,Jane,2
+Andrew,Jane,10
+Jane,Wilbrahams,4
+Carey,Jane,1
+Jane,Oldcastle,1
+Jane,Miser,1
+Jane,Ye,1
+Jane,Machiavelli,1
+Hanbridge,Jane,1
+Crewe,Jane,4
+Bass,Jane,1
+Helen - she,Jane,1
+Edinburgh,Jane,1
+Jane,Welsh,1
+Hurrah,Jane,1
+Crump,Jane,6
+Ezra Brunt,Jane,1
+Hall,Jane,2
+Emanuel Prockter - I,Jane,1
+Jane,Ye'll,1
+Jane,Light,1
+Glad,Jane,1
+Jane,Paisley,1
+Jane,Swetnams,1
+Jane,Joshua,1
+Jane,Mont Blanc,1
+Don Juan,Jane,1
+Jane,Norseman,1
+Buchanan,Jane,2
+Derby,Jane,1
+Bechstein,Jane,1
+Jane,Wiltshire,3
+Hush,Jane,1
+Jane,Nottingham,1
+Jane,Lilian Swetnam,1
+Fritz,Jane,3
+Dickens,Jane,1
+Charles Dickens,Jane,1
+Jimmy,Jimmy,120
+Dean,Jimmy,160
+Churchman,Jimmy,16
+Emanuel,Jimmy,96
+Georgiana,Jimmy,320
+Jarndyce,Jimmy,80
+Jimmy,Kiel,16
+Flora Prockter,Jimmy,16
+Flora,Jimmy,16
+Jimmy,Ted,16
+Jimmy,Ronald,16
+Jimmy,Ronald Swetnam,16
+Jimmy,Jos,48
+Jimmy,Jos Swetman,16
+Jimmy,Jos Swetnam,48
+Emanuel Prockter's,Jimmy,16
+Jimmy,Joe,16
+Benskin,Jimmy,32
+Andrew,Jimmy,160
+Jimmy,Wilbrahams,64
+Carey,Jimmy,16
+Jimmy,Oldcastle,16
+Jimmy,Miser,16
+Jimmy,Ye,16
+Jimmy,Machiavelli,16
+Hanbridge,Jimmy,16
+Crewe,Jimmy,64
+Bass,Jimmy,16
+Helen - she,Jimmy,16
+Edinburgh,Jimmy,16
+Jimmy,Welsh,16
+Hurrah,Jimmy,16
+Crump,Jimmy,96
+Ezra Brunt,Jimmy,16
+Hall,Jimmy,32
+Emanuel Prockter - I,Jimmy,16
+Jimmy,Ye'll,16
+Jimmy,Light,16
+Glad,Jimmy,16
+Jimmy,Paisley,16
+Jimmy,Swetnams,16
+Jimmy,Joshua,16
+Jimmy,Mont Blanc,16
+Don Juan,Jimmy,16
+Jimmy,Norseman,16
+Buchanan,Jimmy,32
+Derby,Jimmy,16
+Bechstein,Jimmy,16
+Jimmy,Wiltshire,48
+Hush,Jimmy,16
+Jimmy,Nottingham,16
+Jimmy,Lilian Swetnam,16
+Fritz,Jimmy,48
+Dickens,Jimmy,16
+Charles Dickens,Jimmy,16
+Dean,Dean,45
+Churchman,Dean,10
+Dean,Emanuel,60
+Dean,Georgiana,200
+Dean,Jarndyce,50
+Dean,Kiel,10
+Dean,Flora Prockter,10
+Dean,Flora,10
+Dean,Ted,10
+Dean,Ronald,10
+Dean,Ronald Swetnam,10
+Dean,Jos,30
+Dean,Jos Swetman,10
+Dean,Jos Swetnam,30
+Dean,Emanuel Prockter's,10
+Dean,Joe,10
+Benskin,Dean,20
+Andrew,Dean,100
+Dean,Wilbrahams,40
+Carey,Dean,10
+Dean,Oldcastle,10
+Dean,Miser,10
+Dean,Ye,10
+Dean,Machiavelli,10
+Dean,Hanbridge,10
+Crewe,Dean,40
+Bass,Dean,10
+Dean,Helen - she,10
+Dean,Edinburgh,10
+Dean,Welsh,10
+Dean,Hurrah,10
+Crump,Dean,60
+Dean,Ezra Brunt,10
+Dean,Hall,20
+Dean,Emanuel Prockter - I,10
+Dean,Ye'll,10
+Dean,Light,10
+Dean,Glad,10
+Dean,Paisley,10
+Dean,Swetnams,10
+Dean,Joshua,10
+Dean,Mont Blanc,10
+Dean,Don Juan,10
+Dean,Norseman,10
+Buchanan,Dean,20
+Dean,Derby,10
+Bechstein,Dean,10
+Dean,Wiltshire,30
+Dean,Hush,10
+Dean,Nottingham,10
+Dean,Lilian Swetnam,10
+Dean,Fritz,30
+Dean,Dickens,10
+Charles Dickens,Dean,10
+Churchman,Emanuel,6
+Churchman,Georgiana,20
+Churchman,Jarndyce,5
+Churchman,Kiel,1
+Churchman,Flora Prockter,1
+Churchman,Flora,1
+Churchman,Ted,1
+Churchman,Ronald,1
+Churchman,Ronald Swetnam,1
+Churchman,Jos,3
+Churchman,Jos Swetman,1
+Churchman,Jos Swetnam,3
+Churchman,Emanuel Prockter's,1
+Churchman,Joe,1
+Benskin,Churchman,2
+Andrew,Churchman,10
+Churchman,Wilbrahams,4
+Carey,Churchman,1
+Churchman,Oldcastle,1
+Churchman,Miser,1
+Churchman,Ye,1
+Churchman,Machiavelli,1
+Churchman,Hanbridge,1
+Churchman,Crewe,4
+Bass,Churchman,1
+Churchman,Helen - she,1
+Churchman,Edinburgh,1
+Churchman,Welsh,1
+Churchman,Hurrah,1
+Churchman,Crump,6
+Churchman,Ezra Brunt,1
+Churchman,Hall,2
+Churchman,Emanuel Prockter - I,1
+Churchman,Ye'll,1
+Churchman,Light,1
+Churchman,Glad,1
+Churchman,Paisley,1
+Churchman,Swetnams,1
+Churchman,Joshua,1
+Churchman,Mont Blanc,1
+Churchman,Don Juan,1
+Churchman,Norseman,1
+Buchanan,Churchman,2
+Churchman,Derby,1
+Bechstein,Churchman,1
+Churchman,Wiltshire,3
+Churchman,Hush,1
+Churchman,Nottingham,1
+Churchman,Lilian Swetnam,1
+Churchman,Fritz,3
+Churchman,Dickens,1
+Charles Dickens,Churchman,1
+Emanuel,Georgiana,120
+Emanuel,Jarndyce,30
+Emanuel,Kiel,6
+Emanuel,Flora Prockter,6
+Emanuel,Flora,6
+Emanuel,Ted,6
+Emanuel,Ronald,6
+Emanuel,Ronald Swetnam,6
+Emanuel,Jos,18
+Emanuel,Jos Swetman,6
+Emanuel,Jos Swetnam,18
+Emanuel,Emanuel,15
+Emanuel,Emanuel Prockter's,6
+Emanuel,Joe,6
+Benskin,Emanuel,12
+Andrew,Emanuel,60
+Emanuel,Wilbrahams,24
+Carey,Emanuel,6
+Emanuel,Oldcastle,6
+Emanuel,Miser,6
+Emanuel,Ye,6
+Emanuel,Machiavelli,6
+Emanuel,Hanbridge,6
+Crewe,Emanuel,24
+Bass,Emanuel,6
+Emanuel,Helen - she,6
+Edinburgh,Emanuel,6
+Emanuel,Welsh,6
+Emanuel,Hurrah,6
+Crump,Emanuel,36
+Emanuel,Ezra Brunt,6
+Emanuel,Hall,12
+Emanuel,Emanuel Prockter - I,6
+Emanuel,Ye'll,6
+Emanuel,Light,6
+Emanuel,Glad,6
+Emanuel,Paisley,6
+Emanuel,Swetnams,6
+Emanuel,Joshua,6
+Emanuel,Mont Blanc,6
+Don Juan,Emanuel,6
+Emanuel,Norseman,6
+Buchanan,Emanuel,12
+Derby,Emanuel,6
+Bechstein,Emanuel,6
+Emanuel,Wiltshire,18
+Emanuel,Hush,6
+Emanuel,Nottingham,6
+Emanuel,Lilian Swetnam,6
+Emanuel,Fritz,18
+Dickens,Emanuel,6
+Charles Dickens,Emanuel,6
+Georgiana,Georgiana,190
+Georgiana,Jarndyce,100
+Georgiana,Kiel,20
+Flora Prockter,Georgiana,20
+Flora,Georgiana,20
+Georgiana,Ted,20
+Georgiana,Ronald,20
+Georgiana,Ronald Swetnam,20
+Georgiana,Jos,60
+Georgiana,Jos Swetman,20
+Georgiana,Jos Swetnam,60
+Emanuel Prockter's,Georgiana,20
+Georgiana,Joe,20
+Benskin,Georgiana,40
+Andrew,Georgiana,200
+Georgiana,Wilbrahams,80
+Carey,Georgiana,20
+Georgiana,Oldcastle,20
+Georgiana,Miser,20
+Georgiana,Ye,20
+Georgiana,Machiavelli,20
+Georgiana,Hanbridge,20
+Crewe,Georgiana,80
+Bass,Georgiana,20
+Georgiana,Helen - she,20
+Edinburgh,Georgiana,20
+Georgiana,Welsh,20
+Georgiana,Hurrah,20
+Crump,Georgiana,120
+Ezra Brunt,Georgiana,20
+Georgiana,Hall,40
+Emanuel Prockter - I,Georgiana,20
+Georgiana,Ye'll,20
+Georgiana,Light,20
+Georgiana,Glad,20
+Georgiana,Paisley,20
+Georgiana,Swetnams,20
+Georgiana,Joshua,20
+Georgiana,Mont Blanc,20
+Don Juan,Georgiana,20
+Georgiana,Norseman,20
+Buchanan,Georgiana,40
+Derby,Georgiana,20
+Bechstein,Georgiana,20
+Georgiana,Wiltshire,60
+Georgiana,Hush,20
+Georgiana,Nottingham,20
+Georgiana,Lilian Swetnam,20
+Fritz,Georgiana,60
+Dickens,Georgiana,20
+Charles Dickens,Georgiana,20
+Jarndyce,Jarndyce,10
+Jarndyce,Kiel,5
+Flora Prockter,Jarndyce,5
+Flora,Jarndyce,5
+Jarndyce,Ted,5
+Jarndyce,Ronald,5
+Jarndyce,Ronald Swetnam,5
+Jarndyce,Jos,15
+Jarndyce,Jos Swetman,5
+Jarndyce,Jos Swetnam,15
+Emanuel Prockter's,Jarndyce,5
+Jarndyce,Joe,5
+Benskin,Jarndyce,10
+Andrew,Jarndyce,50
+Jarndyce,Wilbrahams,20
+Carey,Jarndyce,5
+Jarndyce,Oldcastle,5
+Jarndyce,Miser,5
+Jarndyce,Ye,5
+Jarndyce,Machiavelli,5
+Hanbridge,Jarndyce,5
+Crewe,Jarndyce,20
+Bass,Jarndyce,5
+Helen - she,Jarndyce,5
+Edinburgh,Jarndyce,5
+Jarndyce,Welsh,5
+Hurrah,Jarndyce,5
+Crump,Jarndyce,30
+Ezra Brunt,Jarndyce,5
+Hall,Jarndyce,10
+Emanuel Prockter - I,Jarndyce,5
+Jarndyce,Ye'll,5
+Jarndyce,Light,5
+Glad,Jarndyce,5
+Jarndyce,Paisley,5
+Jarndyce,Swetnams,5
+Jarndyce,Joshua,5
+Jarndyce,Mont Blanc,5
+Don Juan,Jarndyce,5
+Jarndyce,Norseman,5
+Buchanan,Jarndyce,10
+Derby,Jarndyce,5
+Bechstein,Jarndyce,5
+Jarndyce,Wiltshire,15
+Hush,Jarndyce,5
+Jarndyce,Nottingham,5
+Jarndyce,Lilian Swetnam,5
+Fritz,Jarndyce,15
+Dickens,Jarndyce,5
+Charles Dickens,Jarndyce,5
+Flora Prockter,Kiel,1
+Flora,Kiel,1
+Kiel,Ted,1
+Kiel,Ronald,1
+Kiel,Ronald Swetnam,1
+Jos,Kiel,3
+Jos Swetman,Kiel,1
+Jos Swetnam,Kiel,3
+Emanuel Prockter's,Kiel,1
+Joe,Kiel,1
+Benskin,Kiel,2
+Andrew,Kiel,10
+Kiel,Wilbrahams,4
+Carey,Kiel,1
+Kiel,Oldcastle,1
+Kiel,Miser,1
+Kiel,Ye,1
+Kiel,Machiavelli,1
+Hanbridge,Kiel,1
+Crewe,Kiel,4
+Bass,Kiel,1
+Helen - she,Kiel,1
+Edinburgh,Kiel,1
+Kiel,Welsh,1
+Hurrah,Kiel,1
+Crump,Kiel,6
+Ezra Brunt,Kiel,1
+Hall,Kiel,2
+Emanuel Prockter - I,Kiel,1
+Kiel,Ye'll,1
+Kiel,Light,1
+Glad,Kiel,1
+Kiel,Paisley,1
+Kiel,Swetnams,1
+Joshua,Kiel,1
+Kiel,Mont Blanc,1
+Don Juan,Kiel,1
+Kiel,Norseman,1
+Buchanan,Kiel,2
+Derby,Kiel,1
+Bechstein,Kiel,1
+Kiel,Wiltshire,3
+Hush,Kiel,1
+Kiel,Nottingham,1
+Kiel,Lilian Swetnam,1
+Fritz,Kiel,3
+Dickens,Kiel,1
+Charles Dickens,Kiel,1
+Flora,Flora Prockter,1
+Flora Prockter,Ted,1
+Flora Prockter,Ronald,1
+Flora Prockter,Ronald Swetnam,1
+Flora Prockter,Jos,3
+Flora Prockter,Jos Swetman,1
+Flora Prockter,Jos Swetnam,3
+Emanuel Prockter's,Flora Prockter,1
+Flora Prockter,Joe,1
+Benskin,Flora Prockter,2
+Andrew,Flora Prockter,10
+Flora Prockter,Wilbrahams,4
+Carey,Flora Prockter,1
+Flora Prockter,Oldcastle,1
+Flora Prockter,Miser,1
+Flora Prockter,Ye,1
+Flora Prockter,Machiavelli,1
+Flora Prockter,Hanbridge,1
+Crewe,Flora Prockter,4
+Bass,Flora Prockter,1
+Flora Prockter,Helen - she,1
+Edinburgh,Flora Prockter,1
+Flora Prockter,Welsh,1
+Flora Prockter,Hurrah,1
+Crump,Flora Prockter,6
+Ezra Brunt,Flora Prockter,1
+Flora Prockter,Hall,2
+Emanuel Prockter - I,Flora Prockter,1
+Flora Prockter,Ye'll,1
+Flora Prockter,Light,1
+Flora Prockter,Glad,1
+Flora Prockter,Paisley,1
+Flora Prockter,Swetnams,1
+Flora Prockter,Joshua,1
+Flora Prockter,Mont Blanc,1
+Don Juan,Flora Prockter,1
+Flora Prockter,Norseman,1
+Buchanan,Flora Prockter,2
+Derby,Flora Prockter,1
+Bechstein,Flora Prockter,1
+Flora Prockter,Wiltshire,3
+Flora Prockter,Hush,1
+Flora Prockter,Nottingham,1
+Flora Prockter,Lilian Swetnam,1
+Flora Prockter,Fritz,3
+Dickens,Flora Prockter,1
+Charles Dickens,Flora Prockter,1
+Flora,Ted,1
+Flora,Ronald,1
+Flora,Ronald Swetnam,1
+Flora,Jos,3
+Flora,Jos Swetman,1
+Flora,Jos Swetnam,3
+Emanuel Prockter's,Flora,1
+Flora,Joe,1
+Benskin,Flora,2
+Andrew,Flora,10
+Flora,Wilbrahams,4
+Carey,Flora,1
+Flora,Oldcastle,1
+Flora,Miser,1
+Flora,Ye,1
+Flora,Machiavelli,1
+Flora,Hanbridge,1
+Crewe,Flora,4
+Bass,Flora,1
+Flora,Helen - she,1
+Edinburgh,Flora,1
+Flora,Welsh,1
+Flora,Hurrah,1
+Crump,Flora,6
+Ezra Brunt,Flora,1
+Flora,Hall,2
+Emanuel Prockter - I,Flora,1
+Flora,Ye'll,1
+Flora,Light,1
+Flora,Glad,1
+Flora,Paisley,1
+Flora,Swetnams,1
+Flora,Joshua,1
+Flora,Mont Blanc,1
+Don Juan,Flora,1
+Flora,Norseman,1
+Buchanan,Flora,2
+Derby,Flora,1
+Bechstein,Flora,1
+Flora,Wiltshire,3
+Flora,Hush,1
+Flora,Nottingham,1
+Flora,Lilian Swetnam,1
+Flora,Fritz,3
+Dickens,Flora,1
+Charles Dickens,Flora,1
+Ronald,Ted,1
+Ronald Swetnam,Ted,1
+Jos,Ted,3
+Jos Swetman,Ted,1
+Jos Swetnam,Ted,3
+Emanuel Prockter's,Ted,1
+Joe,Ted,1
+Benskin,Ted,2
+Andrew,Ted,10
+Ted,Wilbrahams,4
+Carey,Ted,1
+Oldcastle,Ted,1
+Miser,Ted,1
+Ted,Ye,1
+Machiavelli,Ted,1
+Hanbridge,Ted,1
+Crewe,Ted,4
+Bass,Ted,1
+Helen - she,Ted,1
+Edinburgh,Ted,1
+Ted,Welsh,1
+Hurrah,Ted,1
+Crump,Ted,6
+Ezra Brunt,Ted,1
+Hall,Ted,2
+Emanuel Prockter - I,Ted,1
+Ted,Ye'll,1
+Light,Ted,1
+Glad,Ted,1
+Paisley,Ted,1
+Swetnams,Ted,1
+Joshua,Ted,1
+Mont Blanc,Ted,1
+Don Juan,Ted,1
+Norseman,Ted,1
+Buchanan,Ted,2
+Derby,Ted,1
+Bechstein,Ted,1
+Ted,Wiltshire,3
+Hush,Ted,1
+Nottingham,Ted,1
+Lilian Swetnam,Ted,1
+Fritz,Ted,3
+Dickens,Ted,1
+Charles Dickens,Ted,1
+Ronald,Ronald Swetnam,1
+Jos,Ronald,3
+Jos Swetman,Ronald,1
+Jos Swetnam,Ronald,3
+Emanuel Prockter's,Ronald,1
+Joe,Ronald,1
+Benskin,Ronald,2
+Andrew,Ronald,10
+Ronald,Wilbrahams,4
+Carey,Ronald,1
+Oldcastle,Ronald,1
+Miser,Ronald,1
+Ronald,Ye,1
+Machiavelli,Ronald,1
+Hanbridge,Ronald,1
+Crewe,Ronald,4
+Bass,Ronald,1
+Helen - she,Ronald,1
+Edinburgh,Ronald,1
+Ronald,Welsh,1
+Hurrah,Ronald,1
+Crump,Ronald,6
+Ezra Brunt,Ronald,1
+Hall,Ronald,2
+Emanuel Prockter - I,Ronald,1
+Ronald,Ye'll,1
+Light,Ronald,1
+Glad,Ronald,1
+Paisley,Ronald,1
+Ronald,Swetnams,1
+Joshua,Ronald,1
+Mont Blanc,Ronald,1
+Don Juan,Ronald,1
+Norseman,Ronald,1
+Buchanan,Ronald,2
+Derby,Ronald,1
+Bechstein,Ronald,1
+Ronald,Wiltshire,3
+Hush,Ronald,1
+Nottingham,Ronald,1
+Lilian Swetnam,Ronald,1
+Fritz,Ronald,3
+Dickens,Ronald,1
+Charles Dickens,Ronald,1
+Jos,Ronald Swetnam,3
+Jos Swetman,Ronald Swetnam,1
+Jos Swetnam,Ronald Swetnam,3
+Emanuel Prockter's,Ronald Swetnam,1
+Joe,Ronald Swetnam,1
+Benskin,Ronald Swetnam,2
+Andrew,Ronald Swetnam,10
+Ronald Swetnam,Wilbrahams,4
+Carey,Ronald Swetnam,1
+Oldcastle,Ronald Swetnam,1
+Miser,Ronald Swetnam,1
+Ronald Swetnam,Ye,1
+Machiavelli,Ronald Swetnam,1
+Hanbridge,Ronald Swetnam,1
+Crewe,Ronald Swetnam,4
+Bass,Ronald Swetnam,1
+Helen - she,Ronald Swetnam,1
+Edinburgh,Ronald Swetnam,1
+Ronald Swetnam,Welsh,1
+Hurrah,Ronald Swetnam,1
+Crump,Ronald Swetnam,6
+Ezra Brunt,Ronald Swetnam,1
+Hall,Ronald Swetnam,2
+Emanuel Prockter - I,Ronald Swetnam,1
+Ronald Swetnam,Ye'll,1
+Light,Ronald Swetnam,1
+Glad,Ronald Swetnam,1
+Paisley,Ronald Swetnam,1
+Ronald Swetnam,Swetnams,1
+Joshua,Ronald Swetnam,1
+Mont Blanc,Ronald Swetnam,1
+Don Juan,Ronald Swetnam,1
+Norseman,Ronald Swetnam,1
+Buchanan,Ronald Swetnam,2
+Derby,Ronald Swetnam,1
+Bechstein,Ronald Swetnam,1
+Ronald Swetnam,Wiltshire,3
+Hush,Ronald Swetnam,1
+Nottingham,Ronald Swetnam,1
+Lilian Swetnam,Ronald Swetnam,1
+Fritz,Ronald Swetnam,3
+Dickens,Ronald Swetnam,1
+Charles Dickens,Ronald Swetnam,1
+Jos,Jos Swetman,3
+Jos,Jos,3
+Jos,Jos Swetnam,9
+Emanuel Prockter's,Jos,3
+Joe,Jos,3
+Benskin,Jos,6
+Andrew,Jos,30
+Jos,Wilbrahams,12
+Carey,Jos,3
+Jos,Oldcastle,3
+Jos,Miser,3
+Jos,Ye,3
+Jos,Machiavelli,3
+Hanbridge,Jos,3
+Crewe,Jos,12
+Bass,Jos,3
+Helen - she,Jos,3
+Edinburgh,Jos,3
+Jos,Welsh,3
+Hurrah,Jos,3
+Crump,Jos,18
+Ezra Brunt,Jos,3
+Hall,Jos,6
+Emanuel Prockter - I,Jos,3
+Jos,Ye'll,3
+Jos,Light,3
+Glad,Jos,3
+Jos,Paisley,3
+Jos,Swetnams,3
+Jos,Joshua,3
+Jos,Mont Blanc,3
+Don Juan,Jos,3
+Jos,Norseman,3
+Buchanan,Jos,6
+Derby,Jos,3
+Bechstein,Jos,3
+Jos,Wiltshire,9
+Hush,Jos,3
+Jos,Nottingham,3
+Jos,Lilian Swetnam,3
+Fritz,Jos,9
+Dickens,Jos,3
+Charles Dickens,Jos,3
+Jos Swetman,Jos Swetnam,3
+Emanuel Prockter's,Jos Swetman,1
+Joe,Jos Swetman,1
+Benskin,Jos Swetman,2
+Andrew,Jos Swetman,10
+Jos Swetman,Wilbrahams,4
+Carey,Jos Swetman,1
+Jos Swetman,Oldcastle,1
+Jos Swetman,Miser,1
+Jos Swetman,Ye,1
+Jos Swetman,Machiavelli,1
+Hanbridge,Jos Swetman,1
+Crewe,Jos Swetman,4
+Bass,Jos Swetman,1
+Helen - she,Jos Swetman,1
+Edinburgh,Jos Swetman,1
+Jos Swetman,Welsh,1
+Hurrah,Jos Swetman,1
+Crump,Jos Swetman,6
+Ezra Brunt,Jos Swetman,1
+Hall,Jos Swetman,2
+Emanuel Prockter - I,Jos Swetman,1
+Jos Swetman,Ye'll,1
+Jos Swetman,Light,1
+Glad,Jos Swetman,1
+Jos Swetman,Paisley,1
+Jos Swetman,Swetnams,1
+Jos Swetman,Joshua,1
+Jos Swetman,Mont Blanc,1
+Don Juan,Jos Swetman,1
+Jos Swetman,Norseman,1
+Buchanan,Jos Swetman,2
+Derby,Jos Swetman,1
+Bechstein,Jos Swetman,1
+Jos Swetman,Wiltshire,3
+Hush,Jos Swetman,1
+Jos Swetman,Nottingham,1
+Jos Swetman,Lilian Swetnam,1
+Fritz,Jos Swetman,3
+Dickens,Jos Swetman,1
+Charles Dickens,Jos Swetman,1
+Emanuel Prockter's,Jos Swetnam,3
+Jos Swetnam,Jos Swetnam,3
+Joe,Jos Swetnam,3
+Benskin,Jos Swetnam,6
+Andrew,Jos Swetnam,30
+Jos Swetnam,Wilbrahams,12
+Carey,Jos Swetnam,3
+Jos Swetnam,Oldcastle,3
+Jos Swetnam,Miser,3
+Jos Swetnam,Ye,3
+Jos Swetnam,Machiavelli,3
+Hanbridge,Jos Swetnam,3
+Crewe,Jos Swetnam,12
+Bass,Jos Swetnam,3
+Helen - she,Jos Swetnam,3
+Edinburgh,Jos Swetnam,3
+Jos Swetnam,Welsh,3
+Hurrah,Jos Swetnam,3
+Crump,Jos Swetnam,18
+Ezra Brunt,Jos Swetnam,3
+Hall,Jos Swetnam,6
+Emanuel Prockter - I,Jos Swetnam,3
+Jos Swetnam,Ye'll,3
+Jos Swetnam,Light,3
+Glad,Jos Swetnam,3
+Jos Swetnam,Paisley,3
+Jos Swetnam,Swetnams,3
+Jos Swetnam,Joshua,3
+Jos Swetnam,Mont Blanc,3
+Don Juan,Jos Swetnam,3
+Jos Swetnam,Norseman,3
+Buchanan,Jos Swetnam,6
+Derby,Jos Swetnam,3
+Bechstein,Jos Swetnam,3
+Jos Swetnam,Wiltshire,9
+Hush,Jos Swetnam,3
+Jos Swetnam,Nottingham,3
+Jos Swetnam,Lilian Swetnam,3
+Fritz,Jos Swetnam,9
+Dickens,Jos Swetnam,3
+Charles Dickens,Jos Swetnam,3
+Emanuel Prockter's,Joe,1
+Benskin,Emanuel Prockter's,2
+Andrew,Emanuel Prockter's,10
+Emanuel Prockter's,Wilbrahams,4
+Carey,Emanuel Prockter's,1
+Emanuel Prockter's,Oldcastle,1
+Emanuel Prockter's,Miser,1
+Emanuel Prockter's,Ye,1
+Emanuel Prockter's,Machiavelli,1
+Emanuel Prockter's,Hanbridge,1
+Crewe,Emanuel Prockter's,4
+Bass,Emanuel Prockter's,1
+Emanuel Prockter's,Helen - she,1
+Edinburgh,Emanuel Prockter's,1
+Emanuel Prockter's,Welsh,1
+Emanuel Prockter's,Hurrah,1
+Crump,Emanuel Prockter's,6
+Emanuel Prockter's,Ezra Brunt,1
+Emanuel Prockter's,Hall,2
+Emanuel Prockter - I,Emanuel Prockter's,1
+Emanuel Prockter's,Ye'll,1
+Emanuel Prockter's,Light,1
+Emanuel Prockter's,Glad,1
+Emanuel Prockter's,Paisley,1
+Emanuel Prockter's,Swetnams,1
+Emanuel Prockter's,Joshua,1
+Emanuel Prockter's,Mont Blanc,1
+Don Juan,Emanuel Prockter's,1
+Emanuel Prockter's,Norseman,1
+Buchanan,Emanuel Prockter's,2
+Derby,Emanuel Prockter's,1
+Bechstein,Emanuel Prockter's,1
+Emanuel Prockter's,Wiltshire,3
+Emanuel Prockter's,Hush,1
+Emanuel Prockter's,Nottingham,1
+Emanuel Prockter's,Lilian Swetnam,1
+Emanuel Prockter's,Fritz,3
+Dickens,Emanuel Prockter's,1
+Charles Dickens,Emanuel Prockter's,1
+Benskin,Joe,2
+Andrew,Joe,10
+Joe,Wilbrahams,4
+Carey,Joe,1
+Joe,Oldcastle,1
+Joe,Miser,1
+Joe,Ye,1
+Joe,Machiavelli,1
+Hanbridge,Joe,1
+Crewe,Joe,4
+Bass,Joe,1
+Helen - she,Joe,1
+Edinburgh,Joe,1
+Joe,Welsh,1
+Hurrah,Joe,1
+Crump,Joe,6
+Ezra Brunt,Joe,1
+Hall,Joe,2
+Emanuel Prockter - I,Joe,1
+Joe,Ye'll,1
+Joe,Light,1
+Glad,Joe,1
+Joe,Paisley,1
+Joe,Swetnams,1
+Joe,Joshua,1
+Joe,Mont Blanc,1
+Don Juan,Joe,1
+Joe,Norseman,1
+Buchanan,Joe,2
+Derby,Joe,1
+Bechstein,Joe,1
+Joe,Wiltshire,3
+Hush,Joe,1
+Joe,Nottingham,1
+Joe,Lilian Swetnam,1
+Fritz,Joe,3
+Dickens,Joe,1
+Charles Dickens,Joe,1
+Benskin,Benskin,1
+Andrew,Benskin,20
+Benskin,Wilbrahams,8
+Benskin,Carey,2
+Benskin,Oldcastle,2
+Benskin,Miser,2
+Benskin,Ye,2
+Benskin,Machiavelli,2
+Benskin,Hanbridge,2
+Benskin,Crewe,8
+Bass,Benskin,2
+Benskin,Helen - she,2
+Benskin,Edinburgh,2
+Benskin,Welsh,2
+Benskin,Hurrah,2
+Benskin,Crump,12
+Benskin,Ezra Brunt,2
+Benskin,Hall,4
+Benskin,Emanuel Prockter - I,2
+Benskin,Ye'll,2
+Benskin,Light,2
+Benskin,Glad,2
+Benskin,Paisley,2
+Benskin,Swetnams,2
+Benskin,Joshua,2
+Benskin,Mont Blanc,2
+Benskin,Don Juan,2
+Benskin,Norseman,2
+Benskin,Buchanan,4
+Benskin,Derby,2
+Bechstein,Benskin,2
+Benskin,Wiltshire,6
+Benskin,Hush,2
+Benskin,Nottingham,2
+Benskin,Lilian Swetnam,2
+Benskin,Fritz,6
+Benskin,Dickens,2
+Benskin,Charles Dickens,2
+Andrew,Andrew,45
+Andrew,Wilbrahams,40
+Andrew,Carey,10
+Andrew,Oldcastle,10
+Andrew,Miser,10
+Andrew,Ye,10
+Andrew,Machiavelli,10
+Andrew,Hanbridge,10
+Andrew,Crewe,40
+Andrew,Bass,10
+Andrew,Helen - she,10
+Andrew,Edinburgh,10
+Andrew,Welsh,10
+Andrew,Hurrah,10
+Andrew,Crump,60
+Andrew,Ezra Brunt,10
+Andrew,Hall,20
+Andrew,Emanuel Prockter - I,10
+Andrew,Ye'll,10
+Andrew,Light,10
+Andrew,Glad,10
+Andrew,Paisley,10
+Andrew,Swetnams,10
+Andrew,Joshua,10
+Andrew,Mont Blanc,10
+Andrew,Don Juan,10
+Andrew,Norseman,10
+Andrew,Buchanan,20
+Andrew,Derby,10
+Andrew,Bechstein,10
+Andrew,Wiltshire,30
+Andrew,Hush,10
+Andrew,Nottingham,10
+Andrew,Lilian Swetnam,10
+Andrew,Fritz,30
+Andrew,Dickens,10
+Andrew,Charles Dickens,10
+Wilbrahams,Wilbrahams,6
+Carey,Wilbrahams,4
+Oldcastle,Wilbrahams,4
+Miser,Wilbrahams,4
+Wilbrahams,Ye,4
+Machiavelli,Wilbrahams,4
+Hanbridge,Wilbrahams,4
+Crewe,Wilbrahams,16
+Bass,Wilbrahams,4
+Helen - she,Wilbrahams,4
+Edinburgh,Wilbrahams,4
+Welsh,Wilbrahams,4
+Hurrah,Wilbrahams,4
+Crump,Wilbrahams,24
+Ezra Brunt,Wilbrahams,4
+Hall,Wilbrahams,8
+Emanuel Prockter - I,Wilbrahams,4
+Wilbrahams,Ye'll,4
+Light,Wilbrahams,4
+Glad,Wilbrahams,4
+Paisley,Wilbrahams,4
+Swetnams,Wilbrahams,4
+Joshua,Wilbrahams,4
+Mont Blanc,Wilbrahams,4
+Don Juan,Wilbrahams,4
+Norseman,Wilbrahams,4
+Buchanan,Wilbrahams,8
+Derby,Wilbrahams,4
+Bechstein,Wilbrahams,4
+Wilbrahams,Wiltshire,12
+Hush,Wilbrahams,4
+Nottingham,Wilbrahams,4
+Lilian Swetnam,Wilbrahams,4
+Fritz,Wilbrahams,12
+Dickens,Wilbrahams,4
+Charles Dickens,Wilbrahams,4
+Carey,Oldcastle,1
+Carey,Miser,1
+Carey,Ye,1
+Carey,Machiavelli,1
+Carey,Hanbridge,1
+Carey,Crewe,4
+Bass,Carey,1
+Carey,Helen - she,1
+Carey,Edinburgh,1
+Carey,Welsh,1
+Carey,Hurrah,1
+Carey,Crump,6
+Carey,Ezra Brunt,1
+Carey,Hall,2
+Carey,Emanuel Prockter - I,1
+Carey,Ye'll,1
+Carey,Light,1
+Carey,Glad,1
+Carey,Paisley,1
+Carey,Swetnams,1
+Carey,Joshua,1
+Carey,Mont Blanc,1
+Carey,Don Juan,1
+Carey,Norseman,1
+Buchanan,Carey,2
+Carey,Derby,1
+Bechstein,Carey,1
+Carey,Wiltshire,3
+Carey,Hush,1
+Carey,Nottingham,1
+Carey,Lilian Swetnam,1
+Carey,Fritz,3
+Carey,Dickens,1
+Carey,Charles Dickens,1
+Miser,Oldcastle,1
+Oldcastle,Ye,1
+Machiavelli,Oldcastle,1
+Hanbridge,Oldcastle,1
+Crewe,Oldcastle,4
+Bass,Oldcastle,1
+Helen - she,Oldcastle,1
+Edinburgh,Oldcastle,1
+Oldcastle,Welsh,1
+Hurrah,Oldcastle,1
+Crump,Oldcastle,6
+Ezra Brunt,Oldcastle,1
+Hall,Oldcastle,2
+Emanuel Prockter - I,Oldcastle,1
+Oldcastle,Ye'll,1
+Light,Oldcastle,1
+Glad,Oldcastle,1
+Oldcastle,Paisley,1
+Oldcastle,Swetnams,1
+Joshua,Oldcastle,1
+Mont Blanc,Oldcastle,1
+Don Juan,Oldcastle,1
+Norseman,Oldcastle,1
+Buchanan,Oldcastle,2
+Derby,Oldcastle,1
+Bechstein,Oldcastle,1
+Oldcastle,Wiltshire,3
+Hush,Oldcastle,1
+Nottingham,Oldcastle,1
+Lilian Swetnam,Oldcastle,1
+Fritz,Oldcastle,3
+Dickens,Oldcastle,1
+Charles Dickens,Oldcastle,1
+Miser,Ye,1
+Machiavelli,Miser,1
+Hanbridge,Miser,1
+Crewe,Miser,4
+Bass,Miser,1
+Helen - she,Miser,1
+Edinburgh,Miser,1
+Miser,Welsh,1
+Hurrah,Miser,1
+Crump,Miser,6
+Ezra Brunt,Miser,1
+Hall,Miser,2
+Emanuel Prockter - I,Miser,1
+Miser,Ye'll,1
+Light,Miser,1
+Glad,Miser,1
+Miser,Paisley,1
+Miser,Swetnams,1
+Joshua,Miser,1
+Miser,Mont Blanc,1
+Don Juan,Miser,1
+Miser,Norseman,1
+Buchanan,Miser,2
+Derby,Miser,1
+Bechstein,Miser,1
+Miser,Wiltshire,3
+Hush,Miser,1
+Miser,Nottingham,1
+Lilian Swetnam,Miser,1
+Fritz,Miser,3
+Dickens,Miser,1
+Charles Dickens,Miser,1
+Machiavelli,Ye,1
+Hanbridge,Ye,1
+Crewe,Ye,4
+Bass,Ye,1
+Helen - she,Ye,1
+Edinburgh,Ye,1
+Welsh,Ye,1
+Hurrah,Ye,1
+Crump,Ye,6
+Ezra Brunt,Ye,1
+Hall,Ye,2
+Emanuel Prockter - I,Ye,1
+Ye,Ye'll,1
+Light,Ye,1
+Glad,Ye,1
+Paisley,Ye,1
+Swetnams,Ye,1
+Joshua,Ye,1
+Mont Blanc,Ye,1
+Don Juan,Ye,1
+Norseman,Ye,1
+Buchanan,Ye,2
+Derby,Ye,1
+Bechstein,Ye,1
+Wiltshire,Ye,3
+Hush,Ye,1
+Nottingham,Ye,1
+Lilian Swetnam,Ye,1
+Fritz,Ye,3
+Dickens,Ye,1
+Charles Dickens,Ye,1
+Hanbridge,Machiavelli,1
+Crewe,Machiavelli,4
+Bass,Machiavelli,1
+Helen - she,Machiavelli,1
+Edinburgh,Machiavelli,1
+Machiavelli,Welsh,1
+Hurrah,Machiavelli,1
+Crump,Machiavelli,6
+Ezra Brunt,Machiavelli,1
+Hall,Machiavelli,2
+Emanuel Prockter - I,Machiavelli,1
+Machiavelli,Ye'll,1
+Light,Machiavelli,1
+Glad,Machiavelli,1
+Machiavelli,Paisley,1
+Machiavelli,Swetnams,1
+Joshua,Machiavelli,1
+Machiavelli,Mont Blanc,1
+Don Juan,Machiavelli,1
+Machiavelli,Norseman,1
+Buchanan,Machiavelli,2
+Derby,Machiavelli,1
+Bechstein,Machiavelli,1
+Machiavelli,Wiltshire,3
+Hush,Machiavelli,1
+Machiavelli,Nottingham,1
+Lilian Swetnam,Machiavelli,1
+Fritz,Machiavelli,3
+Dickens,Machiavelli,1
+Charles Dickens,Machiavelli,1
+Crewe,Hanbridge,4
+Bass,Hanbridge,1
+Hanbridge,Helen - she,1
+Edinburgh,Hanbridge,1
+Hanbridge,Welsh,1
+Hanbridge,Hurrah,1
+Crump,Hanbridge,6
+Ezra Brunt,Hanbridge,1
+Hall,Hanbridge,2
+Emanuel Prockter - I,Hanbridge,1
+Hanbridge,Ye'll,1
+Hanbridge,Light,1
+Glad,Hanbridge,1
+Hanbridge,Paisley,1
+Hanbridge,Swetnams,1
+Hanbridge,Joshua,1
+Hanbridge,Mont Blanc,1
+Don Juan,Hanbridge,1
+Hanbridge,Norseman,1
+Buchanan,Hanbridge,2
+Derby,Hanbridge,1
+Bechstein,Hanbridge,1
+Hanbridge,Wiltshire,3
+Hanbridge,Hush,1
+Hanbridge,Nottingham,1
+Hanbridge,Lilian Swetnam,1
+Fritz,Hanbridge,3
+Dickens,Hanbridge,1
+Charles Dickens,Hanbridge,1
+Crewe,Crewe,6
+Bass,Crewe,4
+Crewe,Helen - she,4
+Crewe,Edinburgh,4
+Crewe,Welsh,4
+Crewe,Hurrah,4
+Crewe,Crump,24
+Crewe,Ezra Brunt,4
+Crewe,Hall,8
+Crewe,Emanuel Prockter - I,4
+Crewe,Ye'll,4
+Crewe,Light,4
+Crewe,Glad,4
+Crewe,Paisley,4
+Crewe,Swetnams,4
+Crewe,Joshua,4
+Crewe,Mont Blanc,4
+Crewe,Don Juan,4
+Crewe,Norseman,4
+Buchanan,Crewe,8
+Crewe,Derby,4
+Bechstein,Crewe,4
+Crewe,Wiltshire,12
+Crewe,Hush,4
+Crewe,Nottingham,4
+Crewe,Lilian Swetnam,4
+Crewe,Fritz,12
+Crewe,Dickens,4
+Charles Dickens,Crewe,4
+Bass,Helen - she,1
+Bass,Edinburgh,1
+Bass,Welsh,1
+Bass,Hurrah,1
+Bass,Crump,6
+Bass,Ezra Brunt,1
+Bass,Hall,2
+Bass,Emanuel Prockter - I,1
+Bass,Ye'll,1
+Bass,Light,1
+Bass,Glad,1
+Bass,Paisley,1
+Bass,Swetnams,1
+Bass,Joshua,1
+Bass,Mont Blanc,1
+Bass,Don Juan,1
+Bass,Norseman,1
+Bass,Buchanan,2
+Bass,Derby,1
+Bass,Bechstein,1
+Bass,Wiltshire,3
+Bass,Hush,1
+Bass,Nottingham,1
+Bass,Lilian Swetnam,1
+Bass,Fritz,3
+Bass,Dickens,1
+Bass,Charles Dickens,1
+Edinburgh,Helen - she,1
+Helen - she,Welsh,1
+Helen - she,Hurrah,1
+Crump,Helen - she,6
+Ezra Brunt,Helen - she,1
+Hall,Helen - she,2
+Emanuel Prockter - I,Helen - she,1
+Helen - she,Ye'll,1
+Helen - she,Light,1
+Glad,Helen - she,1
+Helen - she,Paisley,1
+Helen - she,Swetnams,1
+Helen - she,Joshua,1
+Helen - she,Mont Blanc,1
+Don Juan,Helen - she,1
+Helen - she,Norseman,1
+Buchanan,Helen - she,2
+Derby,Helen - she,1
+Bechstein,Helen - she,1
+Helen - she,Wiltshire,3
+Helen - she,Hush,1
+Helen - she,Nottingham,1
+Helen - she,Lilian Swetnam,1
+Fritz,Helen - she,3
+Dickens,Helen - she,1
+Charles Dickens,Helen - she,1
+Edinburgh,Welsh,1
+Edinburgh,Hurrah,1
+Crump,Edinburgh,6
+Edinburgh,Ezra Brunt,1
+Edinburgh,Hall,2
+Edinburgh,Emanuel Prockter - I,1
+Edinburgh,Ye'll,1
+Edinburgh,Light,1
+Edinburgh,Glad,1
+Edinburgh,Paisley,1
+Edinburgh,Swetnams,1
+Edinburgh,Joshua,1
+Edinburgh,Mont Blanc,1
+Don Juan,Edinburgh,1
+Edinburgh,Norseman,1
+Buchanan,Edinburgh,2
+Derby,Edinburgh,1
+Bechstein,Edinburgh,1
+Edinburgh,Wiltshire,3
+Edinburgh,Hush,1
+Edinburgh,Nottingham,1
+Edinburgh,Lilian Swetnam,1
+Edinburgh,Fritz,3
+Dickens,Edinburgh,1
+Charles Dickens,Edinburgh,1
+Hurrah,Welsh,1
+Crump,Welsh,6
+Ezra Brunt,Welsh,1
+Hall,Welsh,2
+Emanuel Prockter - I,Welsh,1
+Welsh,Ye'll,1
+Light,Welsh,1
+Glad,Welsh,1
+Paisley,Welsh,1
+Swetnams,Welsh,1
+Joshua,Welsh,1
+Mont Blanc,Welsh,1
+Don Juan,Welsh,1
+Norseman,Welsh,1
+Buchanan,Welsh,2
+Derby,Welsh,1
+Bechstein,Welsh,1
+Welsh,Wiltshire,3
+Hush,Welsh,1
+Nottingham,Welsh,1
+Lilian Swetnam,Welsh,1
+Fritz,Welsh,3
+Dickens,Welsh,1
+Charles Dickens,Welsh,1
+Crump,Hurrah,6
+Ezra Brunt,Hurrah,1
+Hall,Hurrah,2
+Emanuel Prockter - I,Hurrah,1
+Hurrah,Ye'll,1
+Hurrah,Light,1
+Glad,Hurrah,1
+Hurrah,Paisley,1
+Hurrah,Swetnams,1
+Hurrah,Joshua,1
+Hurrah,Mont Blanc,1
+Don Juan,Hurrah,1
+Hurrah,Norseman,1
+Buchanan,Hurrah,2
+Derby,Hurrah,1
+Bechstein,Hurrah,1
+Hurrah,Wiltshire,3
+Hurrah,Hush,1
+Hurrah,Nottingham,1
+Hurrah,Lilian Swetnam,1
+Fritz,Hurrah,3
+Dickens,Hurrah,1
+Charles Dickens,Hurrah,1
+Crump,Crump,15
+Crump,Ezra Brunt,6
+Crump,Hall,12
+Crump,Emanuel Prockter - I,6
+Crump,Ye'll,6
+Crump,Light,6
+Crump,Glad,6
+Crump,Paisley,6
+Crump,Swetnams,6
+Crump,Joshua,6
+Crump,Mont Blanc,6
+Crump,Don Juan,6
+Crump,Norseman,6
+Buchanan,Crump,12
+Crump,Derby,6
+Bechstein,Crump,6
+Crump,Wiltshire,18
+Crump,Hush,6
+Crump,Nottingham,6
+Crump,Lilian Swetnam,6
+Crump,Fritz,18
+Crump,Dickens,6
+Charles Dickens,Crump,6
+Ezra Brunt,Hall,2
+Emanuel Prockter - I,Ezra Brunt,1
+Ezra Brunt,Ye'll,1
+Ezra Brunt,Light,1
+Ezra Brunt,Glad,1
+Ezra Brunt,Paisley,1
+Ezra Brunt,Swetnams,1
+Ezra Brunt,Joshua,1
+Ezra Brunt,Mont Blanc,1
+Don Juan,Ezra Brunt,1
+Ezra Brunt,Norseman,1
+Buchanan,Ezra Brunt,2
+Derby,Ezra Brunt,1
+Bechstein,Ezra Brunt,1
+Ezra Brunt,Wiltshire,3
+Ezra Brunt,Hush,1
+Ezra Brunt,Nottingham,1
+Ezra Brunt,Lilian Swetnam,1
+Ezra Brunt,Fritz,3
+Dickens,Ezra Brunt,1
+Charles Dickens,Ezra Brunt,1
+Emanuel Prockter - I,Hall,2
+Hall,Ye'll,2
+Hall,Light,2
+Glad,Hall,2
+Hall,Paisley,2
+Hall,Swetnams,2
+Hall,Joshua,2
+Hall,Mont Blanc,2
+Don Juan,Hall,2
+Hall,Norseman,2
+Buchanan,Hall,4
+Derby,Hall,2
+Bechstein,Hall,2
+Hall,Wiltshire,6
+Hall,Hush,2
+Hall,Nottingham,2
+Hall,Lilian Swetnam,2
+Fritz,Hall,6
+Dickens,Hall,2
+Charles Dickens,Hall,2
+Hall,Hall,1
+Emanuel Prockter - I,Ye'll,1
+Emanuel Prockter - I,Light,1
+Emanuel Prockter - I,Glad,1
+Emanuel Prockter - I,Paisley,1
+Emanuel Prockter - I,Swetnams,1
+Emanuel Prockter - I,Joshua,1
+Emanuel Prockter - I,Mont Blanc,1
+Don Juan,Emanuel Prockter - I,1
+Emanuel Prockter - I,Norseman,1
+Buchanan,Emanuel Prockter - I,2
+Derby,Emanuel Prockter - I,1
+Bechstein,Emanuel Prockter - I,1
+Emanuel Prockter - I,Wiltshire,3
+Emanuel Prockter - I,Hush,1
+Emanuel Prockter - I,Nottingham,1
+Emanuel Prockter - I,Lilian Swetnam,1
+Emanuel Prockter - I,Fritz,3
+Dickens,Emanuel Prockter - I,1
+Charles Dickens,Emanuel Prockter - I,1
+Light,Ye'll,1
+Glad,Ye'll,1
+Paisley,Ye'll,1
+Swetnams,Ye'll,1
+Joshua,Ye'll,1
+Mont Blanc,Ye'll,1
+Don Juan,Ye'll,1
+Norseman,Ye'll,1
+Buchanan,Ye'll,2
+Derby,Ye'll,1
+Bechstein,Ye'll,1
+Wiltshire,Ye'll,3
+Hush,Ye'll,1
+Nottingham,Ye'll,1
+Lilian Swetnam,Ye'll,1
+Fritz,Ye'll,3
+Dickens,Ye'll,1
+Charles Dickens,Ye'll,1
+Glad,Light,1
+Light,Paisley,1
+Light,Swetnams,1
+Joshua,Light,1
+Light,Mont Blanc,1
+Don Juan,Light,1
+Light,Norseman,1
+Buchanan,Light,2
+Derby,Light,1
+Bechstein,Light,1
+Light,Wiltshire,3
+Hush,Light,1
+Light,Nottingham,1
+Light,Lilian Swetnam,1
+Fritz,Light,3
+Dickens,Light,1
+Charles Dickens,Light,1
+Glad,Paisley,1
+Glad,Swetnams,1
+Glad,Joshua,1
+Glad,Mont Blanc,1
+Don Juan,Glad,1
+Glad,Norseman,1
+Buchanan,Glad,2
+Derby,Glad,1
+Bechstein,Glad,1
+Glad,Wiltshire,3
+Glad,Hush,1
+Glad,Nottingham,1
+Glad,Lilian Swetnam,1
+Fritz,Glad,3
+Dickens,Glad,1
+Charles Dickens,Glad,1
+Paisley,Swetnams,1
+Joshua,Paisley,1
+Mont Blanc,Paisley,1
+Don Juan,Paisley,1
+Norseman,Paisley,1
+Buchanan,Paisley,2
+Derby,Paisley,1
+Bechstein,Paisley,1
+Paisley,Wiltshire,3
+Hush,Paisley,1
+Nottingham,Paisley,1
+Lilian Swetnam,Paisley,1
+Fritz,Paisley,3
+Dickens,Paisley,1
+Charles Dickens,Paisley,1
+Joshua,Swetnams,1
+Mont Blanc,Swetnams,1
+Don Juan,Swetnams,1
+Norseman,Swetnams,1
+Buchanan,Swetnams,2
+Derby,Swetnams,1
+Bechstein,Swetnams,1
+Swetnams,Wiltshire,3
+Hush,Swetnams,1
+Nottingham,Swetnams,1
+Lilian Swetnam,Swetnams,1
+Fritz,Swetnams,3
+Dickens,Swetnams,1
+Charles Dickens,Swetnams,1
+Joshua,Mont Blanc,1
+Don Juan,Joshua,1
+Joshua,Norseman,1
+Buchanan,Joshua,2
+Derby,Joshua,1
+Bechstein,Joshua,1
+Joshua,Wiltshire,3
+Hush,Joshua,1
+Joshua,Nottingham,1
+Joshua,Lilian Swetnam,1
+Fritz,Joshua,3
+Dickens,Joshua,1
+Charles Dickens,Joshua,1
+Don Juan,Mont Blanc,1
+Mont Blanc,Norseman,1
+Buchanan,Mont Blanc,2
+Derby,Mont Blanc,1
+Bechstein,Mont Blanc,1
+Mont Blanc,Wiltshire,3
+Hush,Mont Blanc,1
+Mont Blanc,Nottingham,1
+Lilian Swetnam,Mont Blanc,1
+Fritz,Mont Blanc,3
+Dickens,Mont Blanc,1
+Charles Dickens,Mont Blanc,1
+Don Juan,Norseman,1
+Buchanan,Don Juan,2
+Derby,Don Juan,1
+Bechstein,Don Juan,1
+Don Juan,Wiltshire,3
+Don Juan,Hush,1
+Don Juan,Nottingham,1
+Don Juan,Lilian Swetnam,1
+Don Juan,Fritz,3
+Dickens,Don Juan,1
+Charles Dickens,Don Juan,1
+Buchanan,Norseman,2
+Derby,Norseman,1
+Bechstein,Norseman,1
+Norseman,Wiltshire,3
+Hush,Norseman,1
+Norseman,Nottingham,1
+Lilian Swetnam,Norseman,1
+Fritz,Norseman,3
+Dickens,Norseman,1
+Charles Dickens,Norseman,1
+Buchanan,Buchanan,1
+Buchanan,Derby,2
+Bechstein,Buchanan,2
+Buchanan,Wiltshire,6
+Buchanan,Hush,2
+Buchanan,Nottingham,2
+Buchanan,Lilian Swetnam,2
+Buchanan,Fritz,6
+Buchanan,Dickens,2
+Buchanan,Charles Dickens,2
+Bechstein,Derby,1
+Derby,Wiltshire,3
+Derby,Hush,1
+Derby,Nottingham,1
+Derby,Lilian Swetnam,1
+Derby,Fritz,3
+Derby,Dickens,1
+Charles Dickens,Derby,1
+Bechstein,Wiltshire,3
+Bechstein,Hush,1
+Bechstein,Nottingham,1
+Bechstein,Lilian Swetnam,1
+Bechstein,Fritz,3
+Bechstein,Dickens,1
+Bechstein,Charles Dickens,1
+Wiltshire,Wiltshire,3
+Hush,Wiltshire,3
+Nottingham,Wiltshire,3
+Lilian Swetnam,Wiltshire,3
+Fritz,Wiltshire,9
+Dickens,Wiltshire,3
+Charles Dickens,Wiltshire,3
+Hush,Nottingham,1
+Hush,Lilian Swetnam,1
+Fritz,Hush,3
+Dickens,Hush,1
+Charles Dickens,Hush,1
+Lilian Swetnam,Nottingham,1
+Fritz,Nottingham,3
+Dickens,Nottingham,1
+Charles Dickens,Nottingham,1
+Fritz,Lilian Swetnam,3
+Dickens,Lilian Swetnam,1
+Charles Dickens,Lilian Swetnam,1
+Fritz,Fritz,3
+Dickens,Fritz,3
+Charles Dickens,Fritz,3
+Charles Dickens,Dickens,1

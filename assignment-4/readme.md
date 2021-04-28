@@ -12,7 +12,7 @@ This command-line tool will take a given dataset and perform simple network anal
 - It should also create a data frame showing the degree, betweenness, and eigenvector centrality for each node. It should save this as a CSV in a folder called output.  
 
 ## How to run
-
+NOTE: If using your own custom edgelist it might take a while to run!  
 **Step 1: Clone repo**
 - open terminal
 - Navigate to destination for repo
@@ -21,13 +21,9 @@ This command-line tool will take a given dataset and perform simple network anal
  git clone https://github.com/Chris-Kramer/language_assignments.git
  ```
 **step 2: Run bash script:**
-- Navigate to the folder "assignment-4".
+- Navigate to the "src" folder in "assignment-4".
 ```console
-cd assignment-4
-```  
-- Navigate to the folder "src".  
-```console
-cd src
+cd assignment-4/src
 ```  
 - Use the bash script _run-script_assignment4-cmk.sh_ to set up environment and run the script:  
 ```console
@@ -35,42 +31,41 @@ bash run-script_assignment4-cmk.sh
 ```  
 
 ## Output
-The output is a csv-file with the centrality measures which by default can be found in the folder "output", and a graph of the weighted network, which by default can be found under the folder "viz".
+The output is a csv-file with the centrality measures which by can be found in the folder "output", and a graph of the network, which can be found under the folder "viz".
 
 ## Parameters
 This script takes the following parameters, it have already been supplied with default values. But you are welcome to try and change the default parameters. I have added some edgelists under "data/edgelists", you can use. 
 
-`--edgelist` This is the path and filename of the edgelist  
-Default = ../data/edgelists/real_news_edgelist.csv  
-`--filter` If you only wish to graph and calculate centrality for edges above a certain weight you can use this parameter.  
-Default = 500  
-`--output_edgelist` The destination and filename for csv-file with centrality measures  
-Default = ../output/edgelist_centrality.csv  
-`--viz_output` The destination and filename for the graph.  
-Default = ../viz/edgelist_graph.png    
+- `--edgelist` The filename of the edgelist. The edgelist must be located in the folder "data/edgelists"  
+    - Default = real_news_edgelist.csv  
+- `--filter` Specify how large a weight an edge should have in order to be included in the centrality measures. calculate centrality measures.  
+    - Default = 500  
+- `--csv_output` The filename for the csv-file with centrality measures. The file will be located in the folder "output".  
+    - Default = edgelist_centrality.csv  
+- `--viz_output` The filename for the network visualisation. The file will be located in the folder "viz".  
+    - Default = edgelist_graph.png    
 
 Example:  
 ```console
-bash run-script_assignment4-cmk.sh --edgelist ../data/edgelists/fake_news_edgelist.csv --filter 800 --output_centrality ../output/fake_news_centrality.csv --viz_output ../viz/fake_news_viz.png
+bash run-script_assignment4-cmk.sh --edgelist fake_news_edgelist.csv --filter 800 --csv_output fake_news_centrality.csv --viz_output fake_news_viz.png
 ```
 
 ## Creating edgelists
-I have created some utility functions which can create an edgelist from either a directory of txt-files, a txt-file or a csv-file with a column called "text". I have included the corpus of 100 english novels, if you whish to create your own edgelist from one of the files. IMPORTANT: DO NOT USE THE WHOLE CORPUS FOR AN EDGELIST. I TRIED AND IT TAKES HOURS TO COMPLETE. If you want to use a directory of text-files use a directory with an appropriate size.  
+NOTE: If creating your own custom edgelist it might take a while to run!  
+I have created some utility functions which can create an edgelist from either a directory of txt-files, a txt-file or a csv-file with a column called "text". I have included the corpus of 100 english novels, if you wish to create your own edgelist from one of the files. 
+The script creates a csv-file from (a) txt-file(s) with the columns "title" and "text" called "text", which is then used for creating an edgelist. The name will be _input_file.csv_, and it will be saved in the folder "data/raw_data.  
 Use the bash scrip _run-script_create_edgelist.sh_ for creating an edgelist. It takes the following parameters:  
-`--input_file` This is the path to the txt-file, the csv-file or the directory of txt-files.  
-Default = NO DEFAULT  
-`--output_csv` The script creates a csv-file from (a) txt-file(s) with a column called "text". This parameteter sets the destination for the csv-file. It is not required if you are using a csv-file as input.  
-Default = NO DEFAULT  
-`--label` The Entity label you wish to use as nodes.  
-Default = PERSON  
-`--output_edgelist` The destination path for the edgelist  
-Default = ../data/edgelists/edgelist.csv  
-
+`--input_file` This is the path to the txt-file, the csv-file or the directory of txt-files. It must be located in the folder "data/raw_data". So if you wish to use a file from the corpus you must move it to the correct directory (in this case the parent directory) first.  
+    - Default = NO DEFAULT    
+`--label` The Entity label you wish to use as nodes. These labels comes from SpaCy's library and can be found here https://spacy.io/models/en.  
+    - Default = PERSON  
+`--output_edgelist` The name of the edgelist. The edgelist will be saved in the folder "data/edgelists".  
+    - Default = ../data/edgelists/edgelist.csv  
+    
 Example:  
 ```console
-bash run-script_create_edgelist.sh --input_file ../data/raw_data/100_english_novels/corpus/Barclay_Postern_1911.txt --output_csv ../data/raw_data/Barclay_Postern.csv --output_edgelist ../data/edgelists/Barclay_Postern_edgelist.csv
+bash run-script_create_edgelist.sh --input_file Barclay_Postern_1911.txt --label ORG --output_edgelist Barclay_Postern_edgelist.csv
 ```
 
-## Troubleshooting
-I'm using pygraphviz on the worker02 server. If you are running the scripts on a local windows machine, you might experience problems. Try running it on the worker02 server, or a mac/linux machine if you have problems.  
-Moreover, networkx is terrible slow so it might take a while to run.
+# Running on Windows
+This script have not been tested on a Windows machine and the bash script is made for Linux/mac users. If you're running on a local windows machine, and don't have an Unix shell with bash, you have to set up a virtual environment, activate it, install dependencies (requirements.txt and SpaCy's en_core_web_sm nlp model) and then run the script manually. Paths should be handled automatically by the python script without any problems.
