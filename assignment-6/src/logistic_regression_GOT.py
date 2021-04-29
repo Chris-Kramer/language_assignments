@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 """
- ################# TO DO #################
-* Make cross validation work
-* Make it save plots
-* Create parameters
-* Create statements on what the model is doing
-"""
-"""
 ############# Import libs #############
 """
 # system tools
@@ -17,6 +10,7 @@ sys.path.append(os.path.join(".."))
 
 # pandas, numpy, argparse
 import argparse
+from argparse import RawTextHelpFormatter # Formatting -help
 import pandas as pd
 import numpy as np
 import re
@@ -42,7 +36,8 @@ def main():
     ################ Parameters ############ 
     """
     #Create an argument parser from argparse
-    ap = argparse.ArgumentParser(description = "[INFO] Logistic regression for classifying houses in Game of Thrones")
+    ap = argparse.ArgumentParser(description = "[INFO] Logistic regression for classifying houses in Game of Thrones",
+                                formatter_class = RawTextHelpFormatter)
     
     # minimum number of episodes a character from a house should appear
     ap.add_argument("-ne", "--n_episodes",
@@ -77,7 +72,8 @@ def main():
     """
     print("preprocessing data ....")
     # Save X, y and label data
-    X, y, label_names = ppd.get_xy_data(Path("../data/Game_of_Thrones_Script.csv"), n_episodes = n_episodes)
+    file_path = os.path.join("..", "data", "Game_of_Thrones_Script.csv")
+    X, y, label_names = ppd.get_xy_data(file_path, n_episodes = n_episodes)
     
     # Split data using sklearn
     X_train, X_test, y_train, y_test = train_test_split(X,  
@@ -106,7 +102,8 @@ def main():
     classifier_metrics = metrics.classification_report(y_test, y_pred)
     print(classifier_metrics)
     #plot confusion matrix
-    clf.plot_cm(y_test, y_pred, normalized=True, output = Path("../output/linear_regression_confusion_matrix.png"))
+    file_path = os.path.join("..", "output", "linear_regression_confusion_matrix.png")
+    clf.plot_cm(y_test, y_pred, normalized=True, output = file_path)
     
     """
     ########## Cross validation ##########
@@ -122,9 +119,10 @@ def main():
     # cross validate on data
     model = LogisticRegression(random_state=42, max_iter = 1000) #logistic regresion model
     # plot and cross validate
+    file_path = os.path.join("..", "output", "cross_validation_logistic_regression.png")
     clf.plot_learning_curve(model, title, X_vect, y,
                             cv=cv, n_jobs=4,
-                            output = Path("../output/cross_validation_logistic_regression.png"))
+                            output = file_path)
 
 if __name__ == "__main__":
     main()

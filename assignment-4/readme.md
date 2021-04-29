@@ -52,7 +52,7 @@ bash run-script_assignment4-cmk.sh --edgelist fake_news_edgelist.csv --filter 80
 
 ## Creating edgelists
 NOTE: If creating your own custom edgelist it might take a while to run!  
-I have created some utility functions which can create an edgelist from either a directory of txt-files, a txt-file or a csv-file with a column called "text". I have included the corpus of 100 english novels, if you wish to create your own edgelist from one of the files. 
+I have created some utility functions which can create an edgelist from either a directory of txt-files, a txt-file or a csv-file with a column called "text". I have included the corpus of 100 english novels, if you wish to create your own edgelist from one of the files. Note that if you use the whole corpus as an edgelist it will take a very long time to run. 
 The script creates a csv-file from (a) txt-file(s) with the columns "title" and "text" called "text", which is then used for creating an edgelist. The name will be _input_file.csv_, and it will be saved in the folder "data/raw_data.  
 Use the bash scrip _run-script_create_edgelist.sh_ for creating an edgelist. It takes the following parameters:  
 `--input_file` This is the path to the txt-file, the csv-file or the directory of txt-files. It must be located in the folder "data/raw_data". So if you wish to use a file from the corpus you must move it to the correct directory (in this case the parent directory) first.  

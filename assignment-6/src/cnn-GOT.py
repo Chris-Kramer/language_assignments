@@ -27,6 +27,7 @@ sys.path.append(os.path.join(".."))
 
 # pandas, numpy, argparse
 import argparse
+from argparse import RawTextHelpFormatter # Formatting -help
 import pandas as pd
 import numpy as np
 import re
@@ -64,7 +65,8 @@ def main():
     ################ Parameters ############ 
     """
     #Create an argument parser from argparse
-    ap = argparse.ArgumentParser(description = "[INFO] CNN for classifying houses in Game of Thrones")
+    ap = argparse.ArgumentParser(description = "[INFO] CNN for classifying houses in Game of Thrones",
+                                formatter_class = RawTextHelpFormatter)
     
     # minimum number of episodes a character from a house should appear
     ap.add_argument("-ne", "--n_episodes",
@@ -177,8 +179,9 @@ def main():
     ################ Load and preprocess data ################
     """
     print("preprocessing data ....")
+    file_path = os.path.join("..", "data", "Game_of_Thrones_Script.csv")
     # Save X, y and label data
-    X, y, label_names = ppd.get_xy_data(Path("../data/Game_of_Thrones_Script.csv"), n_episodes = n_episodes)
+    X, y, label_names = ppd.get_xy_data(file_path, n_episodes = n_episodes)
     
     # Save the length of the longest episode
     # Used to set maxlen of a doc
@@ -278,7 +281,8 @@ def main():
     #-------- Summarize model -------
     model.summary() # print summary
     #plot model architecture
-    plot_model(model, to_file = Path("../output/model_architecture.png"), show_shapes=True, show_layer_names=True)
+    file_path = os.path.join("..", "output", "model_architecture.png")
+    plot_model(model, to_file = file_path, show_shapes=True, show_layer_names=True)
     
     #------- Train model on 20 epochs -------
     print("Training model ....")
@@ -294,7 +298,8 @@ def main():
     print("Training Accuracy: {:.4f}".format(accuracy))
     loss, accuracy = model.evaluate(X_test_pad, y_test, verbose=False)
     print("Testing Accuracy:  {:.4f}".format(accuracy))
-    cnn.plot_history(history, epochs = epochs, output = Path("../output/performance_cnn.png")) # plot performance
+    file_path = os.join.path("..", "output", "performance_cnn.png")
+    cnn.plot_history(history, epochs = epochs, output = file_path) # plot performance
     
     predictions = model.predict(X_test_pad, batch_size = batch_size)
     print(classification_report(y_test.argmax(axis=1),

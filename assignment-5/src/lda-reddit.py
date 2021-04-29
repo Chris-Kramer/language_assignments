@@ -4,12 +4,14 @@
 """
 # standard libraries
 import sys,os
-#sys.path.append(os.getcwd())
 sys.path.append(os.path.join(".."))
 from pprint import pprint
 import datetime
 import numpy as np
+
+#Argparse
 import argparse
+from argparse import RawTextHelpFormatter # Formatting -help
 
 # data and nlp
 import pandas as pd
@@ -39,42 +41,81 @@ def main():
     ------------ parameters ------------
     """
     #Create an argument parser from argparse
-    ap = argparse.ArgumentParser(description = "[INFO] Topic modelling of r/WallStreetBets")
+    ap = argparse.ArgumentParser(description = "[INFO] Topic modelling of r/WallStreetBets",
+                                formatter_class = RawTextHelpFormatter)
     
     #start date
     ap.add_argument("-sd", "--start_date",
                     required = False,
                     default = [2021, 1, 10],
+                    type = int,
                     nargs = "*",
-                    help = "The start date for reddit posts (YYYY-D-M). DEFAULT = 2021 1 10")
+                    help = 
+                    "[INFO] The start date for reddit posts (YYYY-D-M) \n"
+                    "[TYPE] List of integers \n"
+                    "[DEFAULT] 2021 1 10 \n"
+                    "[EXAMPLE] --start_date 2020 12 1")
     
     #end date
     ap.add_argument("-ed", "--end_date",
                     required = False,
-                    default = [2021, 3, 1],
+                    default = [2021, 2, 17],
+                    type = int,
                     nargs = "*",
-                    help = "The end date for reddit posts (YYYY-D-M). DEFAULT = 2021 3 1")
+                    help = 
+                    "[INFO] The end date for reddit posts (YYYY-D-M) \n"
+                    "[TYPE] List of integers \n"
+                    "[DEFAULT] 2021 3 1 \n"
+                    "[EXAMPLE] --end_date 2021 2 29")
+    
+    ap.add_argument("-ra", "--rolling_avg",
+                    required = False,
+                    default = 5,
+                    type = int,
+                    help = 
+                    "[INFO] The rolling average that should be calculated when plotting (the value represents days) \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 5 \n"
+                    "[EXAMPLE] --rolling_avg 12")
     
     #amount of topics 
     ap.add_argument("-t", "--topics",
                     required = False,
                     default = 3,
                     type = int,
-                    help = "The amount of topics. DEFAULT = 3")
-
+                    help =
+                    "[INFO] The amount of topics in the model \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 3 \n"
+                    "[EXAMPLE] --topics 6")
+    
+    ap.add_argument("-tl", "--test_limit",
+                    required = False,
+                    default = 10,
+                    type = int,
+                    help =
+                    "[INFO] The max amount of topics the model should test coherence scores for \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 10 \n"
+                    "[EXAMPLE] --test_limit 15")
   
-    #Create save arguments in a variable
+    #Return values from arguments
     args = vars(ap.parse_args())
     
     #Save in variables for readability
     start_date = args["start_date"]
     end_date = args["end_date"]
+    rolling_avg = args["rolling_avg"]
     topics = args["topics"]
+    test_limit = args["test_limit"]
+    
     """
     ---------- Read and clean data-----------
     """
+    print("Reading and cleaning data ...")
+    file_path = os.path.join("..", "data", "r_wallstreetbets_posts.csv")
     #Read data
-    data = pd.read_csv("../data/r_wallstreetbets_posts.csv")
+    data = pd.read_csv(file_path)
     #Get a subset of the dataset
     data = data[["title", "created_utc"]]
     #Make created utc into a datetime format
@@ -101,6 +142,7 @@ def main():
     """
     ---------- Preprocess data ------------
     """
+    print("Preprocessing data ...")
     # Build the bigram and trigram models
     bigram = gensim.models.Phrases(dates, min_count=3, threshold=100) 
     trigram = gensim.models.Phrases(bigram[dates], threshold=100)
@@ -110,7 +152,7 @@ def main():
     trigram_mod = gensim.models.phrases.Phraser(trigram)
     
     #Process data
-    data_processed = lda_utils.process_words(dates, #We are using the chunks
+    data_processed = lda_utils.process_words(dates, #We are using the dates as chunks
                                              nlp, #We are using our nlp 
                                              bigram_mod, #We fit it to our bigrams
                                              trigram_mod, #We fit it to our trigrams
@@ -124,23 +166,25 @@ def main():
     """
     ------------ Test and build model ----------
     """
+    print("Testing model ...")
     # Can take a long time to run.
-    #I'm starting by calculating the coherence values and perplexity, that way, I can better determine the appropriate amount of topics 
+    # Calculate the coherence values and perplexity 
     model_list, coherence_values = lda_utils.compute_coherence_values(texts=data_processed,
                                                                       corpus=corpus, 
                                                                       dictionary=id2word,  
                                                                       start=2, 
-                                                                      limit=10,  
+                                                                      limit= test_limit,  
                                                                       step=2)
+    print("Building lda model ...")
     # Build LDA model
-    lda_model = gensim.models.LdaMulticore(corpus=corpus, #Our vectorized corpus - list of lists of tupples
-                                           id2word=id2word, #Our gensim dictionary (mapping words to IDs)
-                                           num_topics=topics, #The number of topics
+    lda_model = gensim.models.LdaMulticore(corpus=corpus, # Our vectorized corpus - list of lists of tupples
+                                           id2word=id2word, # Our gensim dictionary (mapping words to IDs)
+                                           num_topics=topics, # The number of topics
                                            random_state=100, #Let's create a random state to make the results reproducible
-                                           chunksize=150,  # Let's set the chunksize to 150, batch data for efficiency
-                                           passes=10, #Is the same as epochs, how many times do we wanne go trhough the data
+                                           chunksize=150,  # Let's set the chunksize to 150 for efficiency
+                                           passes=10, #Is the same as epochs, how many times do we wanne go through the data
                                            iterations=100, # How often are we going over a single document. (Related to passes)
-                                           per_word_topics=True,  #define word distributions 
+                                           per_word_topics=True,  #Define word distributions 
                                            minimum_probability=0.0) #Minimum value. Include topics with zero probability
     
     # Compute Perplexity and print it to terminal
@@ -162,11 +206,13 @@ def main():
     #Create interactive board of topics
     vis = pyLDAvis.gensim.prepare(lda_model, corpus, dictionary=lda_model.id2word)
     # Save the board as a html-file
-    pyLDAvis.save_html(vis, "../output/lda-board_wallStreetBets.html")
+    file_path = os.path.join("..", "output", "lda-board_wallStreetBets.html")
+    pyLDAvis.save_html(vis, file_path)
     
     """
     ---------- Create dataframe and plot topics ----------
     """
+    print("Plotting model ...")  
     # Get topics from the corpus
     values = list(lda_model.get_document_topics(corpus))
     #Create list which can be splitted to a matrix
@@ -181,8 +227,7 @@ def main():
             topic_prevelance.append(topic[1])
         #append list of topic prevalences 
         split.append(topic_prevelance)
-        
-    #This is ugly as f**k, but this is the best solution I could come up with to plot dates
+          
     #Split dataframe to wide format
     df = pd.DataFrame(map(list,zip(*split)))
     #make it long format
@@ -194,7 +239,7 @@ def main():
     
 
     #plot lineplot
-    lineplot = sns.relplot(data=df.rolling(5).mean(), kind = "line", legend = True)
+    lineplot = sns.relplot(data=df.rolling(rolling_avg).mean(), kind = "line", legend = True)
     #Add title to legend
     lineplot._legend.set_title("Topics")
     #Set size
@@ -207,14 +252,16 @@ def main():
     plt.ylabel("Topic dominance")
     #Set layout to be tight
     plt.tight_layout()
-    #SHow plt figure (otherwise plt parameters won't be displayed)
+    #Show plt figure (otherwise plt parameters won't be displayed)
     plt.show()
     #save figure
-    plt.savefig("../output/Topic_over_time-Lineplot.png")
+    file_path = os.path.join("..", "output", "Topic_over_time-Lineplot.png")
+    plt.savefig(file_path)
     
     """
     ----------- Make dataframe for csv output ----------
     """
+    print("Creating csv output ...")
     #Create dataframe with keywor
     df_topic_keywords = lda_utils.format_topics_sentences(ldamodel=lda_model, 
                                                           corpus=corpus, 
@@ -241,7 +288,8 @@ def main():
     # Format
     sent_topics_sorteddf.columns = ['Topic_Num', "Topic_Perc_Contrib", "Keywords", "Representative Text"]
     #save as csv
-    sent_topics_sorteddf.to_csv("../output/topics_contribution.csv")
+    file_path = os.path.join("..", "output", "topics_contribution.csv")
+    sent_topics_sorteddf.to_csv(file_path)
     
 #Define behaviour when called from commandline
 if __name__ == "__main__":
