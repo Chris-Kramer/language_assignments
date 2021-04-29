@@ -54,6 +54,9 @@ The script takes the following parameters, it has already ben supplied with defa
     - Default: 5  
 - `topics` the number of topics you wish to have in the model  
     - Default: 3  
+- `test_limit` The max amount of topics the model should test coherence scores for.
+    - Default: 10  
+    
     
 Example:  
 ```console
