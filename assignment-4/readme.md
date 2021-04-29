@@ -60,7 +60,7 @@ Use the bash scrip _run-script_create_edgelist.sh_ for creating an edgelist. It 
 `--label` The Entity label you wish to use as nodes. These labels comes from SpaCy's library and can be found here https://spacy.io/models/en.  
     - Default = PERSON  
 `--output_edgelist` The name of the edgelist. The edgelist will be saved in the folder "data/edgelists".  
-    - Default = ../data/edgelists/edgelist.csv  
+    - Default = edgelist.csv  
     
 Example:  
 ```console

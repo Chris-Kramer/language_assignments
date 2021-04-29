@@ -49,7 +49,7 @@ The script takes the following parameters:
 
 Example:  
 ```console
-bash run_assignment-2-christoffer.sh --keyword single --window_size 70 --output single_collocates.csv
+bash run_assignment-2-christoffer.sh --keyword single --window_size 7 --output single_collocates.csv
 ```
 
 ## Windows users
