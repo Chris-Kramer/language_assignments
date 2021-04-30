@@ -1,22 +1,5 @@
 #!/usr/bin/env python3
 """
-############### TO DO ############
-* create readme file
-    * Standard + something about results
-* Make data processing to a function
-* Add some parameters
-    * Input and kernel size
-    * learning rate (maybe even regularizers)
-    * number of episodes a house are in series
-    * number of words in dict
-    * Dimensions and embedding matrix
-    * epochs
-    * Padding
-    * (Look at the model, there are loads of places, that can be made to parameters)
-* Make single qoutes to double
-"""
-
-"""
 ############### Import libs ###############
 """
 # system tools
@@ -73,7 +56,7 @@ def main():
                     default = 50,
                     type = int,
                     help =
-                    "[INFO] How many episodes should a member of the house at least appear in \n"
+                    "[INFO] How many episodes should a house at least appear in \n"
                     "[INFO] There are 72 episodes in total \n"
                     "[TYPE] int \n" 
                     "[DEFAULT] 50"
@@ -117,7 +100,7 @@ def main():
                     default = 100,
                     type = int,
                     help = 
-                    "[INFO] How many embedding dimensions the embedding matrix should contain "
+                    "[INFO] How many embedding dimensions the embedding matrix should contain \n"
                     "[TYPE] int \n"
                     "[DEFAULT] 100 \n"
                     "[EXAMPLE] --embedding_dim 50")
@@ -211,7 +194,7 @@ def main():
                     default = 10,
                     type = int,
                     help =
-                    "[INFO] The batch size for training and classification report \n"
+                    "[INFO] The batch size for training and evaluation \n"
                     "[TYPE] int \n"
                     "[DEFAULT] 10 \n"
                     "[EXAMPLE] --batch_size 32")
