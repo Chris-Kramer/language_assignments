@@ -20,7 +20,6 @@
 ############### Import libs ###############
 """
 # system tools
-from pathlib import Path #I've started using Pathlib rather than os.path since it is much more convenient
 import sys
 import os
 sys.path.append(os.path.join(".."))
@@ -73,89 +72,149 @@ def main():
                     required = False,
                     default = 50,
                     type = int,
-                    help = "[INFO] How many episodes should a member of the house at least appear in, [TYPE] int, [DEFAULT] 45")
+                    help =
+                    "[INFO] How many episodes should a member of the house at least appear in \n"
+                    "[INFO] There are 72 episodes in total \n"
+                    "[TYPE] int \n" 
+                    "[DEFAULT] 50"
+                    "[EXAMPLE] --n_episodes 60")
     
     # Size of test data
     ap.add_argument("-ts", "--test_size",
                     required = False,
                     default = 0.2,
                     type = float,
-                    help = "[INFO] The size of test data, [TYPE] float, [DEFAULT] 0.2")
+                    help =
+                    "[INFO] The size of test data as a percentage \n" 
+                    "[INFO] The training size will be adjusted automatically \n"
+                    "[TYPE] float \n"
+                    "[DEFAULT] 0.2 \n"
+                    "[EXAMPLE] --test_size 0.1")
      
     # Padding type
     ap.add_argument("-pa", "--padding",
                     required = False,
                     default = "post",
                     type = str,
-                    help = "[INFO] Padding type, [TYPE] str, [DEFAULT] post")
+                    help =
+                    "[INFO] Padding type \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] post \n"
+                    "[EXAMPLE] --padding pre")
     
     ap.add_argument("-nw", "--num_words",
                     required = False,
                     default = 10000,
                     type = int,
-                    help = "[INFO] How many unique words the embedding dictionary should contain [TYPE] int, [DEFAULT] 10000")
+                    help =
+                    "[INFO] How many unique words the embedding dictionary should contain \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 10000 \n"
+                    "[EXAMPLE] --num_words 8000")
     
     ap.add_argument("-em", "--embedding_dim",
                     required = False,
                     default = 100,
                     type = int,
-                    help = "[INFO] How many embedding dimensions the embedding matrix should contain [TYPE] int [DEFAULT] 100")
+                    help = 
+                    "[INFO] How many embedding dimensions the embedding matrix should contain "
+                    "[TYPE] int \n"
+                    "[DEFAULT] 100 \n"
+                    "[EXAMPLE] --embedding_dim 50")
     
     ap.add_argument("-pe", "--pretrained_embeddings",
                     required = False,
-                    default = "../data/glove/glove.6B.100d.txt",
+                    default = "glove.6B.100d.txt",
                     type = str,
-                    help = "[INFO] The path to file with pretrained embeddings, [TYPE] str, [DEFAULT] ../data/glove/glove.6B.100d.txt")
+                    help = 
+                    "[INFO] The Glove pretrained embeddings \n"
+                    "[INFO] Must be located in the folder '../data/glove' \n"
+                    "[TYPE] str \n"
+                    "[DEFAULT] glove.6B.100d.txt \n"
+                    "[EXAMPLE] --pretrained_embeddings glove.6B.50d.txt")
     
     ap.add_argument("-l1", "--l1",
                     required = False,
                     default = 0.0001,
                     type = float,
-                    help = "[INFO] The learning rate for L1 regularization (used in dense layer), [TYPE] float, [DEFAULT] 000.1")
+                    help =
+                    "[INFO] The learning rate for L1 regularization (used in dense layer) \n"
+                    "[TYPE] float \n"
+                    "[DEFAULT] 0.0001 \n"
+                    "[EXAMPLE] --l1 0.001")
     
     ap.add_argument("-l2", "--l2",
                     required = False,
                     default = 0.0001,
                     type = float,
-                    help = "[INFO] The learning rate for L2 regularization (used in Conv1D layer), [TYPE] float, [DEFAULT] 000.1")
+                    help =
+                    "[INFO] The learning rate for L2 regularization (used in Conv1D layer) \n"
+                    "[TYPE] float \n"
+                    "[DEFAULT] 0.0001 \n"
+                    "[EXAMPLe] --l2 0.001")
     
     ap.add_argument("-tr", "--trainable",
                     required = False,
                     default = True,
                     type = bool,
-                    help = "[INFO] Should the embeddings be trainable, [TYPE] bool, [DEFAULT] = True")
+                    help =
+                    "[INFO] Should the embeddings be trainable \n"
+                    "[INFO] Must be either 'True' or 'False'
+                    "[TYPE] bool \n"
+                    "[DEFAULT] True \n"
+                    "[EXAMPLE] --trainable False")
     
     ap.add_argument("-fi", "--filters",
                     required = False,
                     default = [70, 30],
                     nargs = "*", # I wan't all passed arguments as one list
                     type = int,
-                    help = "[INFO] How many filters should there be in the Conv1D and hidden dense layer, [TYPE] int, [DEFAUL] 70 30")
+                    help =
+                    "[INFO] How many filters should there be in the Conv1D and hidden dense layer \n"
+                    "[TYPE] list of ints \n"
+                    "[DEFAUL] 70 30 \n"
+                    "[EXAMPLE] --filters 60 20")
     
     ap.add_argument("-ks", "--kernel_size",
                     required = False,
                     default = 3,
                     type = int,
-                    help = "[INFO] The size of the kernel in Conv1D layer, [TYPE] int, [DEFAULT] 3")
+                    help =
+                    "[INFO] The size of the kernel in Conv1D layer \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 3 \n"
+                    "[EXAMPLE] --kernel_size 5")
     
     ap.add_argument("-dr", "--dropout_rate",
                     required = False,
                     default = [0.2, 0,2],
                     nargs = "*",
                     type = float,
-                    help = "[INFO] Dropout rate for first and second dropout layer, [TYPE] float, [DEFAULT] 0.2 0.2")
+                    help = 
+                    "[INFO] Dropout rate for first and second dropout layer
+                    "[TYPE] list of floats \n"
+                    "[DEFAULT] 0.2 0.2"
+                    "[EXAMPLE] --dropout_rate 0.1 0.1")
     
     ap.add_argument("-ep", "--epochs",
                     required = False,
                     default = 25,
                     type = int,
-                    help = "[INFO] Amount of epochs the model should run, [TYPE] int, [DEFAULT] 25")
+                    help =
+                    "[INFO] Amount of epochs the model should run \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 25 \n"
+                    "[EXAMPLE] --epochs 10")
 
     ap.add_argument("-bs", "--batch_size",
                     required = False,
                     default = 10,
                     type = int,
-                    help = "[INFO] The batch size for training and classification report, [TYPE] int, [DEFAULT] 10")
+                    help =
+                    "[INFO] The batch size for training and classification report \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 10 \n"
+                    "[EXAMPLE] --batch_size 32")
     #return parser
     args = vars(ap.parse_args())
         
@@ -164,7 +223,7 @@ def main():
     test_size = args["test_size"]
     num_words = args["num_words"]
     embedding_dim = args["embedding_dim"]
-    pretrained_embeddings = args["pretrained_embeddings"]
+    pretrained_embeddings = os.path.join("..", "data", "glove", args["pretrained_embeddings"])
     l1 = args["l1"]
     l2 = args["l2"]
     padding = args["padding"]

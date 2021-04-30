@@ -44,21 +44,34 @@ def main():
                     required = False,
                     default = 50,
                     type = int,
-                    help = "[INFO] How many episodes should a member of the house at least appear in, [TYPE] int, [DEFAULT] 45")
+                    help =
+                    "[INFO] How many episodes should a member of the house at least appear in \n"
+                    "[INFO] There are 72 episodes in total \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 50 \n"
+                    "[EXAMPLE] --n_episodes 60)
     
     # Size of test data
     ap.add_argument("-ts", "--test_size",
                     required = False,
                     default = 0.2,
                     type = float,
-                    help = "[INFO] The size of test data, [TYPE] float, [DEFAULT] 0.2")
+                    help =
+                    "[INFO] The size of test data \n"
+                    "[INFO] The training size will be adjusted automatically \n"
+                    "[TYPE] float \n"
+                    "[DEFAULT] 0.2 \n"
+                    "[EXAMPLE] --test_size 0.1")
     
     # n_splits for cross validation
     ap.add_argument("-ns", "--n_splits",
                     required = False,
                     default = 50,
                     type = int,
-                    help = "[INFO] Amounts of splits for shufflesplit (for cross validation), [TYPE] int, [DEFAULT] 50")
+                    help =
+                    "[INFO] Amounts of shufflesplits during the cross validation \n"
+                    "[TYPE] int \n"
+                    "[DEFAULT] 50")
     #return parser
     args = vars(ap.parse_args())
     
