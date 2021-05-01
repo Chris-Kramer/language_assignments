@@ -8,8 +8,8 @@ import string #string
 #Tokenizer
 def tokenize(input_string):
 
-    input_string = input_string.lower()
-    token_list = re.findall(r'\b\w+\b', input_string)
+    input_string = input_string.lower() #make input lower case
+    token_list = re.findall(r'\b\w+\b', input_string) #find all word characters inside a word boundary
     
     return token_list
 
@@ -30,7 +30,7 @@ def kwic(text, keyword, window_size, tokenize = True):
             # Get window
             window_start = max(0, i - window_size) #If the index i negative make it zero (avoids indexing errors) 
             window_end = i + (window_size + 1)
-            #Plus one because of zero indexing (otherwise I get one less word on the right side window)
+            #Plus one because of zero indexing (otherwise I get one less word on the right side of target word)
             
             # This tests If window index is larger than the text index
             # This might happen if the target keyword is one of the last words in the corpus)

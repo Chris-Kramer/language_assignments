@@ -19,13 +19,13 @@ Using a text corpus found on the cds-language GitHub repo or a corpus of your ow
 ```console
 git clone https://github.com/Chris-Kramer/language_assignments.git
 ```  
-**Step 2 navigate to src folder**
-- Navigate to the _src_ folder in _assignment-2_:  
+**Step 2 navigate to assignment folder**
+- Navigate to _assignment-2_:  
 ```console
-cd assignment-2/src
+cd assignment-2
 ```   
 **Step 3 run bash script**
-- Type the following command:  
+- Run the bash script _run_assignment-2-christoffer.sh_:  
 ```console
 bash run_assignment-2-christoffer.sh
 ```

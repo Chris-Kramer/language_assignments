@@ -14,7 +14,7 @@ echo "Upgrading pip"
 pip install --upgrade pip
 
 echo "installing requirements"
-# test for problems when installing from requirements.txt and install
+# test requirements.txt and install
 test -f requirements.txt && pip install -r requirements.txt
 
 # Move to source folder

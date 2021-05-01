@@ -3,7 +3,6 @@
 ############# Import libs #############
 """
 # system tools
-from pathlib import Path #I've started using Pathlib rather than os.path since it is much more convenient
 import sys
 import os
 sys.path.append(os.path.join(".."))
@@ -49,7 +48,7 @@ def main():
                     "[INFO] There are 72 episodes in total \n"
                     "[TYPE] int \n"
                     "[DEFAULT] 50 \n"
-                    "[EXAMPLE] --n_episodes 60)
+                    "[EXAMPLE] --n_episodes 60")
     
     # Size of test data
     ap.add_argument("-ts", "--test_size",

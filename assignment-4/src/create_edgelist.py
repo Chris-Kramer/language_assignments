@@ -28,8 +28,8 @@ def main():
                                  "[INFO] Can take a directory of txt files as input \n"
                                  "[INFO] Can take a csv file with a column called 'text' as input \n"
                                  "[INFO] Uses SpaCy's NER model for entity recognition \n"
-                                 "[INFO] The script will create an edgelist in the folder '../data/edgelists' \n"
-                                 "[INFO] If the input is .txt or folder with txt files the script will also create a csv-file two columns (title and text) called 'input_file.csv' in the folder '../data/raw_data",
+                                 "[INFO] The script will create an edgelist in the folder 'data/edgelists' \n"
+                                 "[INFO] If the input is .txt or folder with txt files the script will also create a csv-file with two columns (title and text) called 'input_file.csv' in the folder 'data/raw_data",
                                 formatter_class=RawTextHelpFormatter) 
     
     #input 
@@ -38,7 +38,7 @@ def main():
                     type = str,
                     help = 
                     "[INFO] Must be a txt file, a directory with txt files or a csv_file with a text column called 'text' \n"
-                    "[INFO] It must be located in the folder '../data/raw_data' \n"
+                    "[INFO] It must be located in the folder 'data/raw_data' \n"
                     "[TYPE] str \n"
                     "[DEFAULT] No Default! \n"
                     "[EXAMPLE] --input_file Barclay_Postern_1911.txt")
@@ -61,11 +61,12 @@ def main():
                      type = str,
                      help =
                      "[INFO] The name of the output the edgelist \n"
-                     "[INFO] The output file will be located in '../data/edgelists' \n"
+                     "[INFO] The output file will be located in 'data/edgelists' \n"
                      "[TYPE] str \n"
                      "[DEFAULT] edgelist.csv \n"
                      "[EXAMPLE] --output_edgelist barclay_p_edgelist.csv")
     
+    #return arguments
     args = vars(ap.parse_args())
     
     #Save arguments in variables for readability

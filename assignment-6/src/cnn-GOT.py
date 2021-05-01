@@ -85,6 +85,7 @@ def main():
                     "[DEFAULT] post \n"
                     "[EXAMPLE] --padding pre")
     
+    # Number of words in embedding dict
     ap.add_argument("-nw", "--num_words",
                     required = False,
                     default = 10000,
@@ -95,6 +96,7 @@ def main():
                     "[DEFAULT] 10000 \n"
                     "[EXAMPLE] --num_words 8000")
     
+    # Embedding dimensions
     ap.add_argument("-em", "--embedding_dim",
                     required = False,
                     default = 100,
@@ -105,6 +107,7 @@ def main():
                     "[DEFAULT] 100 \n"
                     "[EXAMPLE] --embedding_dim 50")
     
+    #Pretrained embeddings
     ap.add_argument("-pe", "--pretrained_embeddings",
                     required = False,
                     default = "glove.6B.100d.txt",
@@ -116,6 +119,7 @@ def main():
                     "[DEFAULT] glove.6B.100d.txt \n"
                     "[EXAMPLE] --pretrained_embeddings glove.6B.50d.txt")
     
+    # l1 regularization
     ap.add_argument("-l1", "--l1",
                     required = False,
                     default = 0.0001,
@@ -126,6 +130,7 @@ def main():
                     "[DEFAULT] 0.0001 \n"
                     "[EXAMPLE] --l1 0.001")
     
+    #l2 regularization
     ap.add_argument("-l2", "--l2",
                     required = False,
                     default = 0.0001,
@@ -136,17 +141,19 @@ def main():
                     "[DEFAULT] 0.0001 \n"
                     "[EXAMPLe] --l2 0.001")
     
+    # Trainable parameters or not
     ap.add_argument("-tr", "--trainable",
                     required = False,
                     default = True,
                     type = bool,
                     help =
                     "[INFO] Should the embeddings be trainable \n"
-                    "[INFO] Must be either 'True' or 'False'
+                    "[INFO] Must be either 'True' or 'False'"
                     "[TYPE] bool \n"
                     "[DEFAULT] True \n"
                     "[EXAMPLE] --trainable False")
     
+    #filters in conv1d and dense
     ap.add_argument("-fi", "--filters",
                     required = False,
                     default = [70, 30],
@@ -158,6 +165,7 @@ def main():
                     "[DEFAUL] 70 30 \n"
                     "[EXAMPLE] --filters 60 20")
     
+    #kernel seize in conv1d
     ap.add_argument("-ks", "--kernel_size",
                     required = False,
                     default = 3,
@@ -168,17 +176,19 @@ def main():
                     "[DEFAULT] 3 \n"
                     "[EXAMPLE] --kernel_size 5")
     
+    #dropout rates for both dropout layers
     ap.add_argument("-dr", "--dropout_rate",
                     required = False,
                     default = [0.2, 0,2],
                     nargs = "*",
                     type = float,
                     help = 
-                    "[INFO] Dropout rate for first and second dropout layer
+                    "[INFO] Dropout rate for first and second dropout layer"
                     "[TYPE] list of floats \n"
                     "[DEFAULT] 0.2 0.2"
                     "[EXAMPLE] --dropout_rate 0.1 0.1")
     
+    #epochs
     ap.add_argument("-ep", "--epochs",
                     required = False,
                     default = 25,
@@ -188,7 +198,8 @@ def main():
                     "[TYPE] int \n"
                     "[DEFAULT] 25 \n"
                     "[EXAMPLE] --epochs 10")
-
+    
+    #batch size
     ap.add_argument("-bs", "--batch_size",
                     required = False,
                     default = 10,
@@ -226,7 +237,7 @@ def main():
     X, y, label_names = ppd.get_xy_data(file_path, n_episodes = n_episodes)
     
     # Save the length of the longest episode
-    # Used to set maxlen of a doc
+    # Use to set maxlen of a doc
     highest_length = ppd.get_longest_entry(X)
     
     # Split data using sklearn
@@ -236,7 +247,7 @@ def main():
                                                     random_state=42) #For reproducibility
     
     # One hot key encoding
-    #It looks like this performs better than sparse integer labels
+    # It looks like this performs better than sparse integer labels
     # The better performance might be completely random and might just be my own confirmation bias
     lb = LabelBinarizer()
     y_train = lb.fit_transform(y_train)
@@ -271,7 +282,7 @@ def main():
     
     # ------- embedding --------
     #Create embedding matrix
-    embedding_matrix = cnn.create_embedding_matrix(Path(pretrained_embeddings),
+    embedding_matrix = cnn.create_embedding_matrix(pretrained_embeddings,
                                            tokenizer.word_index, 
                                            embedding_dim)
     """
@@ -340,13 +351,14 @@ def main():
     print("Training Accuracy: {:.4f}".format(accuracy))
     loss, accuracy = model.evaluate(X_test_pad, y_test, verbose=False)
     print("Testing Accuracy:  {:.4f}".format(accuracy))
-    file_path = os.join.path("..", "output", "performance_cnn.png")
+    file_path = os.path.join("..", "output", "performance_cnn.png")
     cnn.plot_history(history, epochs = epochs, output = file_path) # plot performance
     
     predictions = model.predict(X_test_pad, batch_size = batch_size)
     print(classification_report(y_test.argmax(axis=1),
                                 predictions.argmax(axis=1),
                                 target_names=label_names))
+    
 #Define behaviour when called from terminal
 if __name__ == "__main__":
     main()

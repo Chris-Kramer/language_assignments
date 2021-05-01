@@ -44,7 +44,7 @@ def main():
     ap = argparse.ArgumentParser(description = "[INFO] Topic modelling of r/WallStreetBets",
                                 formatter_class = RawTextHelpFormatter)
     
-    #start date
+    # start date
     ap.add_argument("-sd", "--start_date",
                     required = False,
                     default = [2021, 1, 10],
@@ -56,7 +56,7 @@ def main():
                     "[DEFAULT] 2021 1 10 \n"
                     "[EXAMPLE] --start_date 2020 12 1")
     
-    #end date
+    # end date
     ap.add_argument("-ed", "--end_date",
                     required = False,
                     default = [2021, 2, 17],
@@ -67,7 +67,7 @@ def main():
                     "[TYPE] List of integers \n"
                     "[DEFAULT] 2021 3 1 \n"
                     "[EXAMPLE] --end_date 2021 2 29")
-    
+    # rolling average
     ap.add_argument("-ra", "--rolling_avg",
                     required = False,
                     default = 5,
@@ -78,7 +78,7 @@ def main():
                     "[DEFAULT] 5 \n"
                     "[EXAMPLE] --rolling_avg 12")
     
-    #amount of topics 
+    # number of topics 
     ap.add_argument("-t", "--topics",
                     required = False,
                     default = 3,
@@ -89,6 +89,7 @@ def main():
                     "[DEFAULT] 3 \n"
                     "[EXAMPLE] --topics 6")
     
+    # test limit
     ap.add_argument("-tl", "--test_limit",
                     required = False,
                     default = 10,
@@ -152,11 +153,11 @@ def main():
     trigram_mod = gensim.models.phrases.Phraser(trigram)
     
     #Process data
-    data_processed = lda_utils.process_words(dates, #We are using the dates as chunks
-                                             nlp, #We are using our nlp 
-                                             bigram_mod, #We fit it to our bigrams
-                                             trigram_mod, #We fit it to our trigrams
-                                             allowed_postags=["NOUN"]) #We are only finding nouns
+    data_processed = lda_utils.process_words(dates, #Dates are used as chunks
+                                             nlp, # SpaCy's nlp 
+                                             bigram_mod, #fit it to bigrams
+                                             trigram_mod, #fit it to trigrams
+                                             allowed_postags=["NOUN"]) #Only use nouns for topics
     # Create Dictionary
     id2word = corpora.Dictionary(data_processed)
 
@@ -177,15 +178,15 @@ def main():
                                                                       step=2)
     print("Building lda model ...")
     # Build LDA model
-    lda_model = gensim.models.LdaMulticore(corpus=corpus, # Our vectorized corpus - list of lists of tupples
-                                           id2word=id2word, # Our gensim dictionary (mapping words to IDs)
+    lda_model = gensim.models.LdaMulticore(corpus=corpus, # vectorized corpus - list of lists of tupples
+                                           id2word=id2word, # gensim dictionary (mapping words to IDs)
                                            num_topics=topics, # The number of topics
-                                           random_state=100, #Let's create a random state to make the results reproducible
-                                           chunksize=150,  # Let's set the chunksize to 150 for efficiency
-                                           passes=10, #Is the same as epochs, how many times do we wanne go through the data
+                                           random_state=100, #reproducibility
+                                           chunksize=150,  # Set the chunksize to 150 for efficiency
+                                           passes=10, #Is the same as epochs, how many times do we wanne go throug the data
                                            iterations=100, # How often are we going over a single document. (Related to passes)
-                                           per_word_topics=True,  #Define word distributions 
-                                           minimum_probability=0.0) #Minimum value. Include topics with zero probability
+                                           per_word_topics=True,  # Define word distributions 
+                                           minimum_probability=0.0) # Minimum value. Include topics with zero probability
     
     # Compute Perplexity and print it to terminal
     print('\nPerplexity: ', lda_model.log_perplexity(corpus))  # a measure of how good the model is. lower the better.
@@ -217,18 +218,13 @@ def main():
     values = list(lda_model.get_document_topics(corpus))
     #Create list which can be splitted to a matrix
     split = []
-    #For each list of topics in the documents
     for entry in values:
-        #Create list for the topics prevelance
         topic_prevelance = []
-        #For each topic in the list of topics
         for topic in entry:
-            #Append the topics prevalence 
             topic_prevelance.append(topic[1])
-        #append list of topic prevalences 
         split.append(topic_prevelance)
           
-    #Split dataframe to wide format
+    #Create dataframe
     df = pd.DataFrame(map(list,zip(*split)))
     #make it long format
     df = df.transpose()
@@ -262,7 +258,7 @@ def main():
     ----------- Make dataframe for csv output ----------
     """
     print("Creating csv output ...")
-    #Create dataframe with keywor
+    #Create dataframe with keywords
     df_topic_keywords = lda_utils.format_topics_sentences(ldamodel=lda_model, 
                                                           corpus=corpus, 
                                                           texts=data_processed)

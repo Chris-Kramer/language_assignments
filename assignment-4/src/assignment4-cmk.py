@@ -42,7 +42,7 @@ def main():
                     default = "real_news_edgelist.csv",
                     type = str,
                     help =
-                    "[INFO] Name of the edgelist. It must be a csv file and located in the folder '../data/edgelists' \n" 
+                    "[INFO] Name of the edgelist. It must be a csv file and located in the folder 'data/edgelists' \n" 
                     "[TYPE] str \n"
                     "[DEFAULT] real_news_edgelist.csv \n"
                     "[EXAMPLE] --edgelist Anon_Clara_edgelist.csv")
@@ -64,7 +64,7 @@ def main():
                     default = "edgelist_centrality.csv",
                     type = str,
                     help =
-                    "[INFO] Name of the csv output file (will be located in '../output') and must end in .csv \n"
+                    "[INFO] Name of the csv output file (will be located in 'output') and must end in .csv \n"
                     "[TYPE] str \n"
                     "[DEFAULT] edgelist_centrality.csv \n"
                     "[EXAMPLE] --csv_output edgelist_anon_clara.csv")
@@ -75,11 +75,12 @@ def main():
                     required = False,
                     type = str,
                     help = 
-                    "[INFO] Name of the plot output file (will be located in '../viz') must end in .png, .jpg or .jpeg \n"
+                    "[INFO] Name of the plot output file (will be located in 'viz') must end in .png, .jpg or .jpeg \n"
                     "[TYPE] str \n"
                     "[DEFAULT] edgelist_graph.png \n"
                     "[EXAMPLE] plot_anon_clara.png")
     
+    #return arguments
     args = vars(ap.parse_args())
     
     #Save parameters in variables (this is done for readability)

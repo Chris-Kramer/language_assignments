@@ -14,13 +14,13 @@ echo "Upgrading pip"
 pip install --upgrade pip
 
 echo "installing requirements"
-# test for problems when installing from requirements.txt and install
+# test requirements.txt and install
 test -f requirements.txt && pip install -r requirements.txt
 
-# Move to datafolder and download glove data
+# Move to data folder
 cd data/glove
 
-#Download glove data
+#Download and unzip glove data
 echo "downloading glove pre-trained data"
 wget http://nlp.stanford.edu/data/glove.6B.zip
 unzip -q glove.6B.zip

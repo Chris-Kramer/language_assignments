@@ -8,6 +8,7 @@ import sys
 sys.path.append(os.path.join(".."))
 from pathlib import Path
 
+#standard tools
 import math
 import csv
 import argparse
@@ -130,13 +131,13 @@ def main():
         
         #Iterate over collates and calculate their MI value
         index = 0
+        #for every collocate
         for collocate in collocates: 
-            
             #Count how often the keyword appear with the collocate
             keyword_in_lines = 0
-            for line in tokenized_lines:
-                if collocate in line:
-                    keyword_in_lines = line.count(keyword) + keyword_in_lines
+            for line in tokenized_lines: #for every line in KWIC lines
+                if collocate in line: #If the collocate is in the line
+                    keyword_in_lines = line.count(keyword) + keyword_in_lines #update count
               
             #calculate values
             v = tokenized_corpus.count(collocate) #How often does this collocate appear?

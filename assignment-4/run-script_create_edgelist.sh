@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 
-VENVNAME=as2-cmk #Environment name
-
-# Move to parent dir
-cd ..
+VENVNAME=as4-venv #Environment name
 
 # Create and activate environment
 echo "Creating environment"
 python3 -m venv $VENVNAME
 
-echo "Activating environment"
 source $VENVNAME/bin/activate
 
 # Upgrade pip
 echo "Upgrading pip"
 pip install --upgrade pip
 
-# Move to src folder
+#Test and install requirements
+test -f requirements.txt && pip install -r requirements.txt
+
+# Download en_core_web nlp model
+python -m spacy download en_core_web_sm
+
+#Move to src folder
 cd src
 
-# Run script
 echo "running script"
-python3 assignment-2-christoffer.py $@
+python3 create_edgelist.py $@
 
-# Deavtivate environment
 echo "deactivating and removing environment"
 deactivate
 
@@ -32,3 +32,5 @@ cd ..
 
 # Remove virtual environment
 rm -rf $VENVNAME
+
+echo "Done! The edgelist have been created"

@@ -20,15 +20,19 @@ NOTE: If using your own custom edgelist it might take a while to run!
  ```console
  git clone https://github.com/Chris-Kramer/language_assignments.git
  ```
-**step 2: Run bash script:**
-- Navigate to the "src" folder in "assignment-4".
+**step 2: Run bash script(s):**
+- Navigate to "assignment-4".
 ```console
-cd assignment-4/src
+cd assignment-4
 ```  
-- Use the bash script _run-script_assignment4-cmk.sh_ to set up environment and run the script:  
+- Use the bash script _run-script_assignment4-cmk.sh_ to set up environment and run the script for vizualisation and centrality calculations:  
 ```console
 bash run-script_assignment4-cmk.sh
-```  
+```
+- (OPTIONAL) Use the bash script _run-script_create_edgelist.sh_ to create an edgelist (need an input - see section "Creating edgelists" for more information):  
+```console
+bash run-script_create_edgelist.sh --input_file some-input-file.txt
+```
 
 ## Output
 The output is a csv-file with the centrality measures which by can be found in the folder "output", and a graph of the network, which can be found under the folder "viz".
@@ -53,7 +57,8 @@ bash run-script_assignment4-cmk.sh --edgelist fake_news_edgelist.csv --filter 80
 ## Creating edgelists
 NOTE: If creating your own custom edgelist it might take a while to run!  
 I have created some utility functions which can create an edgelist from either a directory of txt-files, a txt-file or a csv-file with a column called "text". I have included the corpus of 100 english novels, if you wish to create your own edgelist from one of the files. Note that if you use the whole corpus as an edgelist it will take a very long time to run. 
-The script creates a csv-file from (a) txt-file(s) with the columns "title" and "text" called "text", which is then used for creating an edgelist. The name will be _input_file.csv_, and it will be saved in the folder "data/raw_data.  
+The script creates a csv-file from a txt-file (or directory of txt-files) with the columns "title" and "text". The csv-file is then used for creating an edgelist. The name of the csv-file will be the same as the input file and it will be saved in the folder "data/raw_data.  
+
 Use the bash scrip _run-script_create_edgelist.sh_ for creating an edgelist. It takes the following parameters:  
 - `--input_file` This is the path to the txt-file, the csv-file or the directory of txt-files. It must be located in the folder "data/raw_data". So if you wish to use a file from the corpus you must move it to the correct directory (in this case the parent directory) first.  
     - Default = NO DEFAULT    

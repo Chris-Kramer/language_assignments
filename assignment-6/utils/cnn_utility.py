@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 import os
 import sys
-from pathlib import Path
 import re
 import numpy as np
 import matplotlib.pyplot as plt
 
 #Function for plotting the models performance
-def plot_history(H, epochs, output = Path("performance.png")):
+def plot_history(H, epochs, output = "performance.png"):
     # visualize performance
     plt.style.use("fivethirtyeight")
     fig = plt.figure()

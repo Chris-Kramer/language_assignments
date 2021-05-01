@@ -2,9 +2,6 @@
 
 VENVNAME=as4-venv #Environment name
 
-# Move to parent dir
-cd ..
-
 # Create and activate environment
 echo "Creating environment"
 python3 -m venv $VENVNAME
